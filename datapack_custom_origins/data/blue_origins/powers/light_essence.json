@@ -1,14 +1,18 @@
 {
-    "type": "origins:action_on_callback",
-    "entity_action_chosen": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:glowing",
-            "duration": 999999,
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 2,
+	"duration_per_stack":20,
+	"effects": [
+		{
+			"effect": "minecraft:glowing",
+			"duration": 100,
+			"amplifier": 0,
+			"is_ambient": true,
 			"show_particles": false,
 			"show_icon": false
-        }
-    },
+		}
+	],
 	"name": "Light Essence",
-	"description": "You are a light, and as such, you glow."
+	"description": "You are made of light, and thus you glow"
 }
