@@ -1,0 +1,6 @@
+{
+	"entity_action": {
+    "type": "origins:execute_command",
+    "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}"
+	}
+}

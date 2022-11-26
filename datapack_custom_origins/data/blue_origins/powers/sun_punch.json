@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_on_hit",
+	"bientity_action": {
+		"type": "origins:actor_action",
+		"action": {
+			"type": "origins:change_resource",
+			"resource": "blue_origins:sun_charged",
+			"change": -5
+		}
+	},
+	"condition": {
+		"type": "origins:resource",
+		"resource": "blue_origins:sun_charged",
+		"comparison": ">",
+		"compare_to": 0
+	},
+	"name": "Fists of the sun[Cost: 5]",
+	"description": "You hit with fiery flames empowered by the sun."
+}

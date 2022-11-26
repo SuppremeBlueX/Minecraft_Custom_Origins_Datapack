@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"origins:fire_immunity",
+        "blue_origins:warden_built",
+        "blue_origins:warden_shader",
+        "blue_origins:warden_phys",
+        "blue_origins:warden_phys_2",
+        "blue_origins:warden_sense",
+        "blue_origins:sonic_boom",
+        "blue_origins:warden_enrage"
+	],
+	"icon": "minecraft:sculk_shrieker",
+	"order": 10,
+	"impact": 3,
+	"name": "Warden",
+	"description": "You are a creature of the deep dark."
+}

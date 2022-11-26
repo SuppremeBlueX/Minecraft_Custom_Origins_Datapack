@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"blue_origins:light_essence",
+		"blue_origins:very_small"
+	],
+	"icon": "minecraft:sea_lantern",
+	"order": 10,
+	"impact": 3,
+	"name": "Will-O-Wisp",
+	"description": "You are a malevolent light bound by darkness to feed on fear and despair."
+}

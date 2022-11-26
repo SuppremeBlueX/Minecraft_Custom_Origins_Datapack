@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Less Health",
+        "attribute": "minecraft:generic.max_health",
+        "value": -6,
+        "operation": "addition"
+    },
+	"name": "Lucky Health",
+	"description": "You have 7 hearts. Lucky you."
+}

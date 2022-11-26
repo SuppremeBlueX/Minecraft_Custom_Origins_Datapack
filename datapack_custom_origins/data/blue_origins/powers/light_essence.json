@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:glowing",
+            "duration": 999999,
+			"show_particles": false,
+			"show_icon": false
+        }
+    },
+	"name": "Light Essence",
+	"description": "You are a light, and as such, you glow."
+}

@@ -1,0 +1,40 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -5,
+	"max_stacks": 5,
+	"duration_per_stack":20,
+	"effects": [
+		{
+			"effect": "minecraft:weakness",
+			"duration": 100,
+			"amplifier": 3,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:slowness",
+			"duration": 100,
+			"amplifier": 3,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:mining_fatigue",
+			"duration": 1000,
+			"amplifier": 2,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"condition": {
+		"type": "origins:resource",
+		"resource": "blue_origins:sun_charged",
+		"comparison": "==",
+		"compare_to": 0
+	},
+	"name": "Weak without Sun",
+	"description": "At night or without Sun-Power, you are vulnerable."
+}

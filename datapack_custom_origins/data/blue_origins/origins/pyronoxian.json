@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"origins:fire_immunity",
+		"blue_origins:lightning_immunity"
+	],
+	"icon": "minecraft:nether_star",
+	"order": 10,
+	"impact": 3,
+	"name": "Pyronoxian",
+	"description": "IDK"
+}
