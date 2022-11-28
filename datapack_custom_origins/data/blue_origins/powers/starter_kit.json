@@ -59,5 +59,7 @@
             "item": "minecraft:map",
             "amount": 9
         }
-    ]
+    ],
+    "name": "Starting Kit",
+    "description": "You've come prepared, and brought along your adventurer's kit."
 }
