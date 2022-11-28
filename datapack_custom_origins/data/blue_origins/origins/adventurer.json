@@ -3,7 +3,9 @@
 		"origins:climbing",
 		"blue_origins:crafting_table",
 		"blue_origins:backpack",
-        "blue_origins:starter_kit"
+        "blue_origins:starter_kit",
+		"blue_origins:eight_hearts_health",
+		"blue_origins:cowardly"
 	],
 	"icon": "minecraft:map",
 	"order": 10,

@@ -1,0 +1,15 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_group",
+            "group": "monster"
+        }
+    },
+    "modifier": {
+        "name": "Less damage against hostile monsters",
+        "operation": "addition",
+        "value": -2.0
+    }
+}
