@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"origins:simple"
+		"blue_origins:amethyst_miner"
 	],
 	"icon": "minecraft:amethyst_cluster",
 	"order": 10,
