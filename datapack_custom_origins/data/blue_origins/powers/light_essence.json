@@ -13,6 +13,10 @@
 			"show_icon": false
 		}
 	],
+	"condition": {
+		"type": "origins:invisible",
+		"inverted": true
+	},
 	"name": "Light Essence",
 	"description": "You are made of light, and thus you glow"
 }
