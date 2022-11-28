@@ -1,0 +1,63 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:wooden_sword"
+        },
+        {
+            "item": "minecraft:wooden_shovel"
+        },
+        {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        {
+            "item": "minecraft:wooden_axe"
+        },
+        {
+            "item": "minecraft:bow"
+        },
+        {
+            "item": "minecraft:arrow",
+            "amount": 32,
+        },
+        {
+            "item": "minecraft:compass"
+        },
+        {
+            "item": "minecraft:clock"
+        },
+        {
+            "item": "minecraft:campfire"
+        },
+        {
+            "item": "minecraft:red_bed"
+        },
+        {
+            "item": "minecraft:flint_and_steel"
+        },
+        {
+            "item": "minecraft:leather_helmet",
+            "amount": 1,
+            "slot": 39
+        },
+        {
+            "item": "minecraft:leather_chestplate",
+            "amount": 1,
+            "slot": 38
+        },
+        {
+            "item": "minecraft:leather_leggings",
+            "amount": 1,
+            "slot": 37
+        },
+        {
+            "item": "minecraft:leather_boots",
+            "amount": 1,
+            "slot": 36
+        },
+        {
+            "item": "minecraft:map",
+            "amount": 9
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 {
     "type": "origins:inventory",
+    "title": "Pot of Gold",
     "container_type": "dropper",
     "drop_on_death": false,
     "key": {

@@ -1,5 +1,6 @@
 {
     "type": "origins:inventory",
+    "title": "Backpack",
     "container_type": "chest",
     "drop_on_death": true,
     "key": {
