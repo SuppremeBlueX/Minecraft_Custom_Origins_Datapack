@@ -1,8 +1,17 @@
 {
-    "type": "origins:modify_harvest",
+    "type": "origins:action_on_block_use",
+    "entity_action": {
+        "type": "origins:swing_hand",
+    },
+    "block_action": {
+        "type": "origins:set_block",
+        "block": "minecraft:buddind_amethyst"
+    },
     "block_condition": {
         "type": "origins:block",
-        "block": "minecraft:budding_amethyst"
+        "block": "minecraft:amethyst_block"
     },
-    "allow": true
+    "item_condition": {
+        "type": "origins:empty"
+    }
 }
