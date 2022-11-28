@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:backpack"
+		"blue_origins:backpack",
+        "blue_origins:starter_kit"
 	],
 	"icon": "minecraft:map",
 	"order": 10,
