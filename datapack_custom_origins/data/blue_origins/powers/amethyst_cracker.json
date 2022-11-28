@@ -16,10 +16,6 @@
     "hand": "MAIN_HAND"
 	},
     "entity_action": {
-        "type": "origins:swing_hand",
-        "hand": "OFF_HAND"
-    },
-    "entity_action": {
         "type": "origins:play_sound",
         "sound": "minecraft:block.large_amethyst_bud.break"
     },
