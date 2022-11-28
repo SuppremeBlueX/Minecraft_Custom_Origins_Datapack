@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "container_type": "chest",
+    "drop_on_death": true,
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+	"name": "Backpack",
+	"description": "You've got your trusty backpack to carry everything you could ever need."
+}
