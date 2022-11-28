@@ -3,7 +3,9 @@
     "entity_action": {
     "type": "origins:crafting_table"
     },
-    "key": "key.origins.secondary_active",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
     "name": "Crafting Table on the go",
     "description": "You always have a crafting table available."
 }
