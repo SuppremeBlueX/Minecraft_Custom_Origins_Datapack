@@ -1,4 +1,9 @@
 {
     "type": "origins:invisibility",
-    "render_armor": false
+    "render_armor": false,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "blue_origins:wisp_invis"
+    },
+    "hidden": true
 }
