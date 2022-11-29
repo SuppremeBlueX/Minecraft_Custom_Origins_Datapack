@@ -1,7 +1,7 @@
 {
 	"type": "origins:stacking_status_effect",
-	"min_stacks": 1,
-	"max_stacks": 2,
+	"min_stacks": 2,
+	"max_stacks": 4,
 	"duration_per_stack":1,
 	"effects": [
 		{
