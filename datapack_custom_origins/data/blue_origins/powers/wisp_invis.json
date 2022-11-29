@@ -1,0 +1,12 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:grant_power",
+        "power": "blue_origins:total_invisibility",
+        "source": "example:power_source"
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": false
+    }
+}
