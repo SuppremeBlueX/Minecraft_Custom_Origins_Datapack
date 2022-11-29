@@ -1,5 +1,6 @@
 {
     "type": "origins:prevent_sleep",
     "message": "You are an undead light...you can't sleep",
-    "hidden": true
+    "name": "Undead Nature",
+    "description": "As an undead, you cannot sleep or drown"
 }
