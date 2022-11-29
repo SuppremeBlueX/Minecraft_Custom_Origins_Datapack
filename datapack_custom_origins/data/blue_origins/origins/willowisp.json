@@ -8,7 +8,7 @@
 		"blue_origins:must_fly",
 		"blue_origins:undead_nature",
 		"blue_origins:slower_while_flying",
-		"blue_origins:phase"
+		"blue_origins:wisp_phase"
 	],
 	"icon": "minecraft:sea_lantern",
 	"order": 10,

@@ -11,5 +11,7 @@
         "name": "Less damage against hostile monsters",
         "operation": "addition",
         "value": -2.0
-    }
+    },
+    "name": "Cowardly",
+    "description": "Your cowardly nature makes you weaker against hostile monsters."
 }
