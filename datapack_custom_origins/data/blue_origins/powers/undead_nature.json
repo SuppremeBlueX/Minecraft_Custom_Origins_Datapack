@@ -1,0 +1,5 @@
+{
+    "type": "origins:prevent_sleep",
+    "message": "You are an undead light...you can't sleep",
+    "hidden": true
+}

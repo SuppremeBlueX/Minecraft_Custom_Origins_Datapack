@@ -5,5 +5,5 @@
         "key": "key.origins.secondary_active"
     },
     "name":"Invisibility",
-    "description": "You can turn invisible at will."
+    "description": "You can turn invisible at will. This invisibility also turns your glow off."
 }
