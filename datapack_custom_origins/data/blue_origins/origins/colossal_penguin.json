@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:ice",
+	"order": 10,
+	"impact": 3,
+	"name": "Colossal Penguin",
+	"description": "You are the biggest penguin the world has ever seen."
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:bamboo",
+	"order": 10,
+	"impact": 3,
+	"name": "Red Panda",
+	"description": "You are a red panda"
+}
