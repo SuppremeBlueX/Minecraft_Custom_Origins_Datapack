@@ -3,14 +3,6 @@
     "entity_action": {
         "type": "origins:area_of_effect",
         "radius": 24,
-        "bientity_action": {
-            "type": "origins:actor_action",
-            "action": {
-                "type": "origins:feed",
-                "food": 5,
-                "saturation": 5
-            }
-        },
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
@@ -18,6 +10,11 @@
                 "inverse":true
             }
         }
+    },
+    "rising_action": {
+        "type": "origins:feed",
+        "food": 5,
+        "saturation": 10
     },
     "interval": 1,
     "condition": {
