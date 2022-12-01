@@ -1,0 +1,26 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 24,
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:feed",
+                "food": 5,
+                "saturation": 5
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:exists",
+                "inverse":true
+            }
+        }
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:can_see"
+    }
+}
