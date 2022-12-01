@@ -1,6 +1,30 @@
 {
-    "type": "origins:prevent_sleep",
-    "message": "You are an undead light...you can't sleep",
+
+    "type": "origins:multiple",
+
+    "no_sleep": {
+        "type": "origins:prevent_sleep",
+        "message": "You are an undead light...you can't sleep"
+    },
+
+    "no_drown": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 10,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "minecraft:blindness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
     "name": "Undead Nature",
     "description": "As an undead, you cannot sleep or drown"
+
 }

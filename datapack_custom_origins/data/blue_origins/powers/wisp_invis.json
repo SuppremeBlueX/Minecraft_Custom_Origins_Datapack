@@ -1,9 +1,22 @@
 {
-    "type": "origins:toggle",
-    "active_by_default": false,
-    "key": {
-        "key": "key.origins.secondary_active"
+
+    "type": "origins:multiple",
+
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
     },
-    "name":"Invisibility",
-    "description": "You can turn invisible at will. This invisibility also turns your glow off."
+
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+
 }
