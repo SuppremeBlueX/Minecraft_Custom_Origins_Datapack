@@ -1,0 +1,21 @@
+{
+
+    "type": "origins:multiple",
+
+    "feed_on_death": {
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 4,
+            "saturation": 4
+        }
+    },
+    "no_eat": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    },
+    "name": "Feed on death",
+    "description": "You cannot eat normally. You must feed on the essence of creatures you kill."
+}
