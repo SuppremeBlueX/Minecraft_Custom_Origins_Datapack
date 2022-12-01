@@ -22,5 +22,7 @@
     "interval": 1,
     "condition": {
         "type": "origins:can_see"
-    }
+    },
+    "name": "Feed on Death",
+    "description": "You cannot eat normal materials. You feed on the essences of creatures that have died near you."
 }
