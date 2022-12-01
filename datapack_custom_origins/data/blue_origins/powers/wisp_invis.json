@@ -19,5 +19,5 @@
         }
     },
     "name": "Wisp invisibility",
-    "description": "You can turn invisible at will. This also turns off your glow."
+    "description": "You can turn invisible at will. This also turns off your glow. However, you slowly lose food while invisible."
 }

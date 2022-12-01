@@ -1,0 +1,17 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -2,
+    "max_stacks": 2,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:hunger",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
+    },
+    "condition": {
+        "type": "origins:invisible"
+    },
+    "hidden": true
+}
