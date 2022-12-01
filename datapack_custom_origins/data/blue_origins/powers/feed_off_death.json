@@ -6,8 +6,7 @@
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
-                "type": "origins:exists",
-                "inverse":true
+                "type": "origins:exists"
             }
         }
     },
