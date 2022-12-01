@@ -17,6 +17,7 @@
             "type": "origins:power_active",
             "power": "*:*_toggle"
         }
-    }
-
+    },
+    "name": "Wisp invisibility",
+    "description": "You can turn invisible at will. This also turns off your glow."
 }
