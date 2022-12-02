@@ -2,7 +2,7 @@
     "type": "origins:modify_air_speed",
     "modifier": {
         "operation": "set_base",
-        "value": 0.5
+        "value": 0.05
     },
     "hidden":true
 }
