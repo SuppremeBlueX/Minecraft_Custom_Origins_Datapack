@@ -9,7 +9,8 @@
 		"blue_origins:undead_nature",
 		"blue_origins:slower_while_flying",
 		"blue_origins:wisp_phase",
-		"blue_origins:feed_off_death"
+		"blue_origins:feed_off_death",
+		"blue_origins:consume_life"
 	],
 	"icon": "minecraft:sea_lantern",
 	"order": 10,
