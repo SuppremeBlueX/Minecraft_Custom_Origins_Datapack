@@ -11,7 +11,6 @@
             "operation": "addition"
         }
     },
-
     "consume_life": {
         "type": "origins:active_self",
         "entity_action": {
@@ -45,11 +44,11 @@
             "command_along_ray": "particle minecraft:soul_fire_flame",
             "command_step": 1,
             "command_along_ray_only_on_hit": true
-        } 
-    },
-    "cooldown": 200,
-    "hud_render": {
-        "should_render": true
+        },
+        "cooldown": 200,
+        "hud_render": {
+            "should_render": true
+        }
     },
     "name": "Consume Life",
     "description": "You can deal some damage to any creature you are looking at."
