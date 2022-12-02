@@ -3,9 +3,9 @@
     "modifier": {
         "name": "Less Health",
         "attribute": "minecraft:generic.max_health",
-        "value": -8,
+        "value": -15,
         "operation": "addition"
     },
 	"name": "Way less Health",
-	"description": "You only have 2 hearts. Good luck"
+	"description": "You only have 2 and a half hearts. Good luck"
 }
