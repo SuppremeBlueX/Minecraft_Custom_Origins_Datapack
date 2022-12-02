@@ -6,8 +6,8 @@
         "type": "origins:self_action_on_kill",
         "entity_action": {
             "type": "origins:feed",
-            "food": 4,
-            "saturation": 1
+            "food": 3,
+            "saturation": 0.25
         }
     },
     "no_eat": {
