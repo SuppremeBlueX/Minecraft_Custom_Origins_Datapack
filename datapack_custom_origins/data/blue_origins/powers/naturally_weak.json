@@ -8,8 +8,8 @@
         "effect": "minecraft:weakness",
         "amplifier": 9,
         "is_ambient": true,
-        "show_particles": true,
-        "show_icon": true
+        "show_particles": false,
+        "show_icon": false
     },
     "name": "Naturally weak",
     "description": "You are too weak to harm anything."
