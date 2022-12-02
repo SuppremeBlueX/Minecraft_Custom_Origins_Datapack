@@ -5,38 +5,31 @@
         "distance": 10,
         "block": true,
         "entity": true,
-        "shape_type": "visual",
         "fluid_handling": "any",
         "bientity_action": {
             "type": "origins:target_action",
-            "amount": 5,
-            "source": {
-                "name": "cramming.player",
-                "bypasses_armor": true
-            }
-        },
-        "before_action": {
-            "type": "origins:execute_command",
-            "command": "say Before"
+            "action": {
+                "type": "origins:damage",
+                "amount": 3,
+                "source": {
+                "name": "consume_life"
+                }
+            }   
         },
         "hit_action": {
-            "type": "origins:execute_command",
-            "command": "say After (hit)"
+            "type": "origins:play_sound",
+            "sound": "minecraft:ambient.soul_sand_valley.mood",
+            "volume": 1.0,
+            "pitch": 0.5
         },
-        "miss_action": {
-            "type": "origins:execute_command",
-            "command": "say After (miss)"
-        },
-        "command_at_hit": "playsound minecraft:ambient.soul_sand_valley.mood ambient @s ~ ~ ~ 1.0 2.0",
         "command_along_ray": "particle minecraft:soul_fire_flame",
         "command_step": 1,
-        "command_along_ray_only_on_hit": true
+        "command_along_ray_only_on_hit": false
     },
     "cooldown": 200,
     "hud_render": {
         "should_render": true
     },
     "name": "Consume Life",
-    "description": "You can deal some damage to any creature you are looking at."
-
+    "description": "You siphon some life out of any creature you are looking at, as long as it is close to you."
 }
