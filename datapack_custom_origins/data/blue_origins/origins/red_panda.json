@@ -1,6 +1,8 @@
 {
 	"powers": [
 		"blue_origins:small",
+		"origins:fall_immunity",
+		"origins:velvet_paws",
         "blue_origins:bamboo_lover",
 		"origins:climbing",
 		"blue_origins:team_cuteness_overload",
