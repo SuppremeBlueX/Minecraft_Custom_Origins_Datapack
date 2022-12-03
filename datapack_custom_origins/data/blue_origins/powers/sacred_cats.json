@@ -1,0 +1,25 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:cat"
+                },
+                {    
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:ocelot"
+                }
+            ]
+        }
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -1
+    },
+    "name": "Sacred Cats",
+    "description": "You cannot harm cats or ocelots."
+}
