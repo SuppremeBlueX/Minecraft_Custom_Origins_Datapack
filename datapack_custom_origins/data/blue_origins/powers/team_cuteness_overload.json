@@ -9,6 +9,10 @@
             },
             {
                 "type": "origins:execute_command",
+                "command": "team add CutenessIgnore"
+            },
+            {
+                "type": "origins:execute_command",
                 "command": "team join CutenessOverload @s"
             }
         ]

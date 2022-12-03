@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {    
+                "type": "origins:execute_command",
+                "command": "team leave @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join CutenessIgnore @s"
+            }
+        ]
+    }
+}
