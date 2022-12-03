@@ -1,0 +1,25 @@
+{
+
+    "type": "origins:multiple",
+
+    "night_vision": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 10,
+        "duration_per_stack": 20,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "minecraft:night_vision",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "darkness_immunity": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:darkness"
+        ]
+    }
+
+}
