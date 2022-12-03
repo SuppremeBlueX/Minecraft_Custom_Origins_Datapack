@@ -12,6 +12,9 @@
     "hud_render": {
         "should_render": true
     },
+    "key": {
+        "key.origins.secondary_active"
+    },
     "name": "Re-activate Cuteness",
     "description": "You become cute again in the eyes of hostile monsters."
 }
