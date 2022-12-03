@@ -1,11 +1,18 @@
 {
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:if_else",
-        "condition": {
-            "type": "origins:sneaking"
-        },
-        "if_action": {
+
+    "type": "origins:multiple",
+
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+
+    "morph": {
+        "type": "origins:action_over_time",
+        "rising_action": {
             "type": "origins:and",
             "actions": [
                 {
@@ -22,7 +29,7 @@
                 }
             ]
         },
-        "else_action": {
+        "falling_action": {
             "type": "origins:and",
             "actions": [
                 {
@@ -38,15 +45,13 @@
                     "command": "scale persist set true @s"
                 }
             ]
+        },
+        "interval": 40,
+        "condition": {
+            "type": "origins:on_fire"
         }
     },
-    "cooldown": 40,
-    "hud_render": {
-        "should_render": false
-    },
-    "key": {
-        "key": "key.origins.secondary_active"
-    },
-    "name": "Cat Morph",
-    "description": "You can morph into the size of a cat if you sneak or back to normal size when not."
+    "name": "Cat morph",
+    "description": "You can shift from being normal-sized to being the size of a small cat."
+
 }
