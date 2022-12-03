@@ -48,7 +48,8 @@
         },
         "interval": 40,
         "condition": {
-            "type": "origins:on_fire"
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
         }
     },
     "name": "Cat morph",
