@@ -20,6 +20,7 @@
         "effects": [
             "minecraft:darkness"
         ]
-    }
-
+    },
+    "name": "Enhanced Night Vision",
+    "description": "You see better at night and through unnatural darkness."
 }
