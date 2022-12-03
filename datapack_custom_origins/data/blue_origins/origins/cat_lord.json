@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:cod",
+	"order": 10,
+	"impact": 3,
+	"name": "Cat Lord",
+	"description": "You are the ruler of all cats."
+}
