@@ -1,6 +1,8 @@
 {
 	"powers": [
         "origins:fall_immunity",
+        "origins:climbing",
+        "origins:nine_lives",
 		"origins:scare_creepers",
         "origins:velvet_paws",
         "blue_origins:enhanced_night_vision",
