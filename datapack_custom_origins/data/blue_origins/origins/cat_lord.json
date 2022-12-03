@@ -6,7 +6,8 @@
         "origins:velvet_paws",
         "blue_origins:enhanced_night_vision",
         "blue_origins:cat_morph",
-        "blue_origins:sacred_cats"
+        "blue_origins:sacred_cats",
+        "origins:carnivore"
 	],
 	"icon": "minecraft:cod",
 	"order": 10,
