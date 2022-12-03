@@ -14,7 +14,7 @@
             {
                 "type": "origins:feed",
                 "food": 8,
-                "saturation": 0.5
+                "saturation": 0.75
             },
             {
             "type": "origins:play_sound",
