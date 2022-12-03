@@ -2,15 +2,15 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:execute_command",
-        "command": "team join CutenessOverload @s"
+        "command": "team join CutenessOverload @s",
+        "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Team: ['CutenessIgnore']}"
+        }
     },
     "cooldown": 1200,
     "hud_render": {
         "should_render": true
-    },
-    "condition": {
-        "type": "origins:nbt",
-        "nbt": "{Team: ['CutenessIgnore']}"
     },
     "name": "Re-activate Cuteness",
     "description": "You become cute again in the eyes of hostile monsters."
