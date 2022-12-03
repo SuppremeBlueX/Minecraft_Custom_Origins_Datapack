@@ -5,7 +5,7 @@
     "night_vision": {
         "type": "origins:stacking_status_effect",
         "min_stacks": 0,
-        "max_stacks": 10,
+        "max_stacks": 60,
         "duration_per_stack": 20,
         "tick_rate": 20,
         "effect": {
