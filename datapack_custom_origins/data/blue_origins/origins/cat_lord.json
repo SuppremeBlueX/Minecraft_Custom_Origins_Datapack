@@ -1,6 +1,10 @@
 {
 	"powers": [
-		"origins:simple"
+        "origins:fall_immunity",
+		"origins:scare_creepers",
+        "origins:velvet_paws",
+        "blue_origins:enhanced_night_vision",
+        "blue_origins:cat_morph"
 	],
 	"icon": "minecraft:cod",
 	"order": 10,
