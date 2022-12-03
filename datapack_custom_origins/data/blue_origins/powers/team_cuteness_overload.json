@@ -29,5 +29,6 @@
                 "command": "team remove CutenessOverload"
             }
         ]
-    }
+    },
+    "hidden": true
 }
