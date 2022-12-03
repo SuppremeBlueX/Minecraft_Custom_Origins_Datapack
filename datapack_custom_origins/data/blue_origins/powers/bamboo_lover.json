@@ -14,7 +14,12 @@
             {
                 "type": "origins:feed",
                 "food": 8,
-                "saturation": 1
+                "saturation": 0.5
+            },
+            {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.player.burp",
+            "volume": 1.0
             }
         ]
     },
