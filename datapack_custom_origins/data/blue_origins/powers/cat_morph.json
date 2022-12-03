@@ -52,7 +52,20 @@
             "power": "*:*_toggle"
         }
     },
+    "health_change": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -12,
+            "name": "Small health while in cat form"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
     "name": "Cat morph",
-    "description": "You can shift from being normal-sized to being the size of a small cat."
-
+    "description": "You can shift from being normal-sized to being the size of a small cat. Your health does reflect your new size though."
 }
