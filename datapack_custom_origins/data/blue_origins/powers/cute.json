@@ -4,5 +4,7 @@
         "type": "origins:execute_command",
         "command": "team join CutenessOverload @e[type=!#c:bosses,team=!CutenessIgnore]"
     },
-    "interval": 20
+    "interval": 20,
+    "name": "Cute",
+    "description": "You are so cute that mobs (except bosses) will not attack you."
 }

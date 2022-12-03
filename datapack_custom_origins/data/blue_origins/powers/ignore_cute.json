@@ -1,16 +1,12 @@
 {
     "type": "origins:action_on_hit",
     "bientity_action": {
-        "type": "origins:and",
-        "actions": [
-            {    
-                "type": "origins:execute_command",
-                "command": "team leave @s"
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "team join CutenessIgnore @s"
-            }
-        ]
-    }
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "team join CutenessIgnore"
+        }
+    },
+    "name": "But...",
+    "description": "...if you hit an entity, everything will see how mean you really are."
 }
