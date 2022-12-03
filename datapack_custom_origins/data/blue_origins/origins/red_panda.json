@@ -3,7 +3,8 @@
         "blue_origins:bamboo_lover",
 		"blue_origins:team_cuteness_overload",
         "blue_origins:cute",
-		"blue_origins:ignore_cute"
+		"blue_origins:ignore_cute",
+		"blue_origins:activate_cuteness"
 	],
 	"icon": "minecraft:bamboo",
 	"order": 10,
