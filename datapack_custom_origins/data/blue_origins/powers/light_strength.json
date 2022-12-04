@@ -40,6 +40,13 @@
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": false
+            },
+            {
+                "effect": "minecraft:saturation",
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
             }
         ],
         "condition": {
@@ -58,6 +65,13 @@
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": false
+            },
+            {
+                "effect": "minecraft:saturation",
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
             }
         ],
         "condition": {
@@ -70,6 +84,6 @@
             "shape": "cube"
         }
     },
-    "name": "Strength from light and fire",
+    "name": "Strength from light",
     "description": "You are stronger in light, the sun, and in lava."
 }
