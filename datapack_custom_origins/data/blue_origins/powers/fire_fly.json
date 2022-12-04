@@ -2,9 +2,8 @@
 
     "type": "origins:multiple",
 
-    "toggle": {
-        "type": "origins:toggle",
-        "active_by_default": false,
+    "activate": {
+        "type": "origins:active_self",
         "key": {
             "key": "key.jump",
             "continuous": true
@@ -15,7 +14,7 @@
         "type": "origins:creative_flight",
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle"
+            "power": "*:*_activate"
         }
     }
 
