@@ -13,14 +13,6 @@
 			"show_icon": false
 		},
 		{
-			"effect": "minecraft:night_vision",
-			"duration": 1000,
-			"amplifier": 0,
-			"is_ambient": true,
-			"show_particles": false,
-			"show_icon": false
-		},
-		{
 			"effect": "minecraft:dolphins_grace",
 			"duration": 100,
 			"amplifier": 0,
@@ -35,5 +27,5 @@
 		"inverted": false
 	},
 	"name": "Water Adaptiveness",
-	"description": "Your adaptations allow you to breathe underwater and swim through it as if it was not even there. Also, you can see better underwater."
+	"description": "Your adaptations allow you to breathe underwater and swim through it as if it was not even there."
 }
