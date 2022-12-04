@@ -1,0 +1,22 @@
+{
+
+    "type": "origins:multiple",
+
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        }
+    },
+
+    "fire_fly": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+
+}
