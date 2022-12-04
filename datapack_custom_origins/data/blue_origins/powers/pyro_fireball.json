@@ -1,0 +1,13 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+		"key": "key.origins.primary_active"
+	},
+	"name": "Fireball",
+	"description": "You can shoot fireballs"
+}
