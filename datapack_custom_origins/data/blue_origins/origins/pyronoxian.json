@@ -1,7 +1,8 @@
 {
 	"powers": [
 		"origins:fire_immunity",
-		"blue_origins:lightning_immunity"
+		"blue_origins:lightning_immunity",
+		"blue_origins:light_strength"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,
