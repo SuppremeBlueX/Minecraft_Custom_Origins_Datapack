@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"origins:fire_immunity",
+		"blue_origins:auto_extinguish",
 		"blue_origins:lightning_immunity",
 		"blue_origins:light_strength",
 		"blue_origins:no_food"
