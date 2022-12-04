@@ -3,8 +3,6 @@
     "modifier": {
         "name": "Increased exhaustion",
         "operation": "multiply_base",
-        "value": 4.0
-    },
-    "name": "Fiery appetite",
-    "description": "You gain saturation while in the sun and in lava, but you get hungry extremely quickly."
+        "value": 2.0
+    }
 }
