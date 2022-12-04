@@ -6,7 +6,7 @@
         "type": "origins:stacking_status_effect",
         "min_stacks": -1,
         "max_stacks": 30,
-        "duration_per_stack": 10,
+        "duration_per_stack": 20,
         "effects": [
             {
                 "effect": "minecraft:strength",
@@ -22,7 +22,7 @@
                 "type": "origins:light_level",
                 "light_type": "block",
                 "comparison": ">",
-                "compare_to": 14
+                "compare_to": 12
             },
             "radius": 5,
             "shape": "sphere"
@@ -32,7 +32,7 @@
         "type": "origins:stacking_status_effect",
         "min_stacks": -1,
         "max_stacks": 30,
-        "duration_per_stack": 10,
+        "duration_per_stack": 20,
         "effects": [
             {
                 "effect": "minecraft:strength",
@@ -57,7 +57,7 @@
         "type": "origins:stacking_status_effect",
         "min_stacks": -1,
         "max_stacks": 30,
-        "duration_per_stack": 10,
+        "duration_per_stack": 20,
         "effects": [
             {
                 "effect": "minecraft:strength",
