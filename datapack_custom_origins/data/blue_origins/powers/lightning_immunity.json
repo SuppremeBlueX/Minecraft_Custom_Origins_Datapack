@@ -1,9 +1,0 @@
-{
-    "type": "origins:invulnerability",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "lightningBolt"
-    },
-    "name": "Lightning Immunity",
-    "description": "You are immune to lightning."
-}

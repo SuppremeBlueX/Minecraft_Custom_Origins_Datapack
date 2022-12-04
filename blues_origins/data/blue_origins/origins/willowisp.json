@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"blue_origins:light_essence",
+		"blue_origins:very_small",
+		"blue_origins:miniscule_health",
+		"blue_origins:naturally_weak",
+		"blue_origins:creative_flight",
+		"blue_origins:wisp_invis",
+		"blue_origins:hunger_while_invis",
+		"blue_origins:must_fly",
+		"blue_origins:undead_nature",
+		"blue_origins:slower_while_flying",
+		"blue_origins:wisp_phase",
+		"blue_origins:feed_off_death",
+		"blue_origins:consume_life"
+	],
+	"icon": "minecraft:sea_lantern",
+	"order": 10,
+	"impact": 3,
+	"name": "Will-O-Wisp",
+	"description": "You are a malevolent light bound by darkness to feed on fear and despair."
+}

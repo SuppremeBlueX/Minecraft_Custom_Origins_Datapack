@@ -1,0 +1,42 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 1,
+	"max_stacks": 2,
+	"duration_per_stack":20,
+	"effects": [
+		{
+			"effect": "minecraft:blindness",
+			"duration": 100,
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:strength",
+			"duration": 100,
+			"amplifier": 3,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:haste",
+			"duration": 1000,
+			"amplifier": 1,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:resistance",
+			"duration": 100,
+			"amplifier": 1,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"name": "Warden Physiology",
+	"description": "As a Warden, you are blind, but are really strong, resistant, can mine faster, and have more health."
+}

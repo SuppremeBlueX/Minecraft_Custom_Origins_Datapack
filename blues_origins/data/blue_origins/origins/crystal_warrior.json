@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"blue_origins:amethyst_cracker"
+	],
+	"icon": "minecraft:amethyst_cluster",
+	"order": 10,
+	"impact": 3,
+	"name": "Crystal Warrior",
+	"description": "You are an ancient warrior of crystal."
+}
