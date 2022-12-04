@@ -4,7 +4,7 @@
 
     "light_strength": {
         "type": "origins:stacking_status_effect",
-        "min_stacks": -20,
+        "min_stacks": -5,
         "max_stacks": 30,
         "duration_per_stack": 10,
         "effects": [
@@ -30,7 +30,7 @@
     },
     "sun_strength": {
         "type": "origins:stacking_status_effect",
-        "min_stacks": -20,
+        "min_stacks": -5,
         "max_stacks": 30,
         "duration_per_stack": 10,
         "effects": [
