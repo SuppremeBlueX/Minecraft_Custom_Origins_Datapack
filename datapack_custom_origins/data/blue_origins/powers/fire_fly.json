@@ -12,10 +12,24 @@
 
     "fire_fly": {
         "type": "origins:creative_flight",
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle"
-        }
-    }
+        "conditions": [
+            {
+                "type": "origins:power_active",
+                "power": "*:*_toggle"
+            },
+            {      
+                "condition": {
+                    "type": "origins:food_level",
+                    "comparison": ">=",
+                    "compare_to": 15
+                }
+            }
+        ]
+    },
+    "flames": {
+        "type": "origins:particle",
+        "particle": "minecraft:flame",
+        "frequency": 0.1
+    },
 
 }
