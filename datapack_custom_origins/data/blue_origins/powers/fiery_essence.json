@@ -1,0 +1,22 @@
+{
+
+    "type": "origins:multiple",
+
+    "effect_immunity": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:blindness",
+            "minecraft:hunger",
+            "minecraft:wither",
+            "minecraft:poison"
+        ]
+    },
+
+    "flames": {
+        "type": "origins:particle",
+        "particle": "minecraft:flame",
+        "frequency": 4
+    },
+    "name": "Fiery Essence",
+    "description": "Your fiery essence makes you immune to being blinded, hunger, poison, and wither."
+}
