@@ -15,7 +15,7 @@
     "flames": {
         "type": "origins:particle",
         "particle": "minecraft:flame",
-        "frequency": 10
+        "frequency": 1
     },
     "name": "Fiery Essence",
     "description": "Your fiery essence makes you immune to being blinded, hungered, poisoned, and withered."
