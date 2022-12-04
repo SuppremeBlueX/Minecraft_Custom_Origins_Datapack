@@ -2,11 +2,11 @@
 
     "type": "origins:multiple",
 
-    "activate": {
+    "toggle": {
         "type": "origins:active_self",
+        "active_by_default": false,
         "key": {
-            "key": "key.jump",
-            "continuous": true
+            "key": "key.saveToolbarActivator"
         }
     },
 
@@ -14,7 +14,7 @@
         "type": "origins:creative_flight",
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_activate"
+            "power": "*:*_toggle"
         }
     }
 
