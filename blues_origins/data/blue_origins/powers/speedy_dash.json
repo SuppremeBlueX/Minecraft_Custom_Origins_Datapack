@@ -14,7 +14,16 @@
         "key": "key.jump"
     },
 	"condition": {
-		"type": "origins:fall_flying"
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:fall_flying"
+			},
+			{    
+				"type": "origins:submerged_in",
+    			"fluid": "minecraft:water"
+			}
+		]
 	},
 	"name": "Speedy Dash",
 	"description": "You can propel yourself forward through the water or air."
