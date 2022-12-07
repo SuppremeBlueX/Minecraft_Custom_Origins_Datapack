@@ -13,6 +13,9 @@
 	"key": {
         "key": "key.jump"
     },
+	"condition": {
+		"type": "origins:fall_flying"
+	},
 	"name": "Speedy Dash",
 	"description": "You can propel yourself forward through the water or air."
 }
