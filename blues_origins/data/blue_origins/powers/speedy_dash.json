@@ -10,6 +10,9 @@
 		"should_render": true,
 		"bar_index": 5
 	},
+	"key": {
+        "key": "key.jump"
+    },
 	"name": "Speedy Dash",
 	"description": "You can propel yourself forward through the water or air."
 }
