@@ -9,7 +9,8 @@
 			},
 			{    
 				"type": "origins:submerged_in",
-    			"fluid": "minecraft:water"
+    			"fluid": "minecraft:water",
+				"inverted": true
 			}
 		]
 	}
