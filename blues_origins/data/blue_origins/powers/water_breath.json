@@ -42,7 +42,7 @@
     },
     "condition": {
         "type": "origins:dimension",
-        "dimension": "minecraft:nether",
+        "dimension": "minecraft:the_nether",
         "inverted": true
     },
     "name": "Water Breath",
