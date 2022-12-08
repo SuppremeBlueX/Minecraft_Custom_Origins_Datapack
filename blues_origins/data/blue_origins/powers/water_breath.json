@@ -46,5 +46,5 @@
         "inverted": true
     },
     "name": "Water Breath",
-    "description": "You can expell water from your mouth."
+    "description": "You can expell water from your mouth. You cannot do this in the nether, as its heat drains you."
 }
