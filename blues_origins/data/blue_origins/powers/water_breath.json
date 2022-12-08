@@ -18,8 +18,21 @@
             }
         },
         "block_action": {
-            "type": "origins:add_block",
-            "block": "minecraft:water"
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_block",
+                    "block": "minecraft:water"
+                },
+                {    
+                    "type": "origins:delay",
+                    "ticks": 30,
+                    "action": {
+                        "type": "origins:add_block",
+                        "block": "minecraft:air"
+                    }
+                }
+            ]
         },
         "command_along_ray": "particle minecraft:bubble"
     },
