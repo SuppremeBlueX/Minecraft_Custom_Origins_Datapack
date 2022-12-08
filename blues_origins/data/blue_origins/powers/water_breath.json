@@ -40,6 +40,11 @@
     "hud_render": {
         "should_render": false
     },
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:nether",
+        "inverted": true
+    },
     "name": "Water Breath",
     "description": "You can expell water from your mouth."
 }
