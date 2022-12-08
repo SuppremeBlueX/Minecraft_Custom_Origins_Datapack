@@ -18,7 +18,7 @@
             }
         },
         "block_action": {
-            "type": "origins:set_block",
+            "type": "origins:add_block",
             "block": "minecraft:water"
         },
         "command_along_ray": "particle minecraft:bubble"
