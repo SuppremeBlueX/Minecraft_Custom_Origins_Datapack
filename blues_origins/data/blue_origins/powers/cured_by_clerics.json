@@ -32,7 +32,6 @@
         "type": "origins:power",
         "power": "blue_origins:magic_vul"
     },
-    "hands": "main_hand",
     "name": "But...",
     "description": "You can be cured by a powerful cleric by offering them an emerald."
 }
