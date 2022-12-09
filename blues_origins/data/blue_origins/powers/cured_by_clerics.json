@@ -1,25 +1,32 @@
 {
     "type": "origins:action_on_entity_use",
     "bientity_action": {
-        "type": "origins:actor_action",
+        "type": "origins:target_action",
         "action": {
-            "type": "origins:revoke_power",
-            "power": "blue_origins:magic_vul",
-            "source": "blue_origins:dwarf_leprechaun"
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:heal",
+                    "amount": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle heart ~ ~0.5 ~ 0.3 0.3 0.3 0.009 4 normal @a"
+                }
+            ]
         }
     },
     "bientity_condition": {
-        "type": "origins:target_condition",
-        "condition": {
-            "type": "origins:nbt",
-            "nbt": "{VillagerData: {profession: minecraft:cleric, level: 5}}"
-        }
+        "type": "origins:owner"
     },
     "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "item": "minecraft:emerald"
-        }
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
+    "condition": {
+        "type": "origins:sneaking"
     },
     "hands": "main_hand",
     "name": "But...",
