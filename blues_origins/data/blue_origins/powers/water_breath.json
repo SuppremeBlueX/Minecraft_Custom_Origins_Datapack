@@ -36,9 +36,9 @@
         },
         "command_along_ray": "particle minecraft:bubble"
     },
-    "cooldown": 20,
+    "cooldown": 60,
     "hud_render": {
-        "should_render": false
+        "should_render": true
     },
     "condition": {
         "type": "origins:dimension",
