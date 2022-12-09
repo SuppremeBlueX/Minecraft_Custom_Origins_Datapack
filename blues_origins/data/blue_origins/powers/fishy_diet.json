@@ -1,0 +1,26 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions":[
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient":[
+                {
+                    "tag": "minecraft:fishes"
+                },
+                {
+                    "item": "betterend:end_fish_cooked"
+                },
+                {
+                    "item": "betterend:end_fish_raw"
+                }
+                ],
+                "inverted": true
+            }
+        ]
+    }
+  }
