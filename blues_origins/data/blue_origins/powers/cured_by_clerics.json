@@ -6,11 +6,6 @@
             "type": "origins:revoke_power",
             "power": "blue_origins:magic_vul",
             "source": "blue_origins:dwarf_leprechaun"
-        },
-        "type": "origins:target_action",
-        "action": {
-            "type": "origins:execute_command",
-            "command": "/say I will be happy to cure you, little one! You may keep your emerald though."
         }
     },
     "bientity_condition": {
