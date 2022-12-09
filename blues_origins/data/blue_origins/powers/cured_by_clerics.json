@@ -17,7 +17,7 @@
         "type": "origins:target_condition",
         "condition": {
             "type": "origins:nbt",
-            "nbt": "{VillagerData: [level: 5]}"
+            "nbt": "{VillagerData: {profession: minecraft:cleric, level: 5}}"
         }
     },
     "item_condition": {
