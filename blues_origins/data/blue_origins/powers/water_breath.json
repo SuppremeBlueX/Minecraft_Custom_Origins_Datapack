@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:raycast",
-        "distance": 40,
+        "distance": 64,
         "block": true,
         "entity": true,
         "shape_type": "visual",
