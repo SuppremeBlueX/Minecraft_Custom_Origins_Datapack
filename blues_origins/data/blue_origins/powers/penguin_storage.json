@@ -1,0 +1,11 @@
+{
+    "type": "origins:inventory",
+    "title": "Gullet",
+    "container_type": "dropper",
+    "drop_on_death": true,
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+	"name": "Gullet of many items.",
+	"description": "As a penguin, you often store things in your gullet for later. 'Rico!' '[Choking sounds]'"
+}

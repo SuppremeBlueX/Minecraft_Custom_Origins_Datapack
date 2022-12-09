@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"origins:simple"
+		"blue_origins:penguin_storage"
 	],
 	"icon": "minecraft:ice",
 	"order": 10,
