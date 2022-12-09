@@ -13,9 +13,6 @@
                     "tag": "minecraft:fishes"
                 },
                 {
-                    "item": "betterend:end_fish_cooked"
-                },
-                {
                     "item": "betterend:end_fish_raw"
                 }
                 ],
@@ -24,5 +21,5 @@
         ]
     },
     "name": "Piscivorous Diet",
-    "description": "You love fish, and can't really digest anything else."
+    "description": "You love raw fish, and can't really digest anything else."
   }

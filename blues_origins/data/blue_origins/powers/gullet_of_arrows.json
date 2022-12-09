@@ -1,0 +1,36 @@
+
+{
+
+    "type": "origins:multiple",
+
+    "arrow":{
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:arrow",
+        "cooldown": 10,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    },
+    "consume_arrow": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:modify_inventory",
+            "inventory_type": "power",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:arrow"
+                }
+            },
+            "power": "blue_origins:penguin_storage",
+            "item_action": {
+                "type": "origins:consume"
+            }
+        }
+    },
+    "name": "Gullet of arrows",
+    "description": "You can fire arrows from your gullet."
+}

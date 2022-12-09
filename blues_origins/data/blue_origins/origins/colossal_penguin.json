@@ -2,7 +2,8 @@
 	"powers": [
 		"blue_origins:colossal_stature",
 		"blue_origins:fishy_diet",
-		"blue_origins:penguin_storage"
+		"blue_origins:penguin_storage",
+		"blue_origins:gullet_of_arrows"
 		
 	],
 	"icon": "minecraft:ice",
