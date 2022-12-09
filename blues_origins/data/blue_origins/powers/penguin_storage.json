@@ -7,5 +7,5 @@
         "key": "key.origins.secondary_active"
     },
 	"name": "Gullet of many items.",
-	"description": "As a penguin, you often store things in your gullet for later. 'Rico!' '[Choking sounds]'"
+	"description": "As a penguin, you often store things in your gullet for later. If you die, these items are also dropped. 'Rico!' '[Choking sounds]'"
 }
