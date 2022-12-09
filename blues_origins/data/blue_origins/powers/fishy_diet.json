@@ -22,5 +22,7 @@
                 "inverted": true
             }
         ]
-    }
+    },
+    "name": "Piscivorous Diet",
+    "description": "You love fish, and can't really digest anything else."
   }
