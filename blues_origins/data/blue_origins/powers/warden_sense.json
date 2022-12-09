@@ -3,7 +3,7 @@
     "bientity_condition": {
         "type": "origins:distance",
         "comparison": "<=",
-        "compare_to": 30
+        "compare_to": 50
     },
     "use_teams": false,
     "red": 1.0,
