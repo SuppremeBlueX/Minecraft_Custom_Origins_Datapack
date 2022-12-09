@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:revoke_power",
+            "power": "blue_origins:magic_vul",
+            "source": "blue_origins:dwarf_leprechaun"
+        },
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "/say I will be happy to cure you, little one! You may keep your emerald though."
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:nbt",
+            "nbt": "{VillagerData: [level: 5]}"
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "hands": "main_hand",
+    "condition": {
+        "type": "origins:power",
+        "power": "blue_origins:magic_vul"
+    }
+}
