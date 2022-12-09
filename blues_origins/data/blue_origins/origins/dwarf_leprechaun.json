@@ -7,11 +7,12 @@
 		"origins:climbing",
 		"blue_origins:pot_o_gold",
 		"blue_origins:wee_lad",
+		"blue_origins:magic_vul",
 		"origins:fall_immunity"
 	],
 	"icon": "minecraft:rabbit_foot",
 	"order": 10,
 	"impact": 3,
 	"name": "Dwarf Leprechaun",
-	"description": "You are an unusually small Leprechaun"
+	"description": "You are an unusually small Leprechaun cursed by ancient magic."
 }

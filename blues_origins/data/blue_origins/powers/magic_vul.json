@@ -1,0 +1,23 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "indirectMagic"
+                },
+                {
+                    "type": "origins:name",
+                    "name": "magic"
+                }
+            ]
+    },
+    "modifier": {
+        "name": "Weak to magic",
+        "operation": "addition",
+        "value": 3
+    },
+    "name": "Weak to magic",
+    "description": "Your curse has made you weak to magic."
+}
