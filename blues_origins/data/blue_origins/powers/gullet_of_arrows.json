@@ -7,6 +7,7 @@
         "type": "origins:fire_projectile",
         "entity_type": "minecraft:arrow",
         "cooldown": 10,
+        "speed": 3,
         "hud_render": {
             "should_render": false
         },
