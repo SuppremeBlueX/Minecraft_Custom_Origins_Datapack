@@ -7,6 +7,14 @@
             "command": "say I have cured you, little one."
         }
     },
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:revoke_power",
+            "power": "blue_origins:magic_vul",
+            "source": "blue_origins:dwarf_leprechaun"
+        }
+    },
     "held_item_action": {
         "type": "origins:consume",
         "amount": 1
