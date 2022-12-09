@@ -27,7 +27,7 @@
             "type": "origins:play_sound",
             "sound": "minecraft:entity.warden.sonic_boom",
             "volume": 1.0,
-            "pitch": 0.5
+            "pitch": 1.0
         },
         "command_along_ray": "particle minecraft:sonic_boom",
         "command_step": 1,
