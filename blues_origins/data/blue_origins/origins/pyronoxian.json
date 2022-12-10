@@ -9,7 +9,7 @@
 		"blue_origins:fiery_appetite",
 		"blue_origins:pyro_fireball",
 		"blue_origins:lightning_strike",
-		"blue_origins:fire_fly"
+		"blue_origins:fire_boost"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,
