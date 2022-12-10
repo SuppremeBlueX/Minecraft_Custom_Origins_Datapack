@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:amethyst_cracker"
+		"blue_origins:amethyst_cracker",
+		"blue_origins:eat_amethyst"
 	],
 	"icon": "minecraft:amethyst_cluster",
 	"order": 10,

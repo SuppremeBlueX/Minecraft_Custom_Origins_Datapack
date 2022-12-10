@@ -28,8 +28,7 @@
         "should_render": false
     },
     "key": {
-        "key": "key.use",
-        "continuous": true
+        "key": "key.use"
     },
     "condition": {
         "type": "origins:and",

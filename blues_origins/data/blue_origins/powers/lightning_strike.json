@@ -27,6 +27,6 @@
     "key": {
         "key": "key.origins.secondary_active"
     },
-    "name": "Shoot lightning",
+    "name": "Command lightning",
     "description": "Lightning strikes whatever you are looking at."
 }
