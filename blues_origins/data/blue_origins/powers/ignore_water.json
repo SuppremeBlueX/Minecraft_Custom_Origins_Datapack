@@ -2,16 +2,6 @@
     "type": "origins:ignore_water",
 	"hidden": true,
 	"condition": {
-		"type": "origins:or",
-		"conditions": [
-			{
-				"type": "origins:fall_flying"
-			},
-			{    
-				"type": "origins:submerged_in",
-    			"fluid": "minecraft:water",
-				"inverted": true
-			}
-		]
+		"type": "origins:fall_flying"
 	}
 }
