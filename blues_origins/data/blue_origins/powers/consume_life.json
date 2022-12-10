@@ -25,7 +25,7 @@
         "hit_action": {
             "type": "origins:feed",
             "food": 4,
-            "saturation": 0.0625
+            "saturation": 0.125
         },
         "command_along_ray": "particle minecraft:soul_fire_flame",
         "command_step": 1,
