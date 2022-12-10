@@ -13,16 +13,10 @@
     "interval": 20,
     "condition": {
 		"type": "origins:or",
-		"conditions": [
-			{
-				"type": "origins:fall_flying"
-			},
-			{    
-				"type": "origins:submerged_in",
-				"fluid": "minecraft:water"
-			}
-		]
+		"condition": {
+			"type": "origins:fall_flying"
+		}
 	},
 	"name": "Draconic Strength",
-	"description": "You have strength while flying or underwater."
+	"description": "You have extra strength while flying."
 }
