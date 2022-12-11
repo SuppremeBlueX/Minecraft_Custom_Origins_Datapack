@@ -23,7 +23,8 @@
     "aqua_affinity": {
         "type": "origins:aqua_affinity"
     },
-    "glow_under_water"{
+
+    "glow_under_water": {
         {
             "type": "origins:entity_glow",
             "entity_condition": {
@@ -39,6 +40,7 @@
             }
         }
     },
+    
     "name": "Water Affinity",
     "description": "You can swim faster underwater, as well as mine underwater as fast as those on land. While underwater, you can see all other underwater creatures more clearly."
 
