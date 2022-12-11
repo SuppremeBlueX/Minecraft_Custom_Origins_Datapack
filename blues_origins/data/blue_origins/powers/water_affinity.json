@@ -32,11 +32,11 @@
                 "fluid": "minecraft:water"
             },
             "bientity_condition": {
-                "type": "origins:can_see"
-            },
-            "condition": {
-                "type": "origins:submerged_in",
-                "fluid": "minecraft:water"
+                "type": "origins:actor_condition",
+                "condition": {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                }
             }
         }
     }
