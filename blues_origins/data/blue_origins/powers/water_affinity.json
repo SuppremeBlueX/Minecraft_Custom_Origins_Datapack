@@ -1,0 +1,45 @@
+{
+
+    "type": "origins:multiple",
+
+    "faster_swim": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -1,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "tick_rate": 20,
+        "effect": {
+            "effect": "minecraft:dolphins_grace",
+            "is_ambient": true,
+            "show_particles": true,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+    },
+
+    "aqua_affinity": {
+        "type": "origins:aqua_affinity"
+    },
+    "glow_under_water"{
+        {
+            "type": "origins:entity_glow",
+            "entity_condition": {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            },
+            "bientity_condition": {
+                "type": "origins:can_see"
+            },
+            "condition": {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water"
+            }
+        }
+    },
+    "name": "Water Affinity",
+    "description": "You can swim faster underwater, as well as mine underwater as fast as those on land. While underwater, you can see all other underwater creatures more clearly."
+
+}

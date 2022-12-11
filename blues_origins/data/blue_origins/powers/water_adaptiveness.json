@@ -23,8 +23,7 @@
 	],
 	"condition": {
 		"type": "origins:submerged_in",
-		"fluid": "minecraft:water",
-		"inverted": false
+		"fluid": "minecraft:water"
 	},
 	"name": "Water Adaptiveness",
 	"description": "Your adaptations allow you to breathe underwater and swim through it as if it was not even there."
