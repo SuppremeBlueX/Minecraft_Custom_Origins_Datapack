@@ -39,9 +39,5 @@
                 "fluid": "minecraft:water"
             }
         }
-    },
-    
-    "name": "Water Affinity",
-    "description": "You can swim faster underwater, as well as mine underwater as fast as those on land. While underwater, you can see all other underwater creatures more clearly."
-
+    }
 }
