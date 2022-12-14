@@ -1,5 +1,4 @@
 {
-    
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 3,
@@ -16,13 +15,13 @@
             {
                 "type": "origins:block_collision",
                 "offset_x": 0,
-                "offset_y": -4,
+                "offset_y": -3,
                 "offset_z": 0
             },
             {      
                 "type": "origins:fall_distance",
                 "comparison": ">=",
-                "compare_to": 4
+                "compare_to": 3
             }
         ]
     }
