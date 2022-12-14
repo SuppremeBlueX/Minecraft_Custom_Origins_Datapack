@@ -8,5 +8,21 @@
         "is_ambient": true,
         "show_particles": false,
         "show_icon": false
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:block_collision",
+                "offset_x": 0,
+                "offset_y": 1,
+                "offset_z": 0
+            },
+            {      
+                "type": "origins:fall_distance",
+                "comparison": ">=",
+                "compare_to": 4
+            }
+        ]
     }
 }
