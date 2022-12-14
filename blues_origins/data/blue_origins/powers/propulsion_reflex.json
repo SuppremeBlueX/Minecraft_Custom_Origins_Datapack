@@ -32,7 +32,10 @@
 
     "landing_particles":{
         "type": "origins:particle",
-        "particle": "minecraft:falling_lava",
+        "particle": {
+            "type": "minecraft:falling_lava",
+            "params": "1 1 1 2"
+        },
         "frequency": 1,
         "condition": {
             "type": "origins:and",
