@@ -5,7 +5,7 @@
         "actions": [
             {
                 "type": "origins:execute_command",
-                "command": "tellraw @s[name=!JovaQuasar] {\"text\": \"You are not worthy of this origin!\", \"color\": \"green\"}"
+                "command": "tellraw @s[name=!JovaQuasar] {\"text\": \"You are not worthy of this origin!\", \"color\": \"red\"}"
             },
             {    
                 "type": "origins:execute_command",
