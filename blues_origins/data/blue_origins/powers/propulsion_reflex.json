@@ -15,7 +15,7 @@
             {
                 "type": "origins:block_collision",
                 "offset_x": 0,
-                "offset_y": 1,
+                "offset_y": -4,
                 "offset_z": 0
             },
             {      
