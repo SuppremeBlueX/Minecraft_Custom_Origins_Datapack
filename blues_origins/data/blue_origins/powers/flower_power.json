@@ -289,6 +289,57 @@
                             {
                                 "type": "origins:ingredient",
                                 "ingredient": {
+                                    "item": "minecraft:flowering_azalea"
+                                }
+                            },
+                            {    
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:flowering_azalea_leaves"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:water_breathing",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:mangrove_propagule"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:levitation",
+                        "amplifier": 1,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
                                     "item": "betterend:tenanea_flowers"
                                 }
                             },
@@ -305,6 +356,66 @@
                     "type": "origins:apply_effect",
                     "effect": {
                         "effect": "betterend:end_veil",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "friendsandfoes:buttercup"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:hero_of_the_village",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "biomemakeover:swamp_azalea"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "biomemakeover:nocturnal",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "biomemakeover:marigold"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "biomemakeover:antidote",
                         "amplifier": 0,
                         "duration": 80
                     }
