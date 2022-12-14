@@ -37,7 +37,7 @@
         },
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_slow_fall"
+            "power": "slow_fall"
         }
     }
 }
