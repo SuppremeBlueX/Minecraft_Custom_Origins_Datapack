@@ -34,7 +34,7 @@
         "type": "origins:particle",
         "particle": {
             "type": "minecraft:falling_lava",
-            "params": "1 1 1 2"
+            "params": "100 100 100 200"
         },
         "frequency": 1,
         "condition": {
