@@ -1,28 +1,43 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 3,
-    "duration_per_stack": 5,
-    "effect": {
-        "effect": "minecraft:slow_falling",
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": false
+    "type": "origins:multiple",
+    "slow_fall": {
+
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 3,
+        "duration_per_stack": 5,
+        "effect": {
+            "effect": "minecraft:slow_falling",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0,
+                    "offset_y": -4,
+                    "offset_z": 0
+                },
+                {      
+                    "type": "origins:fall_distance",
+                    "comparison": ">=",
+                    "compare_to": 4
+                }
+            ]
+        }
     },
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:block_collision",
-                "offset_x": 0,
-                "offset_y": -4,
-                "offset_z": 0
-            },
-            {      
-                "type": "origins:fall_distance",
-                "comparison": ">=",
-                "compare_to": 4
-            }
-        ]
+    "landing_particles":{
+        {
+            "type": "origins:particle",
+            "particle": "minecraft:falling_lava",
+            "frequency": 1
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_slow_fall"
+        }
     }
 }
