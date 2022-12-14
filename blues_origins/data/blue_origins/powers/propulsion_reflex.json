@@ -1,56 +1,28 @@
 {
-    "type": "origins:multiple",
-
-    "slow_fall": {
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 0,
-        "max_stacks": 3,
-        "duration_per_stack": 5,
-        "effect": {
-            "effect": "minecraft:slow_falling",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block_collision",
-                    "offset_x": 0,
-                    "offset_y": -4,
-                    "offset_z": 0
-                },
-                {      
-                    "type": "origins:fall_distance",
-                    "comparison": ">=",
-                    "compare_to": 4
-                }
-            ]
-        }
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 3,
+    "duration_per_stack": 5,
+    "effect": {
+        "effect": "minecraft:slow_falling",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": false
     },
-
-    "landing_particles":{
-        "type": "origins:action_on_land",
-        "entity_action": {
-            "type": "origins:execute_command",
-            "command": "particle minecraft:firework ~ ~ ~ ~ ~ ~ 1 10000 normal"
-        },
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block_collision",
-                    "offset_x": 0,
-                    "offset_y": -1,
-                    "offset_z": 0
-                },
-                {      
-                    "type": "origins:fall_distance",
-                    "comparison": ">=",
-                    "compare_to": 4
-                }
-            ]
-        }
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:block_collision",
+                "offset_x": 0,
+                "offset_y": -4,
+                "offset_z": 0
+            },
+            {      
+                "type": "origins:fall_distance",
+                "comparison": ">=",
+                "compare_to": 4
+            }
+        ]
     }
 }
