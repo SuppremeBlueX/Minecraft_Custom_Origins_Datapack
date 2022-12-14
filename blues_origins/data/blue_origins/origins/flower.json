@@ -1,10 +1,10 @@
 {
 	"powers": [
-		"origins:simple"
+		"blue_origins:fertilize"
 	],
 	"icon": "minecraft:peony",
 	"order": 10,
 	"impact": 3,
-	"name": "Seraphina, the Queen of Flowers",
+	"name": "Serafina, the Queen of Flowers",
 	"description": "You are the queen of flowers."
 }
