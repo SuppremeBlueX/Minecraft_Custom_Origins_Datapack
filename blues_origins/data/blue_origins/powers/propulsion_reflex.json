@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
-    "slow_fall": {
 
+    "slow_fall": {
         "type": "origins:stacking_status_effect",
         "min_stacks": 0,
         "max_stacks": 3,
@@ -29,6 +29,7 @@
             ]
         }
     },
+    
     "landing_particles":{
         {
             "type": "origins:particle",
