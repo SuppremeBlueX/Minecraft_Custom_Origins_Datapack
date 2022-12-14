@@ -1,0 +1,11 @@
+{
+    "type": "origins:tooltip",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "minecraft:flowers"
+        }
+    },
+    "text": "This flower might give you an effect.",
+    "hidden":true
+}
