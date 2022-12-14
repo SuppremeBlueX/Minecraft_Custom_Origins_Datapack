@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:fertilize"
+		"blue_origins:fertilize",
+		"blue_origins:flower_power"
 	],
 	"icon": "minecraft:peony",
 	"order": 10,
