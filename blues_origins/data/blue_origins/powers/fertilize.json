@@ -4,6 +4,19 @@
         "type": "origins:bonemeal",
         "effects": true
     },
+    "block_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:saplings"
+            },
+            {      
+                "type": "origins:in_tag",
+                "tag": "minecraft:dirt"
+            }
+        ]
+    },
     "item_condition": {
         "type": "origins:empty"
     },
