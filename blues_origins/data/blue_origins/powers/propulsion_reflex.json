@@ -29,7 +29,7 @@
             ]
         }
     },
-    
+
     "landing_particles":{
         {
             "type": "origins:particle",
@@ -37,8 +37,20 @@
             "frequency": 1
         },
         "condition": {
-            "type": "origins:power_active",
-            "power": "slow_fall"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0,
+                    "offset_y": -4,
+                    "offset_z": 0
+                },
+                {      
+                    "type": "origins:fall_distance",
+                    "comparison": ">=",
+                    "compare_to": 4
+                }
+            ]
         }
     }
 }
