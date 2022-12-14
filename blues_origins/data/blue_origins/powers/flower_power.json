@@ -110,6 +110,180 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "offhand",
                     "item_condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:lily_of_the_valley"
+                                }
+                            },
+                            {    
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:oxeye_daisy"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:orange_tulip"
+                                }
+                            },
+                            {    
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:pink_tulip"
+                                }
+                            },
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:red_tulip"
+                                }
+                            },
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:white_tulip"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:strength",
+                        "amplifier": 1,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:wither_rose"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:absorption",
+                        "amplifier": 4,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:rose_bush"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:health_boost",
+                        "amplifier": 4,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:peony"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slow_falling",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:lilac"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slow_falling",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:sunflower"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:haste",
+                        "amplifier": 0,
+                        "duration": 80
+                    }
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "offhand",
+                    "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
                             "item": "betterend:tenanea_flowers"
@@ -120,7 +294,7 @@
                     "type": "origins:apply_effect",
                     "effect": {
                         "effect": "betterend:end_veil",
-                        "amplifier": 2,
+                        "amplifier": 0,
                         "duration": 80
                     }
                 }
@@ -129,5 +303,5 @@
     },
     "interval": 20,
     "name": "Flower Power",
-    "description": "While holding a flower in your off-hand, you gain the benefits of that flower's effect. If a flower would normally provide a negative effect, that effect is reversed to benefit you."
+    "description": "While holding a flower in your off-hand, you gain the benefits of that flower's effect. If a flower would normally provide a negative effect, that effect is reversed to benefit you. Some flowers from other mods might have effects as well."
 }
