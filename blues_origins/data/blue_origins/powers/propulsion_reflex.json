@@ -1,7 +1,7 @@
 {
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
-    "max_stacks": 10,
+    "max_stacks": 3,
     "duration_per_stack": 1,
     "effect": {
         "effect": "minecraft:slow_falling",
@@ -15,7 +15,7 @@
             {
                 "type": "origins:block_collision",
                 "offset_x": 0,
-                "offset_y": -4,
+                "offset_y": -1,
                 "offset_z": 0
             },
             {      
