@@ -3,6 +3,6 @@
     "item_condition": {
         "type": "origins:food"
     },
-    "name": "Unable to eat food",
+    "name": "Heat-fueled",
     "description": "You cannot eat food"
 }
