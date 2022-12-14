@@ -253,7 +253,7 @@
                 "action": {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slow_falling",
+                        "effect": "minecraft:luck",
                         "amplifier": 0,
                         "duration": 80
                     }
@@ -274,7 +274,7 @@
                     "type": "origins:apply_effect",
                     "effect": {
                         "effect": "minecraft:haste",
-                        "amplifier": 0,
+                        "amplifier": 1,
                         "duration": 80
                     }
                 }
