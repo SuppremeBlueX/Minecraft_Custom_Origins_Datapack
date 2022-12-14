@@ -5,7 +5,7 @@
         "effects": true
     },
     "block_condition": {
-        "type": "origins:and",
+        "type": "origins:or",
         "conditions": [
             {
                 "type": "origins:in_tag",
