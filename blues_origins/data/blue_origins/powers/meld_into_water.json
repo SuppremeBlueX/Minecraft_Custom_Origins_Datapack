@@ -109,7 +109,7 @@
     },
     "breathe_underwater":{
         "type": "origins:action_over_time",
-        "rising_action": {
+        "entity_action": {
             "type": "origins:apply_effect",
             "effects": [
                 {
