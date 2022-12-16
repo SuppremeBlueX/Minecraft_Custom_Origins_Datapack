@@ -37,6 +37,11 @@
                         }
                     }
                 ]
+            },
+            "block_condition": {
+                "type": "origins:block",
+                "block": "minecraft:water",
+                "inverted": true
             }
         },
         "interval": 1,
