@@ -1,0 +1,59 @@
+{
+
+    "type": "origins:multiple",
+
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "water_trail":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:block_action_at",
+            "block_action": {
+                "type": "origins:add_block",
+                "block": "minecraft:water"
+            }
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "become_water":{
+        "type": "origins:ignore_water",
+        "entity_action":{
+            "type": "origins:and",
+            "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:height 0.5 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale set pehkui:width 0.5 @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale persist set true @s"
+            }
+            ]
+        }
+    },
+    "name": "Meld into Water",
+    "description": "You can turn yourself into water. If this water source moves, you are transported with it. If it dries up due to a sponge, you instantly die. If you are already underwater, you can move freely in the water."
+
+}
