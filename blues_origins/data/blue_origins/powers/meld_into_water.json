@@ -37,17 +37,17 @@
                         }
                     }
                 ]
-            },
-            "block_condition": {
-                "type": "origins:block",
-                "block": "minecraft:water",
-                "inverted": true
             }
         },
         "interval": 1,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water",
+            "inverted": true
         }
     },
     "one_block_tall":{
