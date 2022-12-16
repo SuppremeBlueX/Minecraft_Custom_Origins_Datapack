@@ -104,8 +104,7 @@
         "type": "origins:ignore_water",
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle",
-            "inverted": true
+            "power": "*:*_toggle"
         }
     },
     "see_and_breathe_underwater":{
@@ -132,8 +131,7 @@
         "interval": 20,
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle",
-            "inverted": true
+            "power": "*:*_toggle"
         }
     },
     "name": "Meld into Water",
