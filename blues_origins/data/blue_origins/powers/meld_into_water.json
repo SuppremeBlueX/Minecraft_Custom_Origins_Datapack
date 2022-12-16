@@ -95,17 +95,10 @@
         "interval": 20,
         "condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:power_active",
-                    "power": "*:*_toggle"
-                
-                },
-                {      
-                    "type": "origins:submerged_in",
-                    "fluid": "minecraft:water"
-                }
-            ]
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle"
+            }
         }
     },
     "name": "Meld into Water",
