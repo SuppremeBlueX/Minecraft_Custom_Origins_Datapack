@@ -9,7 +9,6 @@
             "key": "key.origins.secondary_active"
         }
     },
-
     "invisibility": {
         "type": "origins:invisibility",
         "render_armor": false,
@@ -18,14 +17,26 @@
             "power": "*:*_toggle"
         }
     },
-
     "water_trail":{
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:block_action_at",
             "block_action": {
-                "type": "origins:add_block",
-                "block": "minecraft:water"
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:add_block",
+                        "block": "minecraft:water"
+                    },
+                    {    
+                        "type": "origins:delay",
+                        "ticks": 30,
+                        "action": {
+                            "type": "origins:add_block",
+                            "block": "minecraft:air"
+                        }
+                    }
+                ]
             }
         },
         "interval": 1,
@@ -34,7 +45,6 @@
             "power": "*:*_toggle"
         }
     },
-
     "one_block_tall":{
         "type": "origins:active_self",
         "entity_action":{
@@ -58,11 +68,46 @@
             "key": "key.origins.secondary_active"
         }
     },
-
     "become_water":{
         "type": "origins:ignore_water"
     },
-    
+    "see_and_breathe_underwater":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:water_breathing",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                },
+                {
+                    "effect": "minecraft:nightvision",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                
+                },
+                {      
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                }
+            ]
+        }
+    },
     "name": "Meld into Water",
     "description": "You can turn yourself into water. If this water source moves, you are transported with it. If it dries up due to a sponge, you instantly die. If you are already underwater, you can move freely in the water."
 
