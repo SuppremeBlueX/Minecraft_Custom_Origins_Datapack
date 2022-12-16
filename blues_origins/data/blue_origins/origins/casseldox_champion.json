@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"origins:meld_into_water"
+		"blue_origins:meld_into_water"
 	],
 	"icon": "minecraft:heart_of_the_sea",
 	"order": 10,
