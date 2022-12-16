@@ -69,7 +69,8 @@
         },
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle"
+            "power": "*:*_toggle",
+            "inverted": true
         }
     },
     "normal_height":{
@@ -96,8 +97,7 @@
         },
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle",
-            "inverted": true
+            "power": "*:*_toggle"
         }
     },
     "become_water":{
