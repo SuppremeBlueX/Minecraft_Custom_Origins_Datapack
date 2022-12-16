@@ -22,32 +22,39 @@
         "entity_action": {
             "type": "origins:block_action_at",
             "block_action": {
-                "type": "origins:and",
-                "actions": [
-                    {
-                        "type": "origins:add_block",
-                        "block": "minecraft:water"
-                    },
-                    {    
-                        "type": "origins:delay",
-                        "ticks": 30,
-                        "action": {
-                            "type": "origins:add_block",
-                            "block": "minecraft:air"
-                        }
+                "type": "origins:if_else",
+                "block_condition": {
+                    "type": "origins:fluid",
+                    "fluid_condition": {
+                        "type": "origins:still"
                     }
-                ]
+                },
+                "if_action": {
+                    "type": "origins:nothing"
+                },
+                "else_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:add_block",
+                            "block": "minecraft:water"
+                        },
+                        {    
+                            "type": "origins:delay",
+                            "ticks": 30,
+                            "action": {
+                                "type": "origins:add_block",
+                                "block": "minecraft:air"
+                            }
+                        }
+                    ]
+                }
             }
         },
         "interval": 1,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
-        },
-        "block_condition": {
-            "type": "origins:block",
-            "block": "minecraft:water",
-            "inverted": true
         }
     },
     "one_block_tall":{
