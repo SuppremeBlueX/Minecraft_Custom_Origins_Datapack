@@ -163,7 +163,32 @@
         }
 
     },
+    "instant_death_nether":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 1000,
+            "source": {
+                "name": "dryout",
+                "bypasses_armor": true
+            }
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {      
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether"
+                }
+            ]
+        }
+    },
     "name": "Meld into Water",
-    "description": "You can turn yourself into water. If a sponge is placed nearby, you instantly die."
+    "description": "You can turn yourself into water. Anything and anywhere that can instantly dry up water will dry you up in an instant, killing you."
 
 }
