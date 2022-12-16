@@ -52,11 +52,11 @@
             "actions": [
             {
                 "type": "origins:execute_command",
-                "command": "scale set pehkui:height 0.25 @s"
+                "command": "scale set pehkui:height 0.5 @s"
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale set pehkui:width 0.25 @s"
+                "command": "scale set pehkui:width 0.5 @s"
             },
             {
                 "type": "origins:execute_command",
@@ -104,7 +104,8 @@
         "type": "origins:ignore_water",
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle"
+            "power": "*:*_toggle",
+            "inverted": true
         }
     },
     "see_and_breathe_underwater":{
@@ -131,7 +132,8 @@
         "interval": 20,
         "condition": {
             "type": "origins:power_active",
-            "power": "*:*_toggle"
+            "power": "*:*_toggle",
+            "inverted": true
         }
     },
     "name": "Meld into Water",
