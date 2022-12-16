@@ -41,7 +41,7 @@
                         },
                         {    
                             "type": "origins:delay",
-                            "ticks": 1,
+                            "ticks": 5,
                             "action": {
                                 "type": "origins:add_block",
                                 "block": "minecraft:air"
