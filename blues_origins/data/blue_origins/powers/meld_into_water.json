@@ -101,7 +101,11 @@
         }
     },
     "become_water":{
-        "type": "origins:ignore_water"
+        "type": "origins:ignore_water",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
     },
     "see_and_breathe_underwater":{
         "type": "origins:action_over_time",
@@ -126,11 +130,8 @@
         },
         "interval": 20,
         "condition": {
-            "type": "origins:and",
-            "condition": {
-                "type": "origins:power_active",
-                "power": "*:*_toggle"
-            }
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
         }
     },
     "name": "Meld into Water",
