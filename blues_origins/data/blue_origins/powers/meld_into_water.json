@@ -146,7 +146,24 @@
             "power": "*:*_toggle"
         }
     },
+    "creative_fly_underwater":{
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {      
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                }
+            ]
+        }
+
+    },
     "name": "Meld into Water",
-    "description": "You can turn yourself into water. If this water source moves, you are transported with it. If it dries up due to a sponge, you instantly die. If you are already underwater, you can move freely in the water."
+    "description": "You can turn yourself into water. If a sponge is placed nearby, you instantly die."
 
 }
