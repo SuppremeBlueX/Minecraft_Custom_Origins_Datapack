@@ -107,9 +107,9 @@
             "power": "*:*_toggle"
         }
     },
-    "see_and_breathe_underwater":{
+    "breathe_underwater":{
         "type": "origins:action_over_time",
-        "entity_action": {
+        "rising_action": {
             "type": "origins:apply_effect",
             "effects": [
                 {
@@ -120,7 +120,7 @@
                     "show_icon": true
                 },
                 {
-                    "effect": "minecraft:nightvision",
+                    "effect": "minecraft:night_vision",
                     "duration": 400,
                     "is_ambient": false,
                     "show_particles": false,
