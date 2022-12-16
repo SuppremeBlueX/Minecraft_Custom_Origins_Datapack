@@ -53,8 +53,18 @@
         },
         "interval": 1,
         "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {      
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether",
+                    "inverted": true
+                }
+            ]
         }
     },
     "one_block_tall":{
@@ -161,7 +171,6 @@
                 }
             ]
         }
-
     },
     "instant_death_nether":{
         "type": "origins:action_over_time",
