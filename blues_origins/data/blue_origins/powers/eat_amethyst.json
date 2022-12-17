@@ -60,9 +60,8 @@
                 }
             ]
             
-        },
-        "name": "Amethyst Consumption",
-        "description": "You cannot eat anything except for amethyst shards."
-    }
-
+        }
+    },
+    "name": "Amethyst Consumption",
+    "description": "You cannot eat anything except for amethyst shards."
 }
