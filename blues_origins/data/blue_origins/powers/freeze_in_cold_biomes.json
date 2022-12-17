@@ -3,8 +3,12 @@
     "condition": {
         "type": "origins:biome",
         "condition": {
-            "type": "origins:precipitation",
-            "precipitation": "snow"
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.3
+            }
         }
     },
     "name": "Freeze in cold biomes",
