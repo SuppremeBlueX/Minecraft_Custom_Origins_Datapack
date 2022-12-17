@@ -6,7 +6,8 @@
         "type": "origins:prevent_item_use",
         "item_condition": {
             "type": "origins:food"
-        }
+        },
+        "name": "You are amethyst..."
     },
     "eat_amethyst": {
         "type": "origins:active_self",

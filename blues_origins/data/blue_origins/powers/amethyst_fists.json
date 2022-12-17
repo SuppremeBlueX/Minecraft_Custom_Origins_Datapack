@@ -1,0 +1,35 @@
+{
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "block": "minecraft:stone_tool_materials"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:calcite"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:tuff"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:basalt"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:amethyst_block"
+            }
+            {      
+                "type": "origins:block",
+                "block": "minecraft:amethyst_cluster"
+            }
+        ]
+    },
+    "allow": true,
+    "name": "Amethyst Fists",
+    "description": "You can harvest all kinds of stone with your fists, including amethysts."
+}

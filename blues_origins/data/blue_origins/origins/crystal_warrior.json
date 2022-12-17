@@ -2,7 +2,8 @@
 	"powers": [
 		"blue_origins:crystal_cave_spawn",
 		"blue_origins:amethyst_cracker",
-		"blue_origins:eat_amethyst"
+		"blue_origins:eat_amethyst",
+		"blue_origins:amethyst_fists"
 	],
 	"icon": "minecraft:amethyst_cluster",
 	"order": 10,
