@@ -11,8 +11,12 @@
         "bar_index": 16
     },
 	"key": {
-        "key": "key.saveToolbarActivator"
+        "key": "key.jump"
     },
+	"condition": {
+		"type": "origins:on_block",
+		"inverted": true
+	},
 	"name": "Fiery Boost",
-	"description": "You can propel yourself forward with fire."
+	"description": "You can propel yourself forward with fire. (Jump while already airborne)"
 }
