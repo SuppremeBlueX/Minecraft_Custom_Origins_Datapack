@@ -2,6 +2,7 @@
 	"powers": [
 		"blue_origins:fiery_essence",
 		"blue_origins:freeze_in_cold_biomes",
+		"blue_origins:avoid_cold_spawn",
 		"origins:fire_immunity",
 		"blue_origins:auto_extinguish",
 		"blue_origins:lightning_immunity",
