@@ -1,5 +1,6 @@
 {
 	"powers": [
+		"blue_origins:crystal_cave_spawn",
 		"blue_origins:amethyst_cracker",
 		"blue_origins:eat_amethyst"
 	],

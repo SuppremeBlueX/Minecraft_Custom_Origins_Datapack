@@ -1,0 +1,6 @@
+{
+    "type": "origins:modify_player_spawn",
+    "biome": "terralith:cave/crystal_caves",
+    "name": "Born from Crystal",
+    "description": "If the Terralith mod is installed, you'll spawn in the crystal caves biome."
+  }

@@ -11,13 +11,18 @@
     "item_condition": {
         "type": "origins:empty"
     },
-	"entity_action": {
-    "type": "origins:swing_hand",
-    "hand": "MAIN_HAND"
-	},
     "entity_action": {
-        "type": "origins:play_sound",
-        "sound": "minecraft:block.large_amethyst_bud.break"
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:swing_hand",
+                "hand": "MAIN_HAND"
+            },
+            {    
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.large_amethyst_bud.break"
+            }
+        ]
     },
     "name": "Amethyst Crusher",
     "description": "With your hand, you can crack an amethyst block."
