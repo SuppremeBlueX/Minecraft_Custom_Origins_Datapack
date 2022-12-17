@@ -6,5 +6,7 @@
             "type": "origins:precipitation",
             "precipitation": "snow"
         }
-    }
+    },
+    "name": "Freeze in cold biomes",
+    "description": "You freeze while in cold biomes."
 }
