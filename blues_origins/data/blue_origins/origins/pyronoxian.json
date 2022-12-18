@@ -12,7 +12,8 @@
 		"blue_origins:pyro_fireball",
 		"blue_origins:lightning_strike",
 		"blue_origins:fire_boost",
-		"blue_origins:propulsion_reflex"
+		"blue_origins:propulsion_reflex",
+		"blue_origins:sun_form"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,

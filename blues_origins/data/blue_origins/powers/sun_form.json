@@ -1,0 +1,37 @@
+{
+
+    "type": "origins:multiple",
+
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.saveToolbarActivator"
+        },
+        "condition": {
+            "type": "blue_origins:sun_energy",
+            "resource": "example:a_simple_resource",
+            "comparison": "==",
+            "compare_to": 1000
+        }
+    },
+    "sun_glow": {
+        "type": "origins:self_glow",
+        "red": 1,
+        "green": 1,
+        "blue": 0.4,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+
+}
