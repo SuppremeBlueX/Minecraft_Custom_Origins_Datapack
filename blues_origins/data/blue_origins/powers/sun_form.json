@@ -32,6 +32,7 @@
             "type": "origins:power_active",
             "power": "*:*_toggle"
         }
-    }
-
+    },
+    "name": "Sun Form",
+    "description": "You take the form of the sun temporarily."
 }
