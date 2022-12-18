@@ -11,9 +11,6 @@
     },
     "sun_glow": {
         "type": "origins:self_glow",
-        "red": 1,
-        "green": 1,
-        "blue": 0.4,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
@@ -22,6 +19,13 @@
     "invisibility": {
         "type": "origins:invisibility",
         "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "creative_fly_":{
+        "type": "origins:creative_flight",
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
