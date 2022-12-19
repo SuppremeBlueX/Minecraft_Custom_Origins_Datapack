@@ -16,11 +16,21 @@
         },
         "retain_state": false
     },
-
-    "energize": {
-        "type": "origins:particle",
-        "particle": "minecraft:electric_spark",
-        "frequency": 4,
+    "energize":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:spawn_particles",
+            "particle": "minecraft:electric_spark",
+            "count": 16,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+                "x": 1.0,
+                "y": 2.0,
+                "z": 1.0
+            }
+        },
+        "interval": 20,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
