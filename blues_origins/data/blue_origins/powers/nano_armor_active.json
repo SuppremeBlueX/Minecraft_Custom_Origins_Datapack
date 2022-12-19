@@ -66,6 +66,51 @@
             "power": "*:*_toggle"
         }
     },
+    "energy_blast":{
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 16,
+            "block": true,
+            "entity": true,
+            "shape_type": "visual",
+            "fluid_handling": "none",
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "say I've been hit!"
+                }
+            },
+            "before_action": {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.beacon.power_select"
+            },
+            "hit_action": {
+                "type": "origins:modify_resource",
+                "modifier": {
+                    "operation": "add_base_early",
+                    "value": -10
+                },
+                "resource": "blue_origins:nano_armor_charge"
+            },
+            "miss_action": {
+                "type": "origins:modify_resource",
+                "modifier": {
+                    "operation": "add_base_early",
+                    "value": -10
+                },
+                "resource": "blue_origins:nano_armor_charge"
+            },
+            "command_along_ray": "particle minecraft:crit",
+            "command_step": 1,
+            "command_along_ray_only_on_hit": false
+        },
+        "cooldown": 60,
+        "hud_render": {
+            "should_render": true
+        }
+    },
     "name": "Power-up",
     "description": "Once the armor is powered up, you can toggle it on and off."
 
