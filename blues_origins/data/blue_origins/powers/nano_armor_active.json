@@ -21,7 +21,7 @@
         "entity_action": {
             "type": "origins:spawn_particles",
             "particle": "minecraft:electric_spark",
-            "count": 64,
+            "count": 16,
             "speed": 0.0,
             "force": true,
             "spread": {
