@@ -1,0 +1,16 @@
+{
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+        "key": "key.saveToolbarActivator"
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "blue_origins:nano_armor_charge",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "retain_state": false,
+    "name": "Power-up",
+    "description": "Once the armor is powered up, you can toggle it on and off."
+}
