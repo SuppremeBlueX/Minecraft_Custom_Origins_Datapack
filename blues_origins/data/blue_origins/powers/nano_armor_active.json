@@ -16,7 +16,7 @@
         },
         "retain_state": false
     },
-    "energize":{
+    "sparkle":{
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:spawn_particles",
