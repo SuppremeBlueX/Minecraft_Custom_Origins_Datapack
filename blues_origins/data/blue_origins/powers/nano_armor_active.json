@@ -42,7 +42,7 @@
     },
     "hud": {
         "type": "origins:overlay",
-        "texture": "minecraft:textures/block/ice.png",
+        "texture": "minecraft:textures/block/glass.png",
         "strength": 1.0,
         "red": 1.0,
         "green": 1.0,
