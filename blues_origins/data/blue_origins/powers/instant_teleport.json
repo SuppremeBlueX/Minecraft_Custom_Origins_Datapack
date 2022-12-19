@@ -13,8 +13,6 @@
             "change": -50
         },
         "command_at_hit": "tp @s ~ ~ ~",
-        "command_along_ray": "particle minecraft:soul_fire_flame",
-        "command_step": 1,
         "command_along_ray_only_on_hit": true
     },
     "cooldown": 100,
