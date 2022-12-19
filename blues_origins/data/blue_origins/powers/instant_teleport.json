@@ -10,7 +10,7 @@
         "hit_action": {
             "type": "origins:change_resource",
             "resource": "blue_origins:time_resource",
-            "change": -100
+            "change": -50
         },
         "command_at_hit": "tp @s ~ ~ ~",
         "command_along_ray": "particle minecraft:soul_fire_flame",
