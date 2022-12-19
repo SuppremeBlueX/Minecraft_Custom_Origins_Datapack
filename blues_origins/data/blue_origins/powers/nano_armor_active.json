@@ -44,13 +44,17 @@
         "type": "origins:overlay",
         "texture": "minecraft:textures/block/ice.png",
         "strength": 1.0,
-        "red": 0.0,
-        "green": 0.0,
+        "red": 1.0,
+        "green": 1.0,
         "blue": 1.0,
         "draw_mode": "texture",
         "draw_phase": "below_hud",
         "hide_with_hud": false,
-        "visible_in_third_person": false
+        "visible_in_third_person": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
     },
     "name": "Power-up",
     "description": "Once the armor is powered up, you can toggle it on and off."
