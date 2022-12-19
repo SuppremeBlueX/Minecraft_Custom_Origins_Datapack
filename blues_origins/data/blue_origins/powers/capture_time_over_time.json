@@ -5,6 +5,6 @@
 		"resource": "blue_origins:time_resource",
 		"change": 1
 	},
-	"interval":5,
+	"interval":1,
 	"hidden":true
 }
