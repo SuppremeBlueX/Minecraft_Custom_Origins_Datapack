@@ -14,7 +14,8 @@
             {
                 "type": "origins:modify_resource",
                 "modifier": {
-                    "operation": "max_total"
+                    "operation": "add_base_early",
+                    "value": 1000
                 },
                 "resource": "blue_origins:nano_armor_charge"
             }

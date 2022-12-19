@@ -6,6 +6,6 @@
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
         "bar_index": 18
     },
-	"name": "Powered Nano-Armor [0-1000]",
+	"name": "Nano-Armor [0-1000]",
 	"description": "You have a powered suit of nano-armor, but it is dormant. It was powered by energized pearls on your homeworld, but perhaps you can find something similar here."
 }
