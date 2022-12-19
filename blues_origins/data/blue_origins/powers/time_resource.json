@@ -1,0 +1,11 @@
+{
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1200,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 1
+    },
+	"name": "Capture Time",
+	"description": "As time goes on, you capture some of it for yourself. You can utilize your powers only if you have a clock in your off-hand."
+}
