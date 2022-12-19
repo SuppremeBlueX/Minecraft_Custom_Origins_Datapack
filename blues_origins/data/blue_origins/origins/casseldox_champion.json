@@ -2,7 +2,8 @@
 	"powers": [
 		"blue_origins:meld_into_water",
 		"blue_origins:nano_armor_charge",
-		"blue_origins:nano_armor_powerup"
+		"blue_origins:nano_armor_powerup",
+		"blue_origins:nano_armor_active"
 	],
 	"icon": "minecraft:heart_of_the_sea",
 	"order": 10,
