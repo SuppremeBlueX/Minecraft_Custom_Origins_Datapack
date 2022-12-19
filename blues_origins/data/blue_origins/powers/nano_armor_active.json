@@ -21,13 +21,13 @@
         "entity_action": {
             "type": "origins:spawn_particles",
             "particle": "minecraft:electric_spark",
-            "count": 32,
+            "count": 64,
             "speed": 0.0,
             "force": true,
             "spread": {
-                "x": 0.5,
-                "y": 1.0,
-                "z": 0.5
+                "x": 0.25,
+                "y": 0.5,
+                "z": 0.25
             }
         },
         "interval": 2,
