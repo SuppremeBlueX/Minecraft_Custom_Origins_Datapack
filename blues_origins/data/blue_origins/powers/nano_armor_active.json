@@ -20,10 +20,14 @@
         "retain_state": false
     },
 
-    "energize": {
-        "type": "origins:particle",
-        "particle": "minecraft:electric_spark",
-        "frequency": 4,
+    "natural_armor": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Armor increase",
+            "attribute": "minecraft:generic.armor",
+            "value": 20,
+            "operation": "addition"
+        },
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
