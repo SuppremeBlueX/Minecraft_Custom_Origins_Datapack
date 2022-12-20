@@ -35,15 +35,35 @@
     "freeze_mobs": {
         "type": "origins:action_over_time",
         "rising_action": {
-            "type": "origins:area_of_effect",
-            "radius": 32,
-            "bientity_action": {
-                "type": "origins:target_action",
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "execute as @s run data merge entity @s {NoAI: 1}"
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 32,
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "execute as @s run data merge entity @s {NoAI: 1}"
+                        }
+                    }
+                },
+                {    
+                    "type": "origins:delay",
+                    "ticks": 400,
+                    "action":{
+                        "type": "origins:area_of_effect",
+                        "radius": 32,
+                        "bientity_action": {
+                            "type": "origins:target_action",
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute as @s run data merge entity @s {NoAI: 0}"
+                            }
+                        }
+                    }
                 }
-            }
+            ]
         },
         "interval": 20,
         "condition": {
@@ -51,6 +71,7 @@
             "power": "*:*_toggle"
         }
     },
+
     "freeze_players": {
         "type": "origins:action_over_time",
         "rising_action": {
@@ -79,5 +100,5 @@
         }
     },
     "name": "Time Stop",
-    "description": "You stop time around you, causing all entities within a 32-block radius to completely freeze except for you."
+    "description": "You stop time around you, causing all entities within a 32-block radius to completely freeze except for you for 20 seconds."
 }
