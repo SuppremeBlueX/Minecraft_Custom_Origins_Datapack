@@ -1,4 +1,4 @@
-"cooldown": {
+{
     "type": "origins:cooldown",
     "cooldown": 400,
     "hud_render": {
