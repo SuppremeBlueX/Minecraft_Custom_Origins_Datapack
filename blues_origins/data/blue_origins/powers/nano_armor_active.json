@@ -9,10 +9,20 @@
             "key": "key.saveToolbarActivator"
         },
         "condition": {
-            "type": "origins:resource",
-            "resource": "blue_origins:nano_armor_charge",
-            "comparison": ">",
-            "compare_to": 0
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:nano_armor_charge",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {      
+                    "type": "origins:power_active",
+                    "power": "blue_origins:meld_into_water",
+                    "inverted": true
+                }
+            ]
         },
         "retain_state": false
     },
