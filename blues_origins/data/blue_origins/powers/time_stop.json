@@ -109,5 +109,5 @@
         }
     },
     "name": "Time Stop",
-    "description": "You stop time around you, causing all entities within a 32-block radius to completely freeze except for you for 20 seconds."
+    "description": "You stop time around you, causing all entities within a 32-block radius to completely freeze except for you for 20 seconds. [Cost: 400]"
 }
