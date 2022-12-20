@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "name": "Break blocks faster while flying",
+      "value": 0.2,
+      "operation": "addition"
+    },
+    "hidden": true
+  }
