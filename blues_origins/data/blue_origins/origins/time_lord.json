@@ -4,8 +4,7 @@
 		"blue_origins:capture_time_over_time",
 		"blue_origins:instant_teleport",
 		"blue_origins:instant_heal",
-		"blue_origins:time_stop",
-		"blue_origins:time_stop_timer"
+		"blue_origins:time_stop"
 	],
 	"icon": "minecraft:clock",
 	"order": 10,
