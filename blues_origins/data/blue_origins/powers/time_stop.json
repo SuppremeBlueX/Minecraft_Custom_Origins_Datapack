@@ -14,7 +14,7 @@
                 {
                     "type": "origins:resource",
                     "resource": "blue_origins:time_resource",
-                    "comparison": ">",
+                    "comparison": ">=",
                     "compare_to": 400
                 },
                 {      
@@ -62,6 +62,15 @@
                             }
                         }
                     }
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "blue_origins:time_stop_timer"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "blue_origins:time_resource",
+                    "change": -400
                 }
             ]
         },
@@ -97,14 +106,6 @@
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
-        }
-    },
-    "cooldown": {
-        "type": "origins:cooldown",
-        "cooldown": 400,
-        "hud_render": {
-            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-            "bar_index": 9
         }
     },
     "name": "Time Stop",

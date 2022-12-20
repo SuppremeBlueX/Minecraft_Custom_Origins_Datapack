@@ -27,7 +27,7 @@
                 "type": "origins:resource",
                 "resource": "blue_origins:time_resource",
                 "comparison": ">=",
-                "compare_to": 100
+                "compare_to": 50
             },
             {      
                 "type": "origins:equipped_item",
