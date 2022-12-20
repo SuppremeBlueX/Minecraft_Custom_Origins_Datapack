@@ -2,8 +2,9 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "name": "Break blocks faster while flying",
-      "value": 0.2,
+      "value": 0.1,
       "operation": "addition"
     },
-    "hidden": true
+    "name": "Air Affinity",
+    "description": "You break blocks faster while in the air."
   }
