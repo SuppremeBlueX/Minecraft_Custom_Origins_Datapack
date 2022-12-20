@@ -105,7 +105,7 @@
         "hud_render": {
             "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
             "bar_index": 9
-        },
+        }
     },
     "name": "Time Stop",
     "description": "You stop time around you, causing all entities within a 32-block radius to completely freeze except for you for 20 seconds."
