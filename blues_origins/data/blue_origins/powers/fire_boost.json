@@ -11,7 +11,7 @@
         "bar_index": 16
     },
 	"key": {
-        "key": "key.jump"
+        "key": "key.loadToolbarActivator"
     },
 	"condition": {
 		"type": "origins:on_block",
