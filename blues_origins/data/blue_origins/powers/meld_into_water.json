@@ -69,9 +69,9 @@
             ]
         }
     },
-    "one_block_tall":{
-        "type": "origins:active_self",
-        "entity_action":{
+    "small_size": {
+        "type": "origins:action_over_time",
+        "rising_action":{
             "type": "origins:and",
             "actions": [
             {
@@ -88,18 +88,7 @@
             }
             ]
         },
-        "key": {
-            "key": "key.origins.secondary_active"
-        },
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle",
-            "inverted": true
-        }
-    },
-    "normal_height":{
-        "type": "origins:active_self",
-        "entity_action":{
+        "falling_action":{
             "type": "origins:and",
             "actions": [
             {
@@ -116,9 +105,7 @@
             }
             ]
         },
-        "key": {
-            "key": "key.origins.secondary_active"
-        },
+        "interval": 1,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
