@@ -22,34 +22,38 @@
         "entity_action": {
             "type": "origins:block_action_at",
             "block_action": {
-                "type": "origins:if_else",
-                "condition": {
-                    "type": "origins:fluid",
-                    "fluid_condition": {
-                        "type": "origins:empty",
-                        "inverted": true
+                "type": "origins:offset",
+                "action": {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:fluid",
+                        "fluid_condition": {
+                            "type": "origins:empty",
+                            "inverted": true
+                        }
+                    },
+                    "if_action": {
+                        "type": "origins:nothing"
+                    },
+                    "else_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:add_block",
+                                "block": "minecraft:water"
+                            },
+                            {    
+                                "type": "origins:delay",
+                                "ticks": 10,
+                                "action": {
+                                    "type": "origins:add_block",
+                                    "block": "minecraft:air"
+                                }
+                            }
+                        ]
                     }
                 },
-                "if_action": {
-                    "type": "origins:nothing"
-                },
-                "else_action": {
-                    "type": "origins:and",
-                    "actions": [
-                        {
-                            "type": "origins:add_block",
-                            "block": "minecraft:water"
-                        },
-                        {    
-                            "type": "origins:delay",
-                            "ticks": 10,
-                            "action": {
-                                "type": "origins:add_block",
-                                "block": "minecraft:air"
-                            }
-                        }
-                    ]
-                }
+                "y": -1
             }
         },
         "interval": 1,
