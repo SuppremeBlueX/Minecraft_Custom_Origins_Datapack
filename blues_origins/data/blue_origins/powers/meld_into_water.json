@@ -26,7 +26,8 @@
                 "condition": {
                     "type": "origins:fluid",
                     "fluid_condition": {
-                        "type": "origins:still"
+                        "type": "origins:empty",
+                        "inverted": true
                     }
                 },
                 "if_action": {
