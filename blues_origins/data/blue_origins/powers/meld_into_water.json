@@ -39,15 +39,15 @@
                         "type": "origins:and",
                         "actions": [
                             {
-                                "type": "origins:add_block",
-                                "block": "minecraft:water"
+                                "type": "origins:execute_command",
+                                "command": "fill ~ ~ ~ ~ ~ ~ water replace air"
                             },
                             {    
                                 "type": "origins:delay",
                                 "ticks": 3,
                                 "action": {
-                                    "type": "origins:add_block",
-                                    "block": "minecraft:air"
+                                    "type": "origins:execute_command",
+                                    "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
                                 }
                             }
                         ]
