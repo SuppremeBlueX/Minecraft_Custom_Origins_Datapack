@@ -9,9 +9,20 @@
         "resource": "blue_origins:psionic_blast_charge"
     },
     "damage_condition": {
-        "type": "origins:amount",
-        "comparison": ">=",
-        "compare_to": 3.0
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:attacker",
+                "entity_condition": {
+                    "type": "origins:living"
+                }
+            },
+            {      
+                "type": "origins:amount",
+                "comparison": ">=",
+                "compare_to": 2
+            }
+        ]
     },
     "cooldown": 1,
     "hidden": true
