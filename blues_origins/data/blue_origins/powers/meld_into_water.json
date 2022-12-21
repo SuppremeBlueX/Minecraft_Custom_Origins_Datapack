@@ -136,28 +136,48 @@
             "effects": [
                 {
                     "effect": "minecraft:water_breathing",
-                    "duration": 400,
-                    "is_ambient": false,
-                    "show_particles": false,
-                    "show_icon": true
-                },
-                {
-                    "effect": "minecraft:night_vision",
-                    "duration": 400,
+                    "duration": 20,
                     "is_ambient": false,
                     "show_particles": false,
                     "show_icon": true
                 }
             ]
         },
-        "interval": 20,
+        "interval": 10,
         "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle"
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {      
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                }
+            ]
         }
     },
     "creative_fly_underwater":{
         "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                },
+                {      
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water"
+                }
+            ]
+        }
+    },
+    "clear_vision_underwater":{
+        "type": "origins:toggle_night_vision",
+        "strength": 1.0,
+        "active_by_default": false,
         "condition": {
             "type": "origins:and",
             "conditions": [
