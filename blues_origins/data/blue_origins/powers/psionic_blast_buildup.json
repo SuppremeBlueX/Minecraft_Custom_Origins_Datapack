@@ -1,0 +1,18 @@
+{
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:modify_resource",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 1
+        },
+        "resource": "blue_origins:psionic_blast_charge"
+    },
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 3.0
+    },
+    "cooldown": 1,
+    "hidden": true
+}

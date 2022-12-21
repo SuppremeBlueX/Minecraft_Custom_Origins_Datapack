@@ -1,0 +1,84 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:modify_resource",
+                "modifier": {
+                    "operation": "add_base_early",
+                    "value": -10
+                },
+                "resource": "blue_origins:psionic_blast_charge"
+            },
+            {    
+                "type": "origins:area_of_effect",
+                "radius": 32,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute as @s run data merge entity @s {NoAI: 1}"
+                    }
+                }
+            },
+            {
+                "type": "origins:area_of_effect",
+                "radius": 24,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effects": [
+                            {
+                                "effect": "minecraft:nausea",
+                                "duration": 400,
+                                "is_ambient": false,
+                                "show_particles": false,
+                                "show_icon": true
+                            },
+                            {
+                                "effect": "minecraft:slowness",
+                                "amplifier": 4,
+                                "duration": 400,
+                                "is_ambient": false,
+                                "show_particles": false,
+                                "show_icon": true
+                            },
+                            {
+                                "effect": "minecraft:weakness",
+                                "amplifier": 4,
+                                "duration": 400,
+                                "is_ambient": false,
+                                "show_particles": false,
+                                "show_icon": true
+                            }
+                            {
+                                "effect": "minecraft:blindness",
+                                "amplifier": 4,
+                                "duration": 400,
+                                "is_ambient": false,
+                                "show_particles": false,
+                                "show_icon": true
+                            }
+                        ]
+                    }
+                } 
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.warden.sonic_boom",
+                "volume": 2.0
+            }
+        ]
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "blue_origins:psionic_blast_charge",
+        "comparison": "==",
+        "compare_to": 10
+    },
+    "name": "Psionic Blast",
+    "description": "When taking a bit of damage, psionic stress builds. When the stress reaches its breaking point, you release a psionic blast around you that stuns neearby players and makes mobs completely inept."
+}

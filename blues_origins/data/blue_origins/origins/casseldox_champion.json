@@ -3,7 +3,10 @@
 		"blue_origins:meld_into_water",
 		"blue_origins:nano_armor_charge",
 		"blue_origins:nano_armor_powerup",
-		"blue_origins:nano_armor_active"
+		"blue_origins:nano_armor_active",
+		"blue_origins:psionic_blast_charge",
+		"blue_origins:psionic_blast_buildup",
+		"blue_origins:psionic_blast"
 	],
 	"icon": "minecraft:heart_of_the_sea",
 	"order": 10,
