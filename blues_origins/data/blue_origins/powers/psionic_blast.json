@@ -52,7 +52,7 @@
                                 "is_ambient": false,
                                 "show_particles": false,
                                 "show_icon": true
-                            }
+                            },
                             {
                                 "effect": "minecraft:blindness",
                                 "amplifier": 4,
