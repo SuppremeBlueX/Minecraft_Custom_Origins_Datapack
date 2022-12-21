@@ -1,0 +1,47 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "<",
+                    "compare_to": 3
+                },
+                "action": {
+                    "type": "origins:modify_resource",
+                    "modifier": {
+                        "operation": "add_base_early",
+                        "value": 1
+                    },
+                    "resource": "blue_origins:power_of_light_fire_lightning"
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:health",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                "action": {
+                    "type": "origins:modify_resource",
+                    "modifier": {
+                        "operation": "add_base_early",
+                        "value": -2
+                    },
+                    "resource": "blue_origins:power_of_light_fire_lightning"
+                }
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "hud_render": {
+        "should_render": false
+    },
+    "name": "Master of light, fire, and electricity.",
+    "description": "You have 3 sets of powers you can cycle through, each giving you unique and powerful abilities."
+}

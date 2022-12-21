@@ -1,14 +1,20 @@
 {
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:small_fireball",
-    "cooldown": 20,
     "hud_render": {
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
         "bar_index": 15
     },
     "key": {
-		"key": "key.origins.primary_active"
+		"key": "key.origins.primary_active",
+        "continuous": true
 	},
+    "condition": {
+        "type": "origins:resource",
+        "resource": "blue_origins:power_of_light_fire_lightning",
+        "comparison": "==",
+        "compare_to": 1
+    },
 	"name": "Fireball",
-	"description": "You can shoot fireballs"
+	"description": "You can spew fireballs from yourself like a flamethrower."
 }
