@@ -26,11 +26,13 @@
                 "condition": {
                     "type": "origins:fluid",
                     "fluid_condition": {
-                        "type": "origins:still"
+                        "type": "origins:empty",
+                        "inverted": true
                     }
                 },
                 "if_action": {
-                    "type": "origins:nothing"
+                    "type": "origins:execute_command",
+                    "command": "fill ~ ~ ~ ~ ~ ~ water replace water"
                 },
                 "else_action": {
                     "type": "origins:and",
