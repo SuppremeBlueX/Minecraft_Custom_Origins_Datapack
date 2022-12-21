@@ -21,7 +21,7 @@
             },
             {
                 "condition": {
-                    "type": "origins:health",
+                    "type": "origins:resource",
                     "comparison": "==",
                     "compare_to": 3
                 },
@@ -42,6 +42,6 @@
     "hud_render": {
         "should_render": false
     },
-    "name": "Master of light, fire, and electricity.",
-    "description": "You have 3 sets of powers you can cycle through, each giving you unique and powerful abilities."
+    "name": "Fire, Electricity, and Light",
+    "description": "You can manipulate fire, electricity, and light. You have 3 sets of powers you can cycle through, each giving you unique and powerful abilities."
 }
