@@ -22,38 +22,34 @@
         "entity_action": {
             "type": "origins:block_action_at",
             "block_action": {
-                "type": "origins:offset",
-                "action": {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:fluid",
-                        "fluid_condition": {
-                            "type": "origins:empty",
-                            "inverted": true
-                        }
-                    },
-                    "if_action": {
-                        "type": "origins:nothing"
-                    },
-                    "else_action": {
-                        "type": "origins:and",
-                        "actions": [
-                            {
-                                "type": "origins:execute_command",
-                                "command": "fill ~ ~ ~ ~ ~ ~ water replace air"
-                            },
-                            {    
-                                "type": "origins:delay",
-                                "ticks": 3,
-                                "action": {
-                                    "type": "origins:execute_command",
-                                    "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
-                                }
-                            }
-                        ]
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:fluid",
+                    "fluid_condition": {
+                        "type": "origins:empty",
+                        "inverted": true
                     }
                 },
-                "y": -1
+                "if_action": {
+                    "type": "origins:nothing"
+                },
+                "else_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "fill ~ ~ ~ ~ ~ ~ water replace air"
+                        },
+                        {    
+                            "type": "origins:delay",
+                            "ticks": 3,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
+                            }
+                        }
+                    ]
+                }
             }
         },
         "interval": 3,
