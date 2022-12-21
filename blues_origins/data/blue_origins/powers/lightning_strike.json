@@ -25,7 +25,13 @@
         "bar_index": 5
     },
     "key": {
-        "key": "key.origins.secondary_active"
+        "key": "key.origins.primary_active"
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "blue_origins:power_of_light_fire_lightning",
+        "comparison": "==",
+        "compare_to": 2
     },
     "name": "Command lightning",
     "description": "Lightning strikes whatever you are looking at."
