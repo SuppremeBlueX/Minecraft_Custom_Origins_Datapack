@@ -42,6 +42,7 @@
     "hud_render": {
         "should_render": false
     },
+    "cooldown": 20,
     "name": "Fire, Electricity, and Light",
     "description": "You can manipulate fire, electricity, and light. You have 3 sets of powers you can cycle through, each giving you unique and powerful abilities."
 }
