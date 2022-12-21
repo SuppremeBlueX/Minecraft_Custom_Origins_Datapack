@@ -42,7 +42,7 @@
                         },
                         {    
                             "type": "origins:delay",
-                            "ticks": 5,
+                            "ticks": 10,
                             "action": {
                                 "type": "origins:add_block",
                                 "block": "minecraft:air"
