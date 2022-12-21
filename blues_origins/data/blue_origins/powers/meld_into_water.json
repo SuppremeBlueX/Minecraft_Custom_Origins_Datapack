@@ -33,8 +33,7 @@
                         }
                     },
                     "if_action": {
-                        "type": "origins:add_block",
-                        "block": "minecraft:water"
+                        "type": "origins:nothing"
                     },
                     "else_action": {
                         "type": "origins:and",
