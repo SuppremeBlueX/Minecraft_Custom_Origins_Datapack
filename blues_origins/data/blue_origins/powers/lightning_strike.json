@@ -77,6 +77,25 @@
                 {
                     "condition": {
                         "type": "origins:block",
+                        "block": "minecraft:obsidian"
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "summon minecraft:lightning_bolt ~ ~ ~"
+                            },
+                            {    
+                                "type": "origins:set_block",
+                                "block": "minecraft:tinted_glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
                         "block": "charm:redstone_sand"
                     },
                     "action": {
