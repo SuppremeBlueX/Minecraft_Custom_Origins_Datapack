@@ -1,46 +1,32 @@
 {
-    "type": "origins:action_over_time",
-    "entity_action": {
-        "type": "origins:if_else_list",
-        "actions": [
-            {
-                "condition": {
-                    "type": "origins:resource",
-                    "resource": "blue_origins:power_of_light_fire_lightning",
-                    "comparison": "==",
-                    "compare_to": 1
-                },
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "tellraw @s {\"text\": \"Fire Selected\", \"color\": \"red\"}"
-                }
-            },
-            {
-                "condition": {
-                    "type": "origins:resource",
-                    "resource": "blue_origins:power_of_light_fire_lightning",
-                    "comparison": "==",
-                    "compare_to": 2
-                },
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "tellraw @s {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
-                }
-            },
-            {
-                "condition": {
-                    "type": "origins:resource",
-                    "resource": "blue_origins:power_of_light_fire_lightning",
-                    "comparison": "==",
-                    "compare_to": 3
-                },
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "tellraw @s {\"text\": \"Light Selected\", \"color\": \"white\"}"
-                }
-            }
-        ]
+
+    "type": "origins:multiple",
+
+    "fire_power_selected": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "tellraw @s {\"text\": \"Fire Selected\", \"color\": \"red\"}"
+        },
+        "interval": 5
     },
-    "interval": 5,
+
+    "lightning_power_selected": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "tellraw @s {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
+        },
+        "interval": 5
+    },
+    "light_power_selected": {
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "tellraw @s {\"text\": \"Light Selected\", \"color\": \"light\"}"
+        },
+        "interval": 5
+    },
     "hidden": true
+
 }
