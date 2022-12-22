@@ -15,8 +15,66 @@
             }
         },
         "block_action": {
-            "type": "origins:execute_command",
-            "command": "summon lightning_bolt ~ ~ ~"
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:sand"
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "summon minecraft:lightning_bolt ~ ~ ~"
+                            },
+                            {    
+                                "type": "origins:set_block",
+                                "block": "minecraft:glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:red_sand"
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "summon minecraft:lightning_bolt ~ ~ ~"
+                            },
+                            {    
+                                "type": "origins:set_block",
+                                "block": "minecraft:orange_stained_glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:soul_sand"
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "summon minecraft:lightning_bolt ~ ~ ~"
+                            },
+                            {    
+                                "type": "origins:set_block",
+                                "block": "minecraft:tinted_glass"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
     },
     "cooldown": 40,
