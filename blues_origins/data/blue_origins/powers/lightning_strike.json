@@ -108,12 +108,8 @@
         }
     },
     "hit_action": {
-        "type": "origins:modify_resource",
-        "modifier": {
-            "operation": "add_base_early",
-            "value": -100
-        },
-        "resource": "blue_origins:lightning_power"
+        "type": "origins:execute_command",
+        "command": "say After (hit)"
     },
     "cooldown": 40,
     "hud_render": {
