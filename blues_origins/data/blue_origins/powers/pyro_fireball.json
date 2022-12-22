@@ -9,12 +9,23 @@
 		"key": "key.origins.primary_active"
 	},
     "condition": {
-        "type": "origins:resource",
-        "resource": "blue_origins:power_of_light_fire_lightning",
-        "comparison": "==",
-        "compare_to": 1
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "blue_origins:power_of_light_fire_lightning",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            {      
+                "type": "origins:resource",
+                "resource": "blue_origins:fire_power",
+                "comparison": ">=",
+                "compare_to": 20
+            }
+        ]
     },
     "cooldown": 10,
 	"name": "Fireball",
-	"description": "You can spew fireballs from yourself like a flamethrower."
+	"description": "You can shoot fireballs"
 }
