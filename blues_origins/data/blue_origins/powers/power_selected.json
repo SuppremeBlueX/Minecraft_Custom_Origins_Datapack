@@ -1,6 +1,6 @@
 {
     "type": "origins:action_over_time",
-    "rising_action": {
+    "entity_action": {
         "type": "origins:if_else_list",
         "actions": [
             {
@@ -12,7 +12,7 @@
                 },
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tellraw @a {\"text\": \"Fire Selected\", \"color\": \"red\"}"
+                    "command": "tellraw @s {\"text\": \"Fire Selected\", \"color\": \"red\"}"
                 }
             },
             {
@@ -24,7 +24,7 @@
                 },
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tellraw @a {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
+                    "command": "tellraw @s {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
                 }
             },
             {
@@ -36,11 +36,15 @@
                 },
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tellraw @a {\"text\": \"Light Selected\", \"color\": \"white\"}"
+                    "command": "tellraw @s {\"text\": \"Light Selected\", \"color\": \"white\"}"
                 }
             }
         ]
     },
     "interval": 5,
-    "hidden": true
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "blue_origins:cycle_powers"
+    }
 }
