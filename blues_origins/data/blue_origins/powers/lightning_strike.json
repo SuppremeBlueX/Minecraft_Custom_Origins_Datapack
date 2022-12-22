@@ -75,6 +75,11 @@
                     }
                 },
                 {
+                    "condition": {
+                        "type": "origins:blast_resistance",
+                        "comparison": ">=",
+                        "compare_to": 0
+                    },
                     "action": {
                         "type": "origins:execute_command",
                         "command": "summon minecraft:lightning_bolt ~ ~ ~"
