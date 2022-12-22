@@ -8,27 +8,11 @@
         "shape_type": "visual",
         "fluid_handling": "any",
         "bientity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:target_action",
-                    "action": {
-                        "type": "origins:execute_command",
-                        "command": "summon minecraft:lightning_bolt ~ ~ ~"
-                    }
-                },
-                {    
-                    "type": "origins:actor_action",
-                    "action": {
-                        "type": "origins:modify_resource",
-                        "modifier": {
-                            "operation": "add_base_early",
-                            "value": -100
-                        },
-                        "resource": "blue_origins:lightning_power"
-                    }
-                }
-            ]
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "summon minecraft:lightning_bolt ~ ~ ~"
+            }
         },
         "block_action": {
             "type": "origins:if_else_list",
@@ -122,6 +106,14 @@
                 }
             ]
         }
+    },
+    "hit_action": {
+        "type": "origins:modify_resource",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": -100
+        },
+        "resource": "blue_origins:lightning_power"
     },
     "cooldown": 40,
     "hud_render": {
