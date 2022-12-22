@@ -1,0 +1,34 @@
+"entity_action": {
+    "type": "origins:raycast",
+    "distance": 4,
+    "block": true,
+    "entity": false,
+    "shape_type": "visual",
+    "fluid_handling": "any",
+    "block_action": {
+        "type": "origins:modify_block_state",
+        "property": "lit",
+        "value": true
+    },
+    "hit_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:modify_resource",
+                "modifier": {
+                    "operation": "add_base_early",
+                    "value": -50
+                },
+                "resource": "blue_origins:fire_power"
+            },
+            {    
+                "type": "origins:apply_effect",
+                "effect": {
+                "effect": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 100
+                }
+            }
+        ]
+    }
+}
