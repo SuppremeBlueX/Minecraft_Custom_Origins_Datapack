@@ -1,8 +1,6 @@
 {
 	"powers": [
 		"blue_origins:fiery_essence",
-		"blue_origins:freeze_in_cold_biomes",
-		"blue_origins:avoid_cold_spawn",
 		"origins:fire_immunity",
 		"blue_origins:auto_extinguish",
 		"blue_origins:fire_power",
@@ -15,6 +13,8 @@
 		"blue_origins:light_strength",
 		"blue_origins:no_food",
 		"blue_origins:fiery_appetite",
+		"blue_origins:freeze_in_cold_biomes",
+		"blue_origins:avoid_cold_spawn",
 		"blue_origins:pyro_fireball",
 		"blue_origins:lightning_strike",
 		"blue_origins:fire_boost",
