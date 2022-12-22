@@ -76,6 +76,25 @@
                 },
                 {
                     "condition": {
+                        "type": "origins:block",
+                        "block": "charm:redstone_sand"
+                    },
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "summon minecraft:lightning_bolt ~ ~ ~"
+                            },
+                            {    
+                                "type": "origins:set_block",
+                                "block": "minecraft:red_stained_glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "condition": {
                         "type": "origins:blast_resistance",
                         "comparison": ">=",
                         "compare_to": 0
