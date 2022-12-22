@@ -73,6 +73,12 @@
                             }
                         ]
                     }
+                },
+                {
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:lightning_bolt ~ ~ ~"
+                    }
                 }
             ]
         }
