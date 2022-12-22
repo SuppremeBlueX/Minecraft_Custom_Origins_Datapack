@@ -110,7 +110,7 @@
             "type": "origins:modify_resource",
             "modifier": {
                 "operation": "add_base_early",
-                "value": -100
+                "value": -50
             },
             "resource": "blue_origins:lightning_power"
         }
@@ -124,10 +124,21 @@
         "key": "key.origins.primary_active"
     },
     "condition": {
-        "type": "origins:resource",
-        "resource": "blue_origins:power_of_light_fire_lightning",
-        "comparison": "==",
-        "compare_to": 2
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "blue_origins:power_of_light_fire_lightning",
+                "comparison": "==",
+                "compare_to": 2
+            },
+            {      
+                "type": "origins:resource",
+                "resource": "blue_origins:lightning_power",
+                "comparison": ">=",
+                "compare_to": 50
+            }
+        ]
     },
     "name": "Command lightning",
     "description": "Lightning strikes whatever you are looking at."
