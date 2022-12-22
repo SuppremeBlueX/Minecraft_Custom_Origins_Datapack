@@ -12,7 +12,7 @@
                 },
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tellraw @a {\"text\": \"Fire Selected\", \"color\": \"red\"}"
+                    "command": "tellraw @s {\"text\": \"Fire Selected\", \"color\": \"red\"}"
                 }
             },
             {
@@ -24,7 +24,7 @@
                 },
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tellraw @a {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
+                    "command": "tellraw @s {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
                 }
             },
             {
@@ -36,7 +36,7 @@
                 },
                 "action": {
                     "type": "origins:execute_command",
-                    "command": "tellraw @a {\"text\": \"Light Selected\", \"color\": \"white\"}"
+                    "command": "tellraw @s {\"text\": \"Light Selected\", \"color\": \"white\"}"
                 }
             }
         ]
