@@ -22,6 +22,7 @@
             {
                 "condition": {
                     "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
                     "comparison": "==",
                     "compare_to": 3
                 },
