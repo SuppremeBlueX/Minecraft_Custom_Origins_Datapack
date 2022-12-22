@@ -1,0 +1,46 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "tellraw @a {\"text\": \"Fire Selected\", \"color\": \"red\"}"
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 2
+                },
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "tellraw @a {\"text\": \"Lightning Selected\", \"color\": \"yellow\"}"
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "tellraw @a {\"text\": \"Light Selected\", \"color\": \"white\"}"
+                }
+            }
+        ]
+    },
+    "interval": 5,
+    "hidden": true
+}
