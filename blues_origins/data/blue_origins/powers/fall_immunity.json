@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fall"
+    },
+    "name": "\u00A72\u00A7nFall Immunity",
+    "description": "You cannot take fall damage."
+  }

@@ -1,0 +1,23 @@
+{
+
+    "type": "origins:multiple",
+
+    "step_prevent": {
+        "type": "origins:prevent_game_event",
+        "event": "minecraft:step"
+    },
+
+    "hit_ground_prevent": {
+        "type": "origins:prevent_game_event",
+        "event": "minecraft:hit_ground"
+    },
+    "fall_damage_prevent":{
+        "type": "origins:invulnerability",
+        "damage_condition": {
+          "type": "origins:name",
+          "name": "fall"
+        }
+    },
+    "name": "\u00A72\u00A7nSoft paws",
+    "description": "You do not make any sounds while walking or landing on the ground. Also, you take no fall damage."
+}
