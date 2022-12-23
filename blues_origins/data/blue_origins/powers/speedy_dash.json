@@ -8,16 +8,16 @@
 		},
 		"if_action": {
 			"type": "origins:add_velocity",
-			"z": 2,
+			"z": 1.5,
 			"space": "local"
 		},
 		"else_action": {
 			"type": "origins:add_velocity",
-			"z": 1.25,
+			"z": 1,
 			"space": "local"
 		}
 	},
-	"cooldown": 90,
+	"cooldown": 60,
 	"hud_render": {
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
         "bar_index": 16
