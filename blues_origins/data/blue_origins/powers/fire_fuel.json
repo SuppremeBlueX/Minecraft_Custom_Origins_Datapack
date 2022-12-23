@@ -9,7 +9,6 @@
         "shape_type": "visual",
         "fluid_handling": "any",
         "block_action": {
-            "type": "apugli:light_up",
 			"burn_time": 2600,
 			"brew_time": 20,
 			"light_campfire": true,
