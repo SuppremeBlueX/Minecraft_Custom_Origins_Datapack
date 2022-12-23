@@ -1,0 +1,63 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "origins:meat"
+              }
+            },
+            {
+              "type": "origins:meat"
+            }
+          ],
+          "inverted": true
+        },
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        },
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "minecraft:fishes"
+            },
+            "inverted": true
+        },
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "croptopia:glowing_calamari"
+            },
+            "inverted": true
+        },
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "croptopia:ham_sandwich"
+            },
+            "inverted": true
+        },
+        {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "croptopia:tuna_sandwich"
+            },
+            "inverted": true
+        }
+      ]
+    },
+    "name": "\u00A7c\u00A7nCarnivore",
+    "description": "You can only eat meat and other foods with meat in it."
+  }
