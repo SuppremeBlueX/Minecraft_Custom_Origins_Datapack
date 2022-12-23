@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"origins:climbing",
+		"blue_origins:climbing",
 		"blue_origins:crafting_table",
 		"blue_origins:backpack",
         "blue_origins:starter_kit",
