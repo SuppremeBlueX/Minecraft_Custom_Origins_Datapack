@@ -19,8 +19,8 @@
 
     "fire_power_hud": {
         "type": "origins:overlay",
-        "texture": "minecraft:textures/block/fire.png.mcmeta",
-        "strength": 0.5,
+        "texture": "minecraft:textures/block/orange_shulker_box.png",
+        "strength": 0.1,
         "red": 1.0,
         "green": 1.0,
         "blue": 1.0,
