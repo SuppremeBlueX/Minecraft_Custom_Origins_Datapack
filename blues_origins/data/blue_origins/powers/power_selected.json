@@ -17,25 +17,6 @@
         "interval": 5
     },
 
-    "fire_power_hud": {
-        "type": "origins:overlay",
-        "texture": "minecraft:textures/block/orange_shulker_box.png",
-        "strength": 0.1,
-        "red": 1.0,
-        "green": 1.0,
-        "blue": 1.0,
-        "draw_mode": "texture",
-        "draw_phase": "below_hud",
-        "hide_with_hud": false,
-        "visible_in_third_person": true,
-        "condition": {
-            "type": "origins:resource",
-            "resource": "blue_origins:power_of_light_fire_lightning",
-            "comparison": "==",
-            "compare_to": 1
-        }
-    },
-
     "lightning_power_selected": {
         "type": "origins:action_over_time",
         "rising_action": {
