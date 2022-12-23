@@ -19,6 +19,7 @@
 		"blue_origins:fire_fuel",
 		"blue_origins:propulsion_reflex",
 		"blue_origins:lightning_strike",
+		"blue_origins:lightning_teleport",
 		"blue_origins:sun_form"
 	],
 	"icon": "minecraft:nether_star",
