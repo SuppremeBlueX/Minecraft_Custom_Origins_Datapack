@@ -1,9 +1,0 @@
-{
-    "type": "origins:toggle_night_vision",
-    "strength": 1,
-    "key": {
-        "key": "key.origins.secondary_active"
-    },
-    "name": "\u00A72\u00A7nDragon's eyes",
-    "description": "You can toggle between normal sight and draconic sight, which provides night-vision."
-}
