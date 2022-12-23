@@ -9,7 +9,7 @@
 	],
 	"icon": "minecraft:map",
 	"order": 10,
-	"impact": 3,
+	"impact": 1,
 	"name": "Adventurer",
 	"description": "You are an adventurer who has found themselves exploring the world of Minecraft"
 }
