@@ -30,5 +30,7 @@
                 }
             }
         ]
-    }
+    },
+    "name": "\u00A72\u00A7nFuel with fire",
+    "description": "You can fuel furnaces with fire."
 }

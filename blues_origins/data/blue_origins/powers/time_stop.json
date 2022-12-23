@@ -108,6 +108,6 @@
             "power": "*:*_toggle"
         }
     },
-    "name": "Time Stop [Off-hand]",
+    "name": "\u00A72\u00A7nTime Stop [Off-hand]",
     "description": "You stop time around you, causing all entities within a 32-block radius to completely freeze except for you for 20 seconds. [Cost: 400]"
 }

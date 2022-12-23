@@ -8,6 +8,6 @@
         "type": "origins:execute_command",
         "command": "attribute @s minecraft:generic.luck base set 0"
     },
-    "name": "Lucky",
+    "name": "\u00A72\u00A7nLucky",
 	"description": "You are lucky just like other leprechauns."
 }

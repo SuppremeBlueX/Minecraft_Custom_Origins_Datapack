@@ -21,6 +21,6 @@
         "type": "origins:execute_command",
         "command": "scale reset @s"
     },
-	"name": "Colossal Stature",
+	"name": "\u00A7e\u00A7nColossal Stature",
 	"description": "You are not just a penguin, but a massive one."
 }

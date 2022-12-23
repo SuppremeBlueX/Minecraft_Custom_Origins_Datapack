@@ -79,6 +79,6 @@
         "comparison": "==",
         "compare_to": 10
     },
-    "name": "Psionic Blast",
+    "name": "\u00A72\u00A7nPsionic Blast",
     "description": "When taking damage from an entity, psionic stress builds. When the stress reaches its breaking point, you release a psionic blast around you that stuns nearby players and makes mobs completely inept."
 }

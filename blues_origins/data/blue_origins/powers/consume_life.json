@@ -36,6 +36,6 @@
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
         "bar_index": 15
     },
-    "name": "Consume Life",
+    "name": "\u00A72\u00A7nConsume Life",
     "description": "You siphon some life out of any creature you are looking at, as long as it is close to you. [BTW, this is how you eat!]"
 }

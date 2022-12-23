@@ -2,6 +2,6 @@
     "type": "origins:modify_player_spawn",
     "dimension": "minecraft:overworld",
     "biome": "terralith:cave/deep_caves",
-    "name": "Underground Spawn",
+    "name": "\u00A7e\u00A7nUnderground Spawn",
     "description": "You spawn deep underground (requires terralith mod)"
   }

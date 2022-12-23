@@ -13,6 +13,6 @@
     "condition": {
         "type": "origins:on_block"
     },
-    "name": "Bound to the air",
+    "name": "\u00A7c\u00A7nBound to the air",
     "description": "Being on the ground makes it impossible for you to move."
 }

@@ -5,6 +5,6 @@
         "command": "team join CutenessOverload @e[type=!#c:bosses,type=!minecraft:player,team=!CutenessIgnore]"
     },
     "interval": 20,
-    "name": "Cute",
+    "name": "\u00A72\u00A7nCute",
     "description": "You are so cute that mobs (except bosses) will not attack you."
 }

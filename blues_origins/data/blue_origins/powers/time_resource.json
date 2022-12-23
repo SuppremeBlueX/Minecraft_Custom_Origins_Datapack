@@ -6,6 +6,6 @@
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
         "bar_index": 1
     },
-	"name": "Capture Time [0-600]",
+	"name": "\u00A7e\u00A7nCapture Time [0-600]",
 	"description": "As time goes on, you capture some of it for yourself. You can only utilize your powers if you have a clock in your off hand or your main hand."
 }
