@@ -19,7 +19,7 @@
 
     "fire_power_hud": {
         "type": "origins:overlay",
-        "texture": "minecraft:textures/block/fire.png",
+        "texture": "minecraft:textures/block/fire.png.mcmeta",
         "strength": 1.0,
         "red": 1.0,
         "green": 1.0,
