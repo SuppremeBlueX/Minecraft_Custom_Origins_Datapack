@@ -3,11 +3,15 @@
 
     "night_vision": {
         "type": "origins:toggle_night_vision",
+        "active_by_default": true,
         "strength": 1.0,
         "condition": {
             "type": "origins:submerged_in",
             "fluid": "minecraft:water",
             "inverted": true
+        },
+        "key": {
+            "key": "key.none"
         }
     },
     "darkness_immunity": {
