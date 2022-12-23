@@ -1,0 +1,25 @@
+
+{
+
+    "type": "origins:multiple",
+
+    "fire_immune": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+          "type": "origins:fire"
+        }
+    },
+
+    "auto-extinguish": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:extinguish"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:on_fire"
+        }
+    },
+    "name": "\u00A72\u00A7nFire Immunity",
+    "description": "You are immune to all types of fire damage, and are automatically put out upon exiting a fire source."
+}

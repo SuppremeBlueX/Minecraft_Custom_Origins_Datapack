@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"origins:fire_immunity",
+		"blue_origins:fire_immunity",
         "blue_origins:warden_built",
         "blue_origins:warden_shader",
         "blue_origins:warden_phys",
