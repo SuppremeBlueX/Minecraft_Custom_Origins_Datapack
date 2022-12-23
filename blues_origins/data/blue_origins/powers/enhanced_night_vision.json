@@ -3,28 +3,24 @@
     "type": "origins:multiple",
 
     "night_vision": {
-        "type": "origins:stacking_status_effect",
-        "min_stacks": -20,
-        "max_stacks": 20,
-        "duration_per_stack": 20,
-        "tick_rate": 20,
-        "effect": {
-            "effect": "minecraft:night_vision",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": false
+        "type": "origins:toggle_night_vision",
+        "strength": 1,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water",
+            "inverted": true
         }
     },
     "darkness_immunity": {
         "type": "origins:effect_immunity",
         "effects": [
             "minecraft:darkness"
-        ]
-    },
-    "condition": {
-        "type": "origins:submerged_in",
-        "fluid": "minecraft:water",
-        "inverted": true
+        ],
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water",
+            "inverted": true
+        }
     },
     "name": "\u00A72\u00A7nEnhanced Night Vision",
     "description": "You see better at night and through unnatural darkness, as long as you are not in the water."
