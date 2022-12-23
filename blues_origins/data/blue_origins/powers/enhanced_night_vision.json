@@ -11,7 +11,7 @@
             "inverted": true
         },
         "key": {
-            "key": "key.none"
+            "key": "key.spectatorOutlines"
         }
     },
     "darkness_immunity": {
