@@ -10,7 +10,7 @@
 		"blue_origins:draconic_strength",
 		"origins:fall_immunity",
 		"blue_origins:fire_vul",
-		"origins:carnivore"
+		"blue_origins:carnivore"
 	],
 	"icon": "minecraft:water_bucket",
 	"order": 10,
