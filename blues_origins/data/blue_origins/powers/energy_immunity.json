@@ -1,0 +1,17 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "lightningBolt"
+            },
+            {    
+                "type": "origins:fire"
+            }
+        ]
+    },
+    "name": "\u00A72\u00A7nEnergy Immunity",
+    "description": "Due to your essence being energy, fire and lightning cannot damage you."
+}
