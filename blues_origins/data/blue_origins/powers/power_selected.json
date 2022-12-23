@@ -20,7 +20,7 @@
     "fire_power_hud": {
         "type": "origins:overlay",
         "texture": "minecraft:textures/block/fire.png",
-        "strength": 0.1,
+        "strength": 1.0,
         "red": 1.0,
         "green": 1.0,
         "blue": 1.0,
