@@ -2,7 +2,7 @@
 	"powers": [
 		"origins:simple"
 	],
-	"icon": "minecraft:allay_spawn_egg",
+	"icon": "minecraft:iron_chestplate",
 	"order": 10,
 	"impact": 3,
 	"name": "\u00A7kGiant",
