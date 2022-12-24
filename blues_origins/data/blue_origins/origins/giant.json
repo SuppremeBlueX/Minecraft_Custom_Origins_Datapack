@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:allay_spawn_egg",
+	"order": 10,
+	"impact": 3,
+	"name": "\u00A7kGiant",
+	"description": "Fee Fi Fo Fum"
+}
