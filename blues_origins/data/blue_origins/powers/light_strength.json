@@ -42,7 +42,7 @@
                 "show_icon": false
             },
             {
-                "effect": "minecraft:saturation",
+                "effect": "minecraft:speed",
                 "amplifier": 0,
                 "is_ambient": true,
                 "show_particles": false,
