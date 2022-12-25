@@ -136,6 +136,22 @@
             "compare_to": 0
         }
     },
-    "name": "Gaining Power",
+    "light_discharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -5
+            },
+            "resource": "blue_origins:light_power"
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:darkness"
+        }
+    },
+    "name": "Powers",
     "description": "You gain fire-power by sitting in lava. You gain lightning power while moving or in a thunderstorm. You gain light power when in sunlight."
 }
