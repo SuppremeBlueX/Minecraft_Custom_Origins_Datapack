@@ -1,0 +1,35 @@
+{
+
+    "type": "origins:multiple",
+
+    "phase_through_transparent_blocks": {
+        "type": "origins:phasing",
+        "blacklist": false,
+        "render_type": "remove_blocks",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:unphasable"
+        },
+        "phase_down_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        }
+    },
+
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+
+}
