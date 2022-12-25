@@ -56,66 +56,27 @@
     "lightning_charge": {
         "type": "origins:action_over_time",
         "entity_action": {
-            "type": "origins:if_else_list",
-            "actions": [
-                {
-                    "condition": {
-                        "type": "origins:and",
-                        "conditions": [
-                            {
-                                "type": "origins:moving"
-                            },
-                            {
-                                "type": "origins:status_effect",
-                                "effect": "minecraft:speed",
-                                "min_amplifier": 1
-                            }
-                        ]
-                    },
-                    "action": {
-                        "type": "origins:modify_resource",
-                        "modifier": {
-                            "operation": "add_base_early",
-                            "value": 5
-                        },
-                        "resource": "blue_origins:lightning_power"
-                    }
-                },
-                {
-                    "condition": {
-                        "type": "origins:moving"
-                    },
-                    "action": {
-                        "type": "origins:modify_resource",
-                        "modifier": {
-                            "operation": "add_base_early",
-                            "value": 1
-                        },
-                        "resource": "blue_origins:lightning_power"
-                    }
-                },
-                {
-                    "condition": {
-                        "type": "origins:predicate",
-                        "predicate": "example:weather/is_thunderstorm"
-                    },
-                    "action": {
-                        "type": "origins:modify_resource",
-                        "modifier": {
-                            "operation": "add_base_early",
-                            "value": 20
-                        },
-                        "resource": "blue_origins:lightning_power"
-                    }
-                }
-            ]
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": 1
+            },
+            "resource": "blue_origins:lightning_power"
         },
         "interval": 5,
         "condition": {
-            "type": "origins:fluid_height",
-            "fluid": "minecraft:water",
-            "comparison": ">",
-            "compare_to": 0
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {      
+                    "type": "origins:moving"
+                }
+            ]
         }
     },
     "lightning_discharge": {
