@@ -171,5 +171,7 @@
             "comparison": ">",
             "compare_to": 0
         }
-    }
+    },
+    "name": "Gaining Power",
+    "description": "You gain fire-power by sitting in lava or in fire. You gain lightning power while moving or in a thunderstorm. You gain light power when in sunlight."
 }
