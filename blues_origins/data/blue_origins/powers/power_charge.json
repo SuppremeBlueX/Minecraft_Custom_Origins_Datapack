@@ -9,7 +9,7 @@
             "actions": [
                 {
                     "condition": {
-                        "type": "origins:daytime"
+                        "type": "origins:on_fire"
                     },
                     "action": {
                         "type": "origins:modify_resource",
@@ -22,32 +22,42 @@
                 },
                 {
                     "condition": {
-                        "type": "origins:health",
-                        "comparison": "<=",
-                        "compare_to": 12
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block",
+                                "block": "minecraft:campfire"
+                            },
+                            {
+                                "type": "origins:block_state",
+                                "property": "lit",
+                                "value": "true"
+                            }
+                        ]
                     },
                     "action": {
-                        "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:speed",
-                            "amplifier": 1,
-                            "duration": 80
-                        }
+                        "type": "origins:modify_resource",
+                        "modifier": {
+                            "operation": "add_base_early",
+                            "value": 1
+                        },
+                        "resource": "blue_origins:fire_power"
                     }
                 },
                 {
                     "condition": {
-                        "type": "origins:health",
-                        "comparison": "<=",
-                        "compare_to": 18
+                        "type": "origins:fluid_height",
+                        "fluid": "minecraft:lava",
+                        "comparison": ">",
+                        "compare_to": 0
                     },
                     "action": {
-                        "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:speed",
-                            "amplifier": 0,
-                            "duration": 80
-                        }
+                        "type": "origins:modify_resource",
+                        "modifier": {
+                            "operation": "add_base_early",
+                            "value": 5
+                        },
+                        "resource": "blue_origins:fire_power"
                     }
                 }
             ]
@@ -63,7 +73,92 @@
         }
     },
 
-    "fire_power_charge": {
+    "fire_power_discharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -5
+            },
+            "resource": "blue_origins:fire_power"
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.3
+            }
+        }
+    },
+    "lightning_charge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:moving"
+                            },
+                            {
+                                "type": "origins:status_effect",
+                                "effect": "minecraft:speed",
+                                "min_amplifier": 1
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "modifier": {
+                            "operation": "add_base_early",
+                            "value": 5
+                        },
+                        "resource": "blue_origins:lightning_power"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:moving"
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "modifier": {
+                            "operation": "add_base_early",
+                            "value": 1
+                        },
+                        "resource": "blue_origins:lightning_power"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:predicate",
+                        "predicate": "example:weather/is_thunderstorm"
+                    },
+                    "action": {
+                        "type": "origins:modify_resource",
+                        "modifier": {
+                            "operation": "add_base_early",
+                            "value": 20
+                        },
+                        "resource": "blue_origins:lightning_power"
+                    }
+                }
+            ]
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "lightning_discharge": {
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:set_on_fire",
@@ -71,8 +166,10 @@
         },
         "interval": 20,
         "condition": {
-            "type": "origins:on_fire"
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
         }
-    },
-
+    }
 }
