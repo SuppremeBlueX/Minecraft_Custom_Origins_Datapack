@@ -161,8 +161,12 @@
     "lightning_discharge": {
         "type": "origins:action_over_time",
         "entity_action": {
-            "type": "origins:set_on_fire",
-            "duration": 4
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -5
+            },
+            "resource": "blue_origins:lightning_power"
         },
         "interval": 20,
         "condition": {
