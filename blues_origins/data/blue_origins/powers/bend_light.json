@@ -24,7 +24,8 @@
                     "compare_to": 0
                 }
             ]
-        }
+        },
+        "retain_state": false
     },
 
     "invisibility": {
