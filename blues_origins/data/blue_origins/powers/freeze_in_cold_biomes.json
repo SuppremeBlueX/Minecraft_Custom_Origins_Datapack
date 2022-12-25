@@ -1,13 +1,24 @@
 {
     "type": "origins:freeze",
     "condition": {
-        "type": "origins:biome",
-        "condition": {
-            "type": "origins:temperature",
-            "comparison": "<=",
-            "compare_to": 0.3
-        }
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": "<=",
+                    "compare_to": 0.3
+                }
+            },
+            {      
+                "type": "origins:resource",
+                "resource": "blue_origins:fire_power",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        ]
     },
     "name": "\u00A7c\u00A7nFreeze in cold biomes",
-    "description": "You freeze while in cold biomes."
+    "description": "You freeze while in cold biomes once your Fire Power reaches 0."
 }
