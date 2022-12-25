@@ -15,12 +15,13 @@
 		"blue_origins:fiery_appetite",
 		"blue_origins:freeze_in_cold_biomes",
 		"blue_origins:avoid_cold_spawn",
+		"blue_origins:propulsion_reflex",
 		"blue_origins:pyro_fireball",
 		"blue_origins:fire_boost",
-		"blue_origins:propulsion_reflex",
+		"blue_origins:sun_form",
 		"blue_origins:lightning_strike",
 		"blue_origins:lightning_teleport",
-		"blue_origins:sun_form"
+		"blue_origins:bend_light"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,
