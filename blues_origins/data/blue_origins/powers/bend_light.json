@@ -1,0 +1,56 @@
+{
+
+    "type": "origins:multiple",
+
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                {      
+                    "type": "origins:resource",
+                    "resource": "blue_origins:light_power",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        }
+    },
+
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "light_dissipate_over_time":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -5
+            },
+            "resource": "blue_origins:light_power"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "name": "\u00A72\u00A7nBend Light",
+    "description": "You bend light around yourself, making yourself completely invisible."
+}
