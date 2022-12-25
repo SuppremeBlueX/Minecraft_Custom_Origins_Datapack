@@ -67,9 +67,8 @@
             "type": "origins:biome",
             "condition": {
                 "type": "origins:temperature",
-                "comparison": "<=",
-                "compare_to": 0.3,
-                "inverted": true
+                "comparison": ">",
+                "compare_to": 0.3
             }
         }
     },
