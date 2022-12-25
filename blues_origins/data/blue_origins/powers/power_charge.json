@@ -167,7 +167,7 @@
             },
             "resource": "blue_origins:lightning_power"
         },
-        "interval": 20,
+        "interval": 5,
         "condition": {
             "type": "origins:fluid_height",
             "fluid": "minecraft:water",
