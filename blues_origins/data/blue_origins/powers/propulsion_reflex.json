@@ -1,9 +1,38 @@
 {
-    "type": "origins:invulnerability",
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "fall"
+
+    "type": "origins:multiple",
+
+    "fall_immunity": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "blue_origins:fire_power",
+            "comparison": ">",
+            "compare_to": 0
+        }
     },
-    "name": "\u00A72\u00A7nPropulsion Reflex",
-    "description": "Your reflexes are quick enough that you automatically propell yourself against any fall damage you would take."
+
+    "fire_power_consume_on_landing": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -5
+            },
+            "resource": "blue_origins:fire_power"
+        },
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": ">",
+            "compare_to": 4
+        }
+    },
+    "name": "\u00A72\u00A7nPropulsion Reflex [Passive]",
+    "description": "While Fire-Power is Active, you propell yourself against any fall damage you would take."
+
 }
