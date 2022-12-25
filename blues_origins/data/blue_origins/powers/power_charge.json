@@ -79,6 +79,22 @@
             ]
         }
     },
+    "lightning_supercharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": 20
+            },
+            "resource": "blue_origins:lightning_power"
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:predicate",
+            "predicate": "example:weather/is_thunderstorm"
+        }
+    },
     "lightning_discharge": {
         "type": "origins:action_over_time",
         "entity_action": {
