@@ -14,46 +14,21 @@
         },
         "interval": 5,
         "condition": {
-            "type": "origins:or",
+            "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:and",
-                    "conditions": [
-                        {
-                            "type": "origins:biome",
-                            "condition": {
-                                "type": "origins:temperature",
-                                "comparison": ">",
-                                "compare_to": 0.3
-                            }
-                        },
-                        {      
-                            "type": "origins:fluid_height",
-                            "fluid": "minecraft:lava",
-                            "comparison": ">",
-                            "compare_to": 0
-                        }
-                    ]
+                    "type": "origins:biome",
+                    "condition": {
+                        "type": "origins:temperature",
+                        "comparison": ">",
+                        "compare_to": 0.3
+                    }
                 },
-                {    
-                    "type": "origins:and",
-                    "conditions": [
-                        {
-                            "type": "origins:biome",
-                            "condition": {
-                                "type": "origins:temperature",
-                                "comparison": ">",
-                                "compare_to": 0.3
-                            }
-                        },
-                        {      
-                            "type": "origins:on_block",
-                            "block_condition": {
-                                "type": "origins:block",
-                                "block": "minecraft:campfire"
-                              }
-                        }
-                    ]
+                {      
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:lava",
+                    "comparison": ">",
+                    "compare_to": 0
                 }
             ]
         }
