@@ -95,15 +95,41 @@
             "predicate": "example:weather/is_thunderstorm"
         }
     },
-    "lightning_discharge": {
+    "lightning_discharge_in_water": {
         "type": "origins:action_over_time",
         "entity_action": {
-            "type": "origins:modify_resource",
-            "modifier": {
-                "operation": "add_base_early",
-                "value": -5
-            },
-            "resource": "blue_origins:lightning_power"
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:modify_resource",
+                    "modifier": {
+                        "operation": "add_base_early",
+                        "value": -5
+                    },
+                    "resource": "blue_origins:lightning_power"
+                },
+                {    
+                    "type": "origins:area_of_effect",
+                    "radius": 5,
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 1,
+                            "source": {
+                                "name": "lightningBolt.player",
+                                "bypasses_armor": true
+                            }
+                        }
+                    },
+                    "bientity_condition": {
+                        "type": "origins:fluid_height",
+                        "fluid": "minecraft:water",
+                        "comparison": ">",
+                        "compare_to": 0
+                    }
+                }
+            ]
         },
         "interval": 5,
         "condition": {
