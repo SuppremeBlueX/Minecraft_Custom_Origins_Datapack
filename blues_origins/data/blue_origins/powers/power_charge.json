@@ -22,8 +22,18 @@
                 },
                 {
                     "condition": {
-                        "type": "origins:block",
-                        "block": "minecraft:campfire"
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:block",
+                                "block": "minecraft:campfire"
+                            },
+                            {
+                                "type": "origins:block_state",
+                                "property": "lit",
+                                "value": "true"
+                            }
+                        ]
                     },
                     "action": {
                         "type": "origins:modify_resource",
