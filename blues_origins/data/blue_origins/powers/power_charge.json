@@ -14,23 +14,10 @@
         },
         "interval": 5,
         "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:biome",
-                    "condition": {
-                        "type": "origins:temperature",
-                        "comparison": ">",
-                        "compare_to": 0.3
-                    }
-                },
-                {      
-                    "type": "origins:fluid_height",
-                    "fluid": "minecraft:lava",
-                    "comparison": ">",
-                    "compare_to": 0
-                }
-            ]
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:lava",
+            "comparison": ">",
+            "compare_to": 0
         }
     },
     "fire_power_discharge": {
