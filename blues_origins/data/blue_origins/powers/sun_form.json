@@ -7,6 +7,23 @@
         "active_by_default": false,
         "key": {
             "key": "key.saveToolbarActivator"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:fire_power",
+                    "comparison": "==",
+                    "compare_to": 1000
+                },
+                {      
+                    "type": "origins:resource",
+                    "resource": "blue_origins:light_power",
+                    "comparison": "==",
+                    "compare_to": 1000
+                }
+            ]
         }
     },
     "sun_glow": {
@@ -37,5 +54,5 @@
         }
     },
     "name": "\u00A72\u00A7nSun Form",
-    "description": "You take the form of the sun temporarily."
+    "description": "You become a small sun temporarily."
 }

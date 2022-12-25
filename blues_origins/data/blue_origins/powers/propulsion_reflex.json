@@ -32,7 +32,7 @@
             "compare_to": 4
         }
     },
-    "name": "\u00A72\u00A7nPropulsion Reflex [Passive]",
-    "description": "While Fire-Power is Active, you propell yourself against any fall damage you would take."
+    "name": "\u00A72\u00A7nPropulsion Reflex",
+    "description": "While you have fire-power, you propell yourself against any fall damage you would take."
 
 }
