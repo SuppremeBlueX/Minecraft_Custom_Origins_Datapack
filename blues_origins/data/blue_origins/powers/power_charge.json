@@ -72,7 +72,6 @@
             }
         }
     },
-
     "fire_power_discharge": {
         "type": "origins:action_over_time",
         "entity_action": {
