@@ -68,7 +68,8 @@
             "condition": {
                 "type": "origins:temperature",
                 "comparison": "<=",
-                "compare_to": 0.3
+                "compare_to": 0.3,
+                "inverted": true
             }
         }
     },
