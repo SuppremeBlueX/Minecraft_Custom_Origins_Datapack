@@ -41,7 +41,7 @@
             "type": "origins:modify_resource",
             "modifier": {
                 "operation": "add_base_early",
-                "value": -5
+                "value": -20
             },
             "resource": "blue_origins:light_power"
         },
