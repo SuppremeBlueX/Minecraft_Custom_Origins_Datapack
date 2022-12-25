@@ -23,15 +23,12 @@
                             "type": "origins:biome",
                             "condition": {
                                 "type": "origins:temperature",
-                                "comparison": ">",
+                                "comparison": "<=",
                                 "compare_to": 0.3
                             }
                         },
                         {      
-                            "type": "origins:fluid_height",
-                            "fluid": "minecraft:lava",
-                            "comparison": ">",
-                            "compare_to": 0
+                            "type": "origins:on_fire"
                         }
                     ]
                 },
@@ -42,7 +39,7 @@
                             "type": "origins:biome",
                             "condition": {
                                 "type": "origins:temperature",
-                                "comparison": ">",
+                                "comparison": "<=",
                                 "compare_to": 0.3
                             }
                         },
