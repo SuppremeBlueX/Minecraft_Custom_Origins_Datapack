@@ -6,7 +6,7 @@
         "type": "origins:toggle",
         "active_by_default": false,
         "key": {
-            "key": "key.origins.primary_active"
+            "key": "key.loadToolbarActivator"
         },
         "condition": {
             "type": "origins:and",
