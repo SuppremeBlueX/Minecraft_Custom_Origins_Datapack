@@ -40,6 +40,14 @@
                 "resource": "blue_origins:fire_power",
                 "comparison": ">=",
                 "compare_to": 50
+            },
+			{      
+                "type": "origins:biome",
+				"condition": {
+					"type": "origins:temperature",
+					"comparison": ">",
+					"compare_to": 0.3
+				}
             }
         ]
     },
