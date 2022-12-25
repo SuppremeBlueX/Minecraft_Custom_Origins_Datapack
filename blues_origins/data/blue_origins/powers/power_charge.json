@@ -92,7 +92,7 @@
         "interval": 5,
         "condition": {
             "type": "origins:predicate",
-            "predicate": "blue_origins:predicate/is_thundering"
+            "predicate": "example:weather/is_thunderstorm"
         }
     },
     "lightning_discharge": {
