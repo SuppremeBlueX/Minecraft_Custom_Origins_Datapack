@@ -20,12 +20,19 @@
                     "type": "origins:on_block"
                 },
                 {
-                    "type": "origins:resource",
-                    "resource": "blue_origins:power_of_light_fire_lightning",
-                    "comparison": "==",
-                    "compare_to": 3
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:air"
+                    }
                 }
             ]
+        },
+        "condition":{
+            "type": "origins:resource",
+            "resource": "blue_origins:power_of_light_fire_lightning",
+            "comparison": "==",
+            "compare_to": 3
         }
     },
 
