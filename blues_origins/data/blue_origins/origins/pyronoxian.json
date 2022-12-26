@@ -21,7 +21,6 @@
 		"blue_origins:sun_form",
 		"blue_origins:lightning_strike",
 		"blue_origins:lightning_teleport",
-		"blue_origins:light_passive",
 		"blue_origins:bend_light"
 	],
 	"icon": "minecraft:nether_star",
