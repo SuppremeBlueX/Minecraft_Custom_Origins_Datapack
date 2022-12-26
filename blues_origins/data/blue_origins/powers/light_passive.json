@@ -24,7 +24,8 @@
                     "block_condition": {
                         "type": "origins:block",
                         "block": "minecraft:air"
-                    }
+                    },
+                    "inverted": true
                 }
             ]
         },
@@ -48,6 +49,5 @@
         "red": 1.0,
         "green": 1.0,
         "blue": 1.0
-    },
-    "hidden":true
+    }
 }
