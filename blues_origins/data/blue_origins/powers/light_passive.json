@@ -19,6 +19,10 @@
                 {    
                     "type": "origins:block",
                     "block": "minecraft:end_portal"
+                },
+                {    
+                    "type": "origins:block",
+                    "block": "dimdoors:dimensional_portal"
                 }
             ]
         },
