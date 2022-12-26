@@ -14,13 +14,13 @@
                 {
                     "type": "origins:resource",
                     "resource": "blue_origins:fire_power",
-                    "comparison": "==",
+                    "comparison": ">",
                     "compare_to": 1000
                 },
                 {      
                     "type": "origins:resource",
                     "resource": "blue_origins:light_power",
-                    "comparison": "==",
+                    "comparison": ">",
                     "compare_to": 1000
                 },
                 {
@@ -28,18 +28,6 @@
                     "resource": "blue_origins:power_of_light_fire_lightning",
                     "comparison": "==",
                     "compare_to": 1
-                },
-                {      
-                    "type": "origins:resource",
-                    "resource": "blue_origins:fire_power",
-                    "comparison": ">",
-                    "compare_to": 0
-                },
-                {      
-                    "type": "origins:resource",
-                    "resource": "blue_origins:light_power",
-                    "comparison": ">",
-                    "compare_to": 0
                 }
             ]
         },
