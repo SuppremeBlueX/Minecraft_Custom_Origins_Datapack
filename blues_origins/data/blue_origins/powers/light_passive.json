@@ -18,6 +18,12 @@
                 },
                 {
                     "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 3
                 }
             ]
         }
@@ -25,8 +31,11 @@
 
     "glow": {
         "type": "origins:self_glow",
-        "bientity_condition": {
-            "type": "origins:can_see"
+        "entity_condition": {
+            "type": "origins:resource",
+            "resource": "blue_origins:power_of_light_fire_lightning",
+            "comparison": "==",
+            "compare_to": 3
         },
         "use_teams": false,
         "red": 1.0,
