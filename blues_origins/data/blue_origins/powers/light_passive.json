@@ -18,6 +18,17 @@
                 },
                 {
                     "type": "origins:on_block"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 3
                 },
                 {
                     "type": "origins:in_block",
@@ -28,12 +39,6 @@
                     "inverted": true
                 }
             ]
-        },
-        "condition":{
-            "type": "origins:resource",
-            "resource": "blue_origins:power_of_light_fire_lightning",
-            "comparison": "==",
-            "compare_to": 3
         }
     },
 
