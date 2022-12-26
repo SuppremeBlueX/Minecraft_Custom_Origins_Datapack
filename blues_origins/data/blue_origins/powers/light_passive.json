@@ -40,5 +40,7 @@
         "red": 1.0,
         "green": 1.0,
         "blue": 1.0
-    }
+    },
+    "name": "Light [Passive]",
+    "description": "while you have Light-Power, you can phase through any block that lets light through. While in Light form, you passively glow."
 }
