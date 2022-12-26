@@ -15,6 +15,10 @@
                 {    
                     "type": "origins:block",
                     "block": "minecraft:nether_portal"
+                },
+                {    
+                    "type": "origins:block",
+                    "block": "minecraft:end_portal"
                 }
             ]
         },
