@@ -4,20 +4,10 @@
 
     "phase_through_transparent_blocks": {
         "type": "origins:phasing",
-        "blacklist": false,
+        "blacklist": true,
         "render_type": "remove_blocks",
         "block_condition": {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:in_tag",
-                    "tag": "c:glass"
-                },
-                {    
-                    "type": "origins:in_tag",
-                    "tag": "c:glass_panes"
-                }
-            ]
+            "type": "origins:light_blocking"
         },
         "phase_down_condition": {
             "type": "origins:and",
