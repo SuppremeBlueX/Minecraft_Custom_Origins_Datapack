@@ -15,13 +15,13 @@
                     "type": "origins:resource",
                     "resource": "blue_origins:fire_power",
                     "comparison": ">",
-                    "compare_to": 1000
+                    "compare_to": 0
                 },
                 {      
                     "type": "origins:resource",
                     "resource": "blue_origins:light_power",
                     "comparison": ">",
-                    "compare_to": 1000
+                    "compare_to": 0
                 },
                 {
                     "type": "origins:resource",
