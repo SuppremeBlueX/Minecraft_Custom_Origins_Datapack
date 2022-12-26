@@ -30,7 +30,8 @@
                     "compare_to": 1
                 }
             ]
-        }
+        },
+        "retain_state": false
     },
     "sun_glow": {
         "type": "origins:stacking_status_effect",
@@ -54,6 +55,38 @@
     },
     "creative_fly_":{
         "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "light_power_use_over_time":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -40
+            },
+            "resource": "blue_origins:light_power"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "fire_power_use_over_time":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -40
+            },
+            "resource": "blue_origins:fire_power"
+        },
+        "interval": 20,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
