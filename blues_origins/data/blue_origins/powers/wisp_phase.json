@@ -4,8 +4,17 @@
     "render_type": "blindness",
     "view_distance": 1,
     "block_condition": {
-        "type": "origins:in_tag",
-        "tag": "origins:unphasable"
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "origins:unphasable"
+            },
+            {    
+                "type": "origins:block",
+                "block": "dimdoors:eternal_fluid"
+            }
+        ]
     },
     "name": "\u00A72\u00A7nPhasing",
     "description": "You can phase through blocks."
