@@ -10,6 +10,18 @@
                 "type": "origins:in_tag",
                 "tag": "origins:unphasable"
             },
+            {
+                "type": "origins:block",
+                "block": "minecraft:nether_portal"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:end_portal"
+            },
+            {    
+                "type": "origins:block",
+                "block": "dimdoors:dimensional_portal"
+            },
             {    
                 "type": "origins:block",
                 "block": "dimdoors:eternal_fluid"
