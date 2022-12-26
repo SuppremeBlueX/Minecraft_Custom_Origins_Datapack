@@ -8,7 +8,7 @@
         "render_type": "remove_blocks",
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "origins:unphasable"
+            "tag": "origins:transparent"
         },
         "phase_down_condition": {
             "type": "origins:and",
@@ -23,13 +23,15 @@
         }
     },
 
-    "invisibility": {
-        "type": "origins:invisibility",
-        "render_armor": false,
-        "condition": {
-            "type": "origins:power_active",
-            "power": "*:*_toggle"
-        }
-    }
-
+    "glow": {
+        "type": "origins:self_glow",
+        "bientity_condition": {
+            "type": "origins:can_see"
+        },
+        "use_teams": false,
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0
+    },
+    "hidden":true
 }
