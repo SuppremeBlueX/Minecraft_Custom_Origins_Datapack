@@ -44,7 +44,7 @@
             "value": 20,
             "name": "Increased armor"
         },
-        "tick_rate": 20,
+        "tick_rate": 1,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
