@@ -46,17 +46,26 @@
     },
 
     "glow": {
-        "type": "origins:self_glow",
-        "entity_condition": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack":20,
+        "effects": [
+            {
+                "effect": "minecraft:glowing",
+                "duration": 100,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        ],
+        "condition": {
             "type": "origins:resource",
             "resource": "blue_origins:power_of_light_fire_lightning",
             "comparison": "==",
             "compare_to": 3
-        },
-        "use_teams": false,
-        "red": 1.0,
-        "green": 1.0,
-        "blue": 1.0
+        }
     },
     "name": "Light [Passive]",
     "description": "While you have Light-Power, you can phase through any block that lets light through. While in Light form, you passively glow."
