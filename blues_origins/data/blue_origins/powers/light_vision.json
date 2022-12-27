@@ -7,7 +7,25 @@
         "strength": 1,
         "key": {
             "key": "key.saveToolbarActivator"
-        }
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:power_of_light_fire_lightning",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                {      
+                    "type": "origins:resource",
+                    "resource": "blue_origins:light_power",
+                    "comparison": ">",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "retain_state": false
     },
     "light_power_drain": {
         "type": "origins:action_over_time",
@@ -25,6 +43,6 @@
             "power": "*:*_toggle"
         }
     },
-    "name": "Enhanced Vision",
+    "name": "\u00A72\u00A7nEnhanced Vision",
     "description": "You become much more sensitive to light, enabling you to see in very dark places."
 }

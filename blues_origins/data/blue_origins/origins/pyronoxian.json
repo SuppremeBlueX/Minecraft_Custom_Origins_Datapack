@@ -22,11 +22,12 @@
 		"blue_origins:lightning_teleport",
 		"blue_origins:light_passive",
 		"blue_origins:bend_light",
-		"blue_origins:light_vision"
+		"blue_origins:light_vision",
+		"blue_origins:blink_teleport"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,
 	"impact": 3,
-	"name": "\u00A7kPyronoxian",
+	"name": "Pyronoxian",
 	"description": "You are infused with all aspects of fire, enabling you to manipulate fire, lightning, and light."
 }
