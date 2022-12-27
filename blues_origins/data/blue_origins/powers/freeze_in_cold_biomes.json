@@ -20,5 +20,5 @@
         ]
     },
     "name": "\u00A7c\u00A7nFreeze in cold biomes",
-    "description": "You freeze while in cold biomes."
+    "description": "You freeze while in cold biomes, losing heat over time. If you run out, you will freeze to death."
 }
