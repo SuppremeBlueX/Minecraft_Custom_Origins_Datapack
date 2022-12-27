@@ -92,6 +92,82 @@
             "power": "*:*_toggle"
         }
     },
+    "burn_water":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "fill ~-1 ~-5 ~-5 ~5 ~5 ~5 air replace water"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "burn_entities":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 16,
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:set_on_fire",
+                    "duration": 5
+                }
+            },
+            "bientity_condition": {
+                "type": "origins:can_see"
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "blind_on_activation":{
+        "type": "origins:action_over_time",
+        "rising_action": {
+            "type": "origins:area_of_effect",
+            "radius": 16,
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:blindness",
+                        "duration": 400,
+                        "amplifier": 0
+                    }
+                }
+            },
+            "bientity_condition": {
+                "type": "origins:can_see"
+            }
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "blue_origins:fire_power",
+                    "comparison": ">",
+                    "compare_to": 500
+                },
+                {      
+                    "type": "origins:resource",
+                    "resource": "blue_origins:light_power",
+                    "comparison": ">",
+                    "compare_to": 500
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle"
+                }
+            ]
+        }
+    },
     "name": "\u00A72\u00A7nSun Form",
-    "description": "You become a small sun temporarily."
+    "description": "You become a small sun temporarily. While in this form, you burn any water [5 blocks] and creatures around you [16 blocks]. You can also fly. If you have at least half power when this is activated, you blind nearby players. You cannot hold this form long though."
 }
