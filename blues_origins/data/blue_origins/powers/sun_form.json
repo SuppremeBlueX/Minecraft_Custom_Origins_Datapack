@@ -98,7 +98,7 @@
             "type": "origins:execute_command",
             "command": "fill ~-1 ~-5 ~-5 ~5 ~5 ~5 air replace water"
         },
-        "interval": 20,
+        "interval": 5,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
@@ -120,7 +120,7 @@
                 "type": "origins:can_see"
             }
         },
-        "interval": 20,
+        "interval": 5,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
