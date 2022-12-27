@@ -1,9 +1,8 @@
-
 {
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:emit_game_event",
-        "event": "minecraft:ring_bell"
+        "event": "minecraft:lightning_strike"
     },
     "interval": 1,
     "condition": {
