@@ -3,7 +3,7 @@
     "entity_action": {
 		"type": "origins:change_resource",
 		"resource": "blue_origins:time_resource",
-		"change": 1
+		"change": 3
 	},
 	"interval":5,
 	"hidden":true
