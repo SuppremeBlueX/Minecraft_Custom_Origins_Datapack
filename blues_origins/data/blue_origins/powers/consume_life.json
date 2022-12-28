@@ -12,7 +12,7 @@
                 "type": "origins:damage",
                 "amount": 4,
                 "source": {
-                "name": "consume_life"
+                "name": "consume_life.player"
                 }
             }   
         },
