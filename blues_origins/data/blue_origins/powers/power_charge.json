@@ -130,6 +130,12 @@
                         "name": "lightningBolt",
                         "bypasses_armor": true
                     }
+                },
+                "condition": {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0
                 }
             }
         },
