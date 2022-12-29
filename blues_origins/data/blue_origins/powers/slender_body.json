@@ -29,5 +29,5 @@
         }
     },
     "name": "\u00A7e\u00A7nSlender Body",
-    "You have less max health, but you are immune to kinetic damage."
+    "description": "You have less max health, but you are immune to kinetic damage."
 }

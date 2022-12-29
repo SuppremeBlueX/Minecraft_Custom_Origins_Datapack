@@ -3,8 +3,17 @@
 	"entity_action": {
 		"type": "origins:if_else",
 		"condition": {
-			"type": "origins:submerged_in",
-    		"fluid": "minecraft:water"
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:submerged_in",
+    				"fluid": "minecraft:water"
+				},
+				{    
+					"type": "origins:predicate",
+            		"predicate": "example:weather/is_raining"
+				}
+			]
 		},
 		"if_action": {
 			"type": "origins:add_velocity",
@@ -38,5 +47,5 @@
 		]
 	},
 	"name": "\u00A72\u00A7nSpeedy Dash",
-	"description": "You can propel yourself forward through the water or air. It is twice as effective underwater as in the air."
+	"description": "You can propel yourself forward through the water or air. It is twice as effective underwater as in the air, unless it is raining."
 }
