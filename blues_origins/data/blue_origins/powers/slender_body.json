@@ -1,0 +1,33 @@
+{
+
+    "type": "origins:multiple",
+
+    "kinetic_immunity": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:name",
+                    "name": "fall"
+                },
+                {    
+                    "type": "origins:name",
+                    "name": "flyIntoWall"
+                }
+            ]
+        }
+    },
+
+    "eight_hearts": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Max health decrease",
+            "attribute": "minecraft:generic.max_health",
+            "value": -4,
+            "operation": "addition"
+        }
+    },
+    "name": "\u00A7e\u00A7nSlender Body",
+    "You have less max health, but you are immune to kinetic damage."
+}
