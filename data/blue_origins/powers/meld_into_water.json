@@ -41,7 +41,7 @@
                                 },
                                 {    
                                     "type": "origins:delay",
-                                    "ticks": 3,
+                                    "ticks": 1,
                                     "action": {
                                         "type": "origins:execute_command",
                                         "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
