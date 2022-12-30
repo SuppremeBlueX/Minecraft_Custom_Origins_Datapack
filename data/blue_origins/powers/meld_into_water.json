@@ -22,80 +22,68 @@
         "entity_action": {
             "type": "origins:block_action_at",
             "block_action": {
-                "type": "origins:if_else",
-                "condition": {
-                    "type": "origins:or",
-                    "conditions": [
-                        {
+                "type": "origins:if_else_list",
+                "actions": [
+                    {
+                        "condition": {
                             "type": "origins:fluid",
                             "fluid_condition": {
                                 "type": "origins:empty",
                                 "inverted": true
                             }
                         },
-                        {    
-                            "type": "origins:in_block",
-                            "block_condition": {
-                                "type": "origins:block",
-                                "block": "minecraft:grass"
-                            }
-                        },
-                        {    
-                            "type": "origins:in_block",
-                            "block_condition": {
-                                "type": "origins:block",
-                                "block": "minecraft:dead_bush"
-                            }
-                        },
-                        {    
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:execute_command",
+                                    "command": "fill ~ ~ ~ ~ ~ ~ water replace water"
+                                },
+                                {    
+                                    "type": "origins:delay",
+                                    "ticks": 3,
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "condition": {
                             "type": "origins:in_block",
                             "block_condition": {
                                 "type": "origins:block_state",
                                 "property": "waterlogged",
                                 "value": false
                             }
-                        }
-                    ]
-                },
-                "if_action": {
-                    "type": "origins:execute_command",
-                    "command": "fill ~ ~ ~ ~ ~ ~ water replace water"
-                },
-                "else_action": {
-                    "type": "origins:and",
-                    "actions": [
-                        {
-                            "type": "origins:execute_command",
-                            "command": "fill ~ ~ ~ ~ ~ ~ water replace air"
                         },
-                        {    
-                            "type": "origins:delay",
-                            "ticks": 3,
-                            "action": {
-                                "type": "origins:execute_command",
-                                "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
-                            }
+                        "action": {
+                            "type": "origins:modify_block_state",
+                            "property": "waterlogged",
+                            "value": true
                         }
-                    ]
-                }
+                    }
+                ]
+            },
+            "interval": 3,
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:power_active",
+                        "power": "*:*_toggle"
+                    },
+                    {      
+                        "type": "origins:dimension",
+                        "dimension": "minecraft:the_nether",
+                        "inverted": true
+                    }
+                ]
             }
-        },
-        "interval": 3,
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:power_active",
-                    "power": "*:*_toggle"
-                },
-                {      
-                    "type": "origins:dimension",
-                    "dimension": "minecraft:the_nether",
-                    "inverted": true
-                }
-            ]
         }
-    },
+     },
     "small_size": {
         "type": "origins:action_over_time",
         "rising_action":{
