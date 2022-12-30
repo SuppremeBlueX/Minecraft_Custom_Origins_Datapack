@@ -164,9 +164,8 @@
         }
     },
     "clear_vision_underwater":{
-        "type": "origins:toggle_night_vision",
+        "type": "origins:night_vision",
         "strength": 1.0,
-        "active_by_default": false,
         "condition": {
             "type": "origins:and",
             "conditions": [
@@ -187,7 +186,7 @@
             "type": "origins:damage",
             "amount": 1000,
             "source": {
-                "name": "dryout",
+                "name": "nether_evaporation",
                 "bypasses_armor": true
             }
         },
@@ -212,7 +211,7 @@
             "type": "origins:damage",
             "amount": 1000,
             "source": {
-                "name": "dryout",
+                "name": "sponge_dried",
                 "bypasses_armor": true
             }
         },
