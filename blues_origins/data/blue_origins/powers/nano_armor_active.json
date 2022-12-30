@@ -122,6 +122,22 @@
             "key": "key.origins.primary_active"
         }
     },
+    "consume_power_over_time":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "add_base_early",
+                "value": -1
+            },
+            "resource": "blue_origins:nano_armor_charge"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
     "name": "\u00A72\u00A7nPower-up",
     "description": "Once the armor is powered up, you can toggle it on and off. It provides 20 armor and an energy attack that can be activated with [key.origins.primary_active]. This energy attack consumes some power."
 }
