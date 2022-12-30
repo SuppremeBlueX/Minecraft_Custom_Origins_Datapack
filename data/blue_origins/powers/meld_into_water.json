@@ -186,7 +186,7 @@
             "type": "origins:damage",
             "amount": 1000,
             "source": {
-                "name": "nether_evaporation",
+                "name": "evaporation",
                 "bypasses_armor": true
             }
         },
