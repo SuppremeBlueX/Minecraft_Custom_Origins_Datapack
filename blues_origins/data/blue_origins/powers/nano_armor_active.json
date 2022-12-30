@@ -81,7 +81,7 @@
                     "type": "origins:damage",
                     "amount": 8,
                     "source": {
-                        "name": "magic.player"
+                        "name": "energized_beam"
                     }
                 }
             },
