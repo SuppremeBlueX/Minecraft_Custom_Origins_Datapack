@@ -33,21 +33,8 @@
                             }
                         },
                         "action": {
-                            "type": "origins:and",
-                            "actions": [
-                                {
-                                    "type": "origins:execute_command",
-                                    "command": "fill ~ ~ ~ ~ ~ ~ water replace water"
-                                },
-                                {    
-                                    "type": "origins:delay",
-                                    "ticks": 1,
-                                    "action": {
-                                        "type": "origins:execute_command",
-                                        "command": "fill ~ ~ ~ ~ ~ ~ air replace water"
-                                    }
-                                }
-                            ]
+                            "type": "origins:execute_command",
+                            "command": "fill ~ ~ ~ ~ ~ ~ water[level=2] replace air"
                         }
                     },
                     {
