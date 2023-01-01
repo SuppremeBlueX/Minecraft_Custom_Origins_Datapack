@@ -170,7 +170,7 @@
     },
     "sun_hud": {
         "type": "origins:overlay",
-        "texture": "minecraft:textures/block/magma.png",
+        "texture": "minecraft:textures/environment/sun.png",
         "strength": 0.2,
         "red": 1.0,
         "green": 1.0,
