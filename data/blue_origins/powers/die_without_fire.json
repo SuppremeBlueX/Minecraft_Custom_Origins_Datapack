@@ -23,5 +23,6 @@
         "resource": "blue_origins:fire_power",
         "comparison": "==",
         "compare_to": 0
-    }
+    },
+    "hidden": true
 }
