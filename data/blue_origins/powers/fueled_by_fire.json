@@ -30,7 +30,8 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:feed",
-            "food": 2
+            "food": 2,
+            "saturation": 0
         },
         "interval": 20,
         "condition": {
