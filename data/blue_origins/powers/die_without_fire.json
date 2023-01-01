@@ -1,0 +1,27 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"You are out of heat! Get some immediately!\", \"color\": \"red\"}"
+    },
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+        "source": {
+            "name": "snuff",
+            "bypasses_armor": true,
+            "unblockable": true
+        }
+    },
+    "falling_action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"You have heat now.\", \"color\": \"green\"}"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "blue_origins:fire_power",
+        "comparison": "==",
+        "compare_to": 0
+    }
+}

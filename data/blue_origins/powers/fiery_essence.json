@@ -17,6 +17,15 @@
         "particle": "minecraft:flame",
         "frequency": 1
     },
-    "name": "\u00A72\u00A7nFiery Essence",
-    "description": "Your fiery essence provides you with immunity to being blinded, hungered, poisoned, and withered."
+
+    "no_need_for_oxygen":{
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "agape.suffocate"
+        }
+    },
+
+    "name": "\u00A7e\u00A7nFiery Essence",
+    "description": "Your fiery essence provides you with immunity to being blinded, hungered, poisoned, and withered. If you run out of fire-power though, you will begin to die."
 }

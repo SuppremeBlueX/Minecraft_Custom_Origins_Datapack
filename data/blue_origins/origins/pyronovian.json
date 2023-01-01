@@ -23,8 +23,7 @@
 		"blue_origins:light_passive",
 		"blue_origins:bend_light",
 		"blue_origins:light_vision",
-		"blue_origins:blink_teleport",
-		"blue_origins:no_oxygen"
+		"blue_origins:blink_teleport"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,

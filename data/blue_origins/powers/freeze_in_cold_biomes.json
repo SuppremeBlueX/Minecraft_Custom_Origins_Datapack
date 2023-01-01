@@ -14,11 +14,11 @@
             {      
                 "type": "origins:resource",
                 "resource": "blue_origins:fire_power",
-                "comparison": "==",
-                "compare_to": 0
+                "comparison": "<",
+                "compare_to": 100
             }
         ]
     },
     "name": "\u00A7c\u00A7nFreeze in cold biomes",
-    "description": "You freeze while in cold biomes, losing heat over time. If you run out, you will freeze to death."
+    "description": "You freeze while in cold biomes, losing heat over time. Once your heat gets low enough, you start freezing."
 }
