@@ -25,6 +25,18 @@
             "name": "agape.suffocate"
         }
     },
+    "respawn_with_partial_fire_power":{
+        "type": "origins:action_on_callback",
+        "entity_action_respawned": {
+            "type": "origins:modify_resource",
+            "modifier": {
+                "operation": "set_total",
+                "value": 400
+            },
+            "resource": "blue_origins:fire_power"
+        },
+        "execute_chosen_when_orb": false
+    },
 
     "name": "\u00A7e\u00A7nFiery Essence",
     "description": "Your fiery essence provides you with immunity to being blinded, hungered, poisoned, and withered. If you run out of fire-power though, you will begin to die."
