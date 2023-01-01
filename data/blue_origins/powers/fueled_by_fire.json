@@ -11,12 +11,12 @@
         "description": "Your body instantly burns up any food that would enter you, preventing you from being able to eat food."
     },
 
-    "fire-fuel": {
+    "lava-fuel": {
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:feed",
-            "food": 2,
-            "saturation": 0.125
+            "food": 4,
+            "saturation": 0.25
         },
         "interval": 20,
         "condition": {
@@ -24,6 +24,17 @@
             "fluid": "minecraft:lava",
             "comparison": ">",
             "compare_to": 0
+        }
+    },
+    "sun-fuel": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:exposed_to_sun"
         }
     },
     "name": "\u00A7c\u00A7nHeat-fueled",
