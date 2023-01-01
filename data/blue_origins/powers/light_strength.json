@@ -67,8 +67,8 @@
                 "show_icon": false
             },
             {
-                "effect": "minecraft:saturation",
-                "amplifier": 0,
+                "effect": "minecraft:speed",
+                "amplifier": 1,
                 "is_ambient": true,
                 "show_particles": false,
                 "show_icon": false

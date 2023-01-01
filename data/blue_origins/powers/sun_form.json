@@ -168,6 +168,22 @@
             ]
         }
     },
+    "sun_hud": {
+        "type": "origins:overlay",
+        "texture": "minecraft:textures/block/magma.png",
+        "strength": 0.3,
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "draw_mode": "texture",
+        "draw_phase": "below_hud",
+        "hide_with_hud": false,
+        "visible_in_third_person": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
     "name": "\u00A72\u00A7nSun Form",
     "description": "You become a small sun temporarily. While in this form, you burn any water [5 blocks] and creatures around you [16 blocks]. You can also fly. If you have at least half power when this is activated, you blind nearby players. You cannot hold this form long though, as your fire and light powers burn out quickly in this form."
 }
