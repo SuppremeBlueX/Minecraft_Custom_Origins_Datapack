@@ -34,12 +34,6 @@
                 "value": 400
             },
             "resource": "blue_origins:fire_power"
-        },
-        "condition": {
-            "type": "origins:resource",
-            "resource": "blue_origins:fire_power",
-            "comparison": "==",
-            "compare_to": 0
         }
     },
 
