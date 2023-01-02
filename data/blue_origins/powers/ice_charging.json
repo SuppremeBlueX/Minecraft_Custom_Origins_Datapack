@@ -12,5 +12,6 @@
         "key": "key.origins.primary_active",
         "continuous": true
     },
-    "name": ""
+    "name": "Encase into Ice",
+    "description": "You charge up your ability by holding down [primary]. After a little bit, you are completely encased in a form of inpenetrable ice for 20 seconds. During this time, you cannot move or see, but you cannot take any damage."
 }
