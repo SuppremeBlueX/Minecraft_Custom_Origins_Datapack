@@ -23,7 +23,7 @@
 
     "self_freeze": {
         "type": "origins:action_over_time",
-        "entity_action": {
+        "rising_action": {
             "type": "origins:delay",
             "ticks": 400,
             "action":{
@@ -31,11 +31,10 @@
                 "power": "*:*_toggle"
             }
         },
-        "interval": 20,
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
         }
-    }
-
+    },
+    "hidden": true
 }

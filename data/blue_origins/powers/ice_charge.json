@@ -4,5 +4,6 @@
     "max": 100,
     "hud_render": {
         "should_render": true
-    }
+    },
+    "hidden": true
 }
