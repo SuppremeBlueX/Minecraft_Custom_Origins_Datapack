@@ -6,7 +6,10 @@
 		"blue_origins:nano_armor_active",
 		"blue_origins:psionic_blast_charge",
 		"blue_origins:psionic_blast_buildup",
-		"blue_origins:psionic_blast"
+		"blue_origins:psionic_blast",
+		"blue_origins:ice_charge",
+		"blue_origins:ice_charhing",
+		"blue_origins:encase_in_ice"
 	],
 	"icon": "minecraft:heart_of_the_sea",
 	"order": 10,
