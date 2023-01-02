@@ -9,7 +9,7 @@
         "resource": "blue_origins:ice_charge"
     },
     "key": {
-        "key": "key.origins.secondary_active",
+        "key": "key.origins.primary_active",
         "continuous": true
     },
     "name": ""
