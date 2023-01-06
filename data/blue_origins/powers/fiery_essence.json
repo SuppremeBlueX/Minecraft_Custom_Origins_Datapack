@@ -22,7 +22,14 @@
         "type": "origins:invulnerability",
         "damage_condition": {
             "type": "origins:name",
-            "name": "agape.suffocate"
+            "name": "oxygen"
+        }
+    },
+    "rocket_fire_is_still_fire":{
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "rocket_flames"
         }
     },
     "respawn_with_partial_fire_power":{
