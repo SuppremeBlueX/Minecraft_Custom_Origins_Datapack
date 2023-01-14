@@ -13,7 +13,7 @@
                 "type": "origins:damage",
                 "amount": 4,
                 "source": {
-                    "name": "hurt_by_water.player"
+                    "name": "water_breath"
                 }
             }
         },
