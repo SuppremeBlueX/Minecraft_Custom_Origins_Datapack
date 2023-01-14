@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:allay_spawn_egg",
+	"order": 10,
+	"impact": 3,
+	"name": "\u00A7kRaider",
+	"description": "You are allied with the illagers. They love you, but this means you are enemies with villagers & iron golems."
+}
