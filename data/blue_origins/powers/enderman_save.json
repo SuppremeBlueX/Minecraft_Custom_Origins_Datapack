@@ -38,7 +38,7 @@
             "comparison": "<=",
             "compare_to": 10
         },
-        "cooldown": 200
+        "cooldown": 10
     },
 
     "void_save": {
