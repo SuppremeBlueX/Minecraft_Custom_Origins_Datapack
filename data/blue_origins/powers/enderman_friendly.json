@@ -45,7 +45,7 @@
         "type": "origins:modify_damage_dealt",
         "bientity_condition": {
             "type": "origins:entity_type",
-        "entity_type": "minecraft:enderman"
+            "entity_type": "minecraft:enderman"
         },
         "modifier": {
             "operation": "multiply_total",
