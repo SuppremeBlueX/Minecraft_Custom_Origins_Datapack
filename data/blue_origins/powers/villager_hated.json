@@ -28,7 +28,7 @@
             "type": "origins:target_action",
             "action": {
                 "type": "origins:execute_command",
-                "command": "say You are no friend of ours!" 
+                "command": "title @s actionbar {\"text\":\"This villager will not trade with you\", \"bold\":true, \"italic\":true, \"color\":\"red\"}",
             }
         },
         "bientity_condition": {
