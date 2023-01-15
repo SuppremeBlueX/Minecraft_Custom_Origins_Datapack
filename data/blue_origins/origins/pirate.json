@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:pirate_weaponry"
+		"blue_origins:pirate_weaponry",
+        "blue_origins:treasure_hunter"
 	],
 	"icon": "minecraft:tripwire_hook",
 	"order": 1,

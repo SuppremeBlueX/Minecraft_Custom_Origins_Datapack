@@ -14,5 +14,7 @@
         "name": "Extra damage with rapiers/cutlasses",
         "operation": "addition",
         "value": 5.0
-    }
+    },
+    "name": "Pirate Weaponry",
+    "description": "Your favorite weapons are cutlasses and rapiers, and you deal significantly more damage with them and less with every other weapon. [Requires Simply Swords mod]"
 }

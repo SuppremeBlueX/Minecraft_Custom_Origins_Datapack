@@ -1,0 +1,63 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:luck",
+            "duration": 20,
+            "amplifier": 4
+        }
+    },
+    "interval": 10,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "minecraft:map"
+                            }
+                        }
+                    },
+                    {    
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "minecraft:map"
+                            }
+                        }
+                    }
+                ]
+            },
+            {      
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:category",
+                            "category": "beach"
+                        }
+                    },
+                    {    
+                        "type": "origins:biome",
+                        "condition": {
+                            "type": "origins:category",
+                            "category": "ocean"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "name": "Treasure Hunter",
+    "description": "While holding a map, you have a better chance of getting great rewards when looting chests on the beach or in the ocean."
+}
