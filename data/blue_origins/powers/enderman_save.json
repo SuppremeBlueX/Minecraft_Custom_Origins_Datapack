@@ -70,7 +70,24 @@
         "damage_condition": {
             "type": "origins:out_of_world"
         },
-        "cooldown": 10
+        "cooldown": 10,
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:overworld"
+                },
+                {    
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_nether"
+                },
+                {    
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:the_end"
+                }
+            ]
+        }
     },
     "name": "\u00A72\u00A7nNew friends",
     "description": "Your new friends are always watching. Who knows, one might even save you from a dangerous situation"
