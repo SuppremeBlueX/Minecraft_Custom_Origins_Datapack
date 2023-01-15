@@ -31,15 +31,15 @@
                     }
                 ]
             },
-            "chance": 0.2
+            "chance": 0.33
         },
         "condition": {
             "type": "origins:and",
             "conditions": [
                 {
                     "type": "origins:health",
-                    "comparison": ">",
-                    "compare_to": 0
+                    "comparison": "<",
+                    "compare_to": 8
                 },
                 {      
                     "type": "origins:or",
