@@ -13,7 +13,7 @@
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "team join Team_Enderman @s"
+                    "command": "team join Team_Ender @s"
                 }
             ]
         },
