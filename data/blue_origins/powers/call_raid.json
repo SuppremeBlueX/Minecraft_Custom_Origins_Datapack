@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:bad_omen",
+            "duration": 20
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:goat_horn"
+        }
+    },
+    "name": "A bad omen indeed",
+    "description": "When using a goat horn, you get bad omen for 1 second"
+}
