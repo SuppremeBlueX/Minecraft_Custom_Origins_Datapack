@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:enderman_spawn_egg",
+	"order": 1,
+	"impact": 0,
+	"name": "Enderman Whisperer",
+	"description": "The endermen do not see you like the others."
+}

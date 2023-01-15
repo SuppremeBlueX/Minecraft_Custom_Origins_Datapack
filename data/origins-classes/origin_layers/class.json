@@ -2,7 +2,8 @@
     "order": 2,
     "replace": false,
     "origins": [
-      "blue_origins:raider_class"
+      "blue_origins:raider_class",
+      "blue_origins:enderman_whisperer"
     ]
   }
   
