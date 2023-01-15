@@ -32,7 +32,7 @@
         }
     },
 
-    "team_illager": {
+    "team_ender": {
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
