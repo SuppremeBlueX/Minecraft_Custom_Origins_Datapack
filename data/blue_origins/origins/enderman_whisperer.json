@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:enderman_friendly"
+		"blue_origins:enderman_friendly",
+        "blue_origins:enderman_save"
 	],
 	"icon": "minecraft:ender_pearl",
 	"order": 1,
