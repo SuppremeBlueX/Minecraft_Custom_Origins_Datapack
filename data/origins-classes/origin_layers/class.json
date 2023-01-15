@@ -1,6 +1,8 @@
 {
-    "replace": false,
+    "order": 1,
+    "replace": true,
     "origins": [
-        "blue_origins:raider_class"
+      "blue_origins:raider_class"
     ]
-}
+  }
+  
