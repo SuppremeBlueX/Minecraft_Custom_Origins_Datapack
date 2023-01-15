@@ -17,6 +17,16 @@
                     "type": "origins:execute_command",
                     "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..20] run data modify entity @s AngerTime set value 60",
                     "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=guardvillagers:guard,distance=..20] run data modify entity @s AngryAt set from entity @p[team=Team_Illager] UUID",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=guardvillagers:guard,distance=..20] run data modify entity @s AngerTime set value 60",
+                    "permission_level": 2
                 }
             ]
         }
