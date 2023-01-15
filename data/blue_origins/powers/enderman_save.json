@@ -15,7 +15,7 @@
                     },
                     {
                         "type": "origins:execute_command",
-                        "command": "spreadplayers ~ ~ 1 150 under 127 false @s"
+                        "command": "spreadplayers ~ ~ 1 150 under 320 false @s"
                     },
                     {
                         "type": "origins:execute_command",
