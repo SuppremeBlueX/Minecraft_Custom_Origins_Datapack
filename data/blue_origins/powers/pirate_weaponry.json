@@ -6,7 +6,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "blue_origins:pirate_weapons"
+                "tag": "example:pirate_weapons"
             }
         }
     },
