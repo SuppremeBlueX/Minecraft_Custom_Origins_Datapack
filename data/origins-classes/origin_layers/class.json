@@ -3,7 +3,8 @@
     "replace": false,
     "origins": [
       "blue_origins:raider_class",
-      "blue_origins:enderman_whisperer"
+      "blue_origins:enderman_whisperer",
+      "blue_origins:pirate"
     ]
   }
   

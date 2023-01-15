@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"blue_origins:pirate_weaponry"
+	],
+	"icon": "minecraft:tripwire_hook",
+	"order": 1,
+	"impact": 0,
+	"name": "Pirate",
+	"description": "Arrrr!!"
+}
