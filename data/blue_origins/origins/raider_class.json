@@ -2,9 +2,9 @@
 	"powers": [
 		"origins:simple"
 	],
-	"icon": "minecraft:white_banner",
+	"icon": "minecraft:black_banner",
 	"order": 1,
 	"impact": 1,
-	"name": "\u00A7kRaider",
+	"name": "Raider",
 	"description": "You are allied with the illagers. This also makes you a natural enemy of villagers."
 }
