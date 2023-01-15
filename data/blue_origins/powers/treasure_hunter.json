@@ -44,14 +44,14 @@
                         "type": "origins:biome",
                         "condition": {
                             "type": "origins:category",
-                            "category": "beach"
+                            "tag": "example:beach"
                         }
                     },
                     {    
                         "type": "origins:biome",
                         "condition": {
                             "type": "origins:category",
-                            "category": "ocean"
+                            "tag": "example:ocean"
                         }
                     }
                 ]
