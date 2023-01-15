@@ -1,8 +1,54 @@
 {
-    "type": "origins:self_action_when_hit",
-    "entity_action": {
-        "type": "origins:chance",
-        "action": {
+
+    "type": "origins:multiple",
+
+    "damage_save": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "particle minecraft:portal ~ ~ ~ 0.5 0.5 0.7 5 100 force @a"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "spreadplayers ~ ~ 1 150 under 127 false @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "particle minecraft:reverse_portal ~ ~ ~ 0.3 0.3 0.5 5 100 force @a"
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.enderman.teleport"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "summon enderman"
+                    }
+                ]
+            },
+            "chance": 0.25
+        },
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<=",
+            "compare_to": 10
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "hurt_by_water",
+            "inverted": true
+        },
+        "cooldown": 200
+    },
+
+    "void_save": {
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
             "type": "origins:and",
             "actions": [
                 {
@@ -27,19 +73,11 @@
                 }
             ]
         },
-        "chance": 0.25
+        "damage_condition": {
+            "type": "origins:out_of_world"
+        },
+        "cooldown": 10
     },
-    "condition": {
-        "type": "origins:health",
-        "comparison": "<=",
-        "compare_to": 10
-    },
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "hurt_by_water",
-        "inverted": true
-    },
-    "cooldown": 200,
     "name": "\u00A72\u00A7nNew friends",
     "description": "Your new friends are always watching. Who knows, one might even save you from a dangerous situation"
 }
