@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:illager_allies"
+		"blue_origins:illager_allies",
+		"blue_origins:villager_hated"
 	],
 	"icon": {
 		"item": "minecraft:white_banner",
