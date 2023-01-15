@@ -29,12 +29,12 @@
         },
         "chance": 0.25
     },
-    "bientity_condition": {
+    "condition": {
         "type": "origins:actor_condition",
         "condition": {
             "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 7
+            "comparison": "<=",
+            "compare_to": 10
         }
     },
     "damage_condition": {
