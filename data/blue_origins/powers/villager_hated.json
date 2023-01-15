@@ -24,13 +24,6 @@
 
     "cannot_trade":{
         "type": "origins:prevent_entity_use",
-        "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-                "type": "origins:execute_command",
-                "command": "title @s actionbar {\"text\":\"This villager will not trade with you\", \"bold\":true, \"italic\":true, \"color\":\"red\"}",
-            }
-        },
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
