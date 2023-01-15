@@ -31,12 +31,12 @@
                     }
                 ]
             },
-            "chance": 0.125
+            "chance": 0.25
         },
         "condition": {
             "type": "origins:health",
-            "comparison": "<=",
-            "compare_to": 10
+            "comparison": ">",
+            "compare_to": 0
         }
     },
 
