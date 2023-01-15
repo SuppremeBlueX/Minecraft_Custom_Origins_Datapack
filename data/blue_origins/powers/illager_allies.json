@@ -1,0 +1,46 @@
+{
+
+    "type": "origins:multiple",
+
+    "illager_allied": {
+        "type": "origins:action_on_callback",
+        "entity_action_gained": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team add Team_Illager"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join Team_Illager @s"
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team leave @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team remove Team_Illager"
+                }
+            ]
+        }
+    },
+
+    "team_illager": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "team join Team_Illager @e[type=#minecraft:raiders]"
+        },
+        "interval": 1
+    },
+    "name": "Illager Allied",
+    "description": "You are allied with the illagers, but villagers hate you. You are unable to trade with them and iron golems will kill you on sight."
+
+}
