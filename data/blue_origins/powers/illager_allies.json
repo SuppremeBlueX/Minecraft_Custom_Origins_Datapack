@@ -42,9 +42,9 @@
             "type": "origins:execute_command",
             "command": "team join Team_Illager @e[type=#minecraft:raiders,team=!Illager_defend]"
         },
-        "interval": 1,
-        "condition":
+        "interval": 1
     },
+
     "defend_when_attacked":{
         "type": "origins:action_on_hit",
         "bientity_action": {
