@@ -13,6 +13,10 @@
                 },
                 {
                     "type": "origins:execute_command",
+                    "command": "team add Illager_defend"
+                },
+                {
+                    "type": "origins:execute_command",
                     "command": "team join Team_Illager @s"
                 }
             ]
@@ -36,11 +40,32 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "team join Team_Illager @e[type=#minecraft:raiders]"
+            "command": "team join Team_Illager @e[type=#minecraft:raiders,team=!Illager_defend]"
         },
-        "interval": 1
+        "interval": 1,
+        "condition":
+    },
+    "defend_when_attacked":{
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "team join Illager_defend"
+                    },
+                    {    
+                        "type": "origins:execute_command",
+                        "command": "team leave Team_Illager"
+                    }
+                ]
+            }
+        }
+
     },
     "name": "Illager Allied",
-    "description": "You are allied with the illagers, but villagers hate you. You are unable to trade with them and iron golems will kill you on sight."
+    "description": "You are allied with the illagers, but they will defend themselves when attacked."
 
 }
