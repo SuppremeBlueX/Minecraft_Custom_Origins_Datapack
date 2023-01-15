@@ -30,12 +30,9 @@
         "chance": 0.25
     },
     "condition": {
-        "type": "origins:actor_condition",
-        "condition": {
-            "type": "origins:health",
-            "comparison": "<=",
-            "compare_to": 10
-        }
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 10
     },
     "damage_condition": {
         "type": "origins:name",
