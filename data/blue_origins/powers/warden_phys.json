@@ -5,14 +5,6 @@
 	"duration_per_stack":20,
 	"effects": [
 		{
-			"effect": "minecraft:blindness",
-			"duration": 100,
-			"amplifier": 0,
-			"is_ambient": true,
-			"show_particles": false,
-			"show_icon": false
-		},
-		{
 			"effect": "minecraft:strength",
 			"duration": 100,
 			"amplifier": 3,
@@ -38,5 +30,5 @@
 		}
 	],
 	"name": "\u00A7e\u00A7nWarden Physiology",
-	"description": "As a Warden, you are blind, but are really strong, resistant, can mine faster, and have more health."
+	"description": "As a Warden, you are really strong, resistant, can mine faster, and have more health."
 }
