@@ -35,11 +35,10 @@
 
     "spot_pestilence":{
         "type": "origins:entity_glow",
-        "bientity_condition": {   
-            "type": "origins:scoreboard",
-            "objective": "Pestilence",
-            "comparison": ">",
-            "compare_to": 0
+        "bientity_condition": {
+            "type": "origins:distance",
+            "comparison": "<=",
+            "compare_to": 50
         },
         "use_teams": false,
         "red": 1.0,
