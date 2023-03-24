@@ -4,9 +4,9 @@
 
     "dark": {
         "type": "origins:model_color",
-        "red": 1.0,
-        "green": 1.0,
-        "alpha": 1.0
+        "red": 0.1,
+        "green": 0.1,
+        "blue": 0.1
     },
 
     "effect_immunity": {
