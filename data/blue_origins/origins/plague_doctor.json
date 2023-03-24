@@ -1,7 +1,8 @@
 {
 	"powers": [
 		"blue_origins:comfort_food",
-        "blue_origins:suit_or_skin"
+        "blue_origins:suit_or_skin",
+        "blue_origins:death_touch"
 	],
 	"icon": "minecraft:milk_bucket",
 	"order": 10,
