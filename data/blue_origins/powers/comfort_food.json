@@ -21,7 +21,7 @@
             "food": 1,
             "saturation": 0
         },
-        "interval": 20,
+        "interval": 5,
         "condition": {
             "type": "origins:food_level",
             "comparison": "<",
