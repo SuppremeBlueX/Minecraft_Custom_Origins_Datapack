@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins:simple"
+	],
+	"icon": "minecraft:milk_bucket",
+	"order": 10,
+	"impact": 3,
+	"name": "\u00A7kPlague Doctor",
+	"description": "Based on SCP-049, you are an entity that seeks to cure everyone and everything of something called 'The Pestilence'."
+}
