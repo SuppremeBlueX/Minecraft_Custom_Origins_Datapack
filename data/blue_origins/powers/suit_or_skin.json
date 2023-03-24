@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max armor increase",
+        "attribute": "minecraft:generic.armor",
+        "value": 10,
+        "operation": "addition"
+    },
+    "name": "Is it a suit or is it skin?",
+	"description": "Your...<ahem>.. suit and beak act as natural armor. This also means that you cannot wear any other armor except an elytra."
+}
