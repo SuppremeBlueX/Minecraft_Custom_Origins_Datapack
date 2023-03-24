@@ -1,10 +1,11 @@
 {
 	"powers": [
-		"blue_origins:comfort_food"
+		"blue_origins:comfort_food",
+        "blue_origins:suit_or_skin"
 	],
 	"icon": "minecraft:milk_bucket",
 	"order": 10,
 	"impact": 3,
-	"name": "\u00A7kPlague Doctor",
+	"name": "Plague Doctor",
 	"description": "Based on SCP-049, you are an entity that seeks to cure everyone and everything of something called 'The Pestilence'."
 }
