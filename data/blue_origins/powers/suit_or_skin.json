@@ -1,10 +1,38 @@
 {
-    "type": "origins:attribute",
-    "modifier": {
-        "name": "Max armor increase",
-        "attribute": "minecraft:generic.armor",
-        "value": 10,
-        "operation": "addition"
+
+    "type": "origins:multiple",
+
+    "no_armor_with_armor_points": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "chest": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "legs": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "feet": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "natural_armor": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Max armor increase",
+            "attribute": "minecraft:generic.armor",
+            "value": 10,
+            "operation": "addition"
+        }
     },
     "name": "Is it a suit or is it skin?",
 	"description": "Your...<ahem>.. suit and beak act as natural armor. This also means that you cannot wear any other armor except an elytra."
