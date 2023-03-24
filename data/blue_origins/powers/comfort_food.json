@@ -1,0 +1,34 @@
+{
+
+    "type": "origins:multiple",
+
+    "no_hunger_increase_from_food": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:food"
+        },
+        "food_modifier": {
+            "name": "No food points",
+            "operation": "set_total",
+            "value": 0.0
+        }
+    },
+
+    "remain_at_near_max_hunger": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 1,
+            "saturation": 0
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": "<",
+            "compare_to": 19
+        }
+    },
+    "name": "\u00A7c\u00A7nNo need for sustenance",
+    "description": "You don't need food to survive, but you can eat if you want to."
+
+}
