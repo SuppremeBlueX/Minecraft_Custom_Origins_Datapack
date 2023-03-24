@@ -9,7 +9,7 @@
         },
         "food_modifier": {
             "name": "No food points",
-            "operation": "set_total",
+            "operation": "multiply_total_additive",
             "value": 0.0
         }
     },
