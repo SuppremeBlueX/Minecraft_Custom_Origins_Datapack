@@ -1,0 +1,42 @@
+{
+
+    "type": "origins:multiple",
+
+    "on_punch": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:wither",
+                    "duration": 10,
+                    "amplifier": 9
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        }
+        
+    },
+
+    "remain_at_near_max_hunger": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 1,
+            "saturation": 0
+        },
+        "interval": 5,
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": "<",
+            "compare_to": 19
+        }
+    },
+    "name": "\u00A72\u00A7nNo need for sustenance",
+    "description": "You don't need food to survive, but you can eat if you want to."
+
+}
