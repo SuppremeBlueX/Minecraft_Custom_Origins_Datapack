@@ -3,7 +3,8 @@
 		"blue_origins:comfort_food",
         "blue_origins:suit_or_skin",
         "blue_origins:death_touch",
-        "blue_origins:otherworldly_nature"
+        "blue_origins:otherworldly_nature",
+        "blue_origins:pestilence"
 	],
 	"icon": "minecraft:milk_bucket",
 	"order": 10,
