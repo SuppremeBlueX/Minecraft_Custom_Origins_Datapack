@@ -9,6 +9,12 @@
         "blue": 0.1
     },
 
+    "no_sleep": {
+        "type": "origins:prevent_sleep",
+        "message": "You have no need to sleep",
+        "set_spawn_point": "true"
+    },
+
     "effect_immunity": {
         "type": "origins:effect_immunity",
         "effects": [
