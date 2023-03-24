@@ -1,0 +1,24 @@
+{
+
+    "type": "origins:multiple",
+
+    "dark": {
+        "type": "origins:model_color",
+        "red": 1.0,
+        "green": 1.0,
+        "alpha": 1.0
+    },
+
+    "effect_immunity": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:nausea",
+            "minecraft:hunger",
+            "minecraft:wither",
+            "minecraft:poison",
+            "minecraft:mining_fatigue"
+        ]
+    },
+    "name": "Otherworldly nature",
+    "description": "Your nature provides you immunity to a host of negative status effects. [Nausea, Hunger, Wither, Poison, Mining Fatigue] and prevents you from sleeping, but at least you don't get insomnia."
+}
