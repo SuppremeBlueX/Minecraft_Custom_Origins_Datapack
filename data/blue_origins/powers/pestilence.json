@@ -13,7 +13,7 @@
                     "type": "origins:target_action",
                     "action": {
                         "type": "origins:execute_command",
-                        "command": "scoreboard players add @s Pestilence 10"
+                        "command": "tag @s add Pestilence"
                     }
                 }
             },
@@ -25,23 +25,13 @@
         }
     },
 
-    "create_pestilence": {
-        "type": "origins:action_on_callback",
-        "entity_action_gained": {
-            "type": "origins:execute_command",
-            "command": "scoreboard objectives add Pestilence dummy"
-        }
-    },
-
     "spot_pestilence":{
         "type": "origins:entity_glow",
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
-                "type": "origins:scoreboard",
-                "objective": "Pestilence",
-                "comparison": ">",
-                "compare_to": 0
+                "type": "origins:nbt",
+                "nbt": "{Tags: ['Pestilence']}"
             }
         },
         "use_teams": false,
