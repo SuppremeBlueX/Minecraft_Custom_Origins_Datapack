@@ -36,10 +36,13 @@
     "spot_pestilence":{
         "type": "origins:entity_glow",
         "bientity_condition": {
-            "type": "origins:scoreboard", // Doesn't work with entity_glow :(
-            "objective": "Pestilence",
-            "comparison": ">",
-            "compare_to": 0
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:scoreboard",
+                "objective": "Pestilence",
+                "comparison": ">",
+                "compare_to": 0
+            }
         },
         "use_teams": false,
         "red": 1.0,
