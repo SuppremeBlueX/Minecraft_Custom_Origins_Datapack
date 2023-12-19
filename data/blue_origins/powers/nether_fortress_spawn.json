@@ -1,0 +1,8 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "the_nether",
+    "dimension_distance_multiplier": 0.125,
+    "structure": "minecraft:fortress",
+    "name": "Fortress Spawn",
+    "description": "You spawn in or near a Nether Fortress"
+}

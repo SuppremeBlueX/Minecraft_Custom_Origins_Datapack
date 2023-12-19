@@ -1,0 +1,9 @@
+{
+    "type": "apugli:mobs_ignore",
+    "mob_condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "name": "The Nether is Home",
+    "description": "You are a native of the Nether, and all creatures in the Nether will consider you one of their own."
+}

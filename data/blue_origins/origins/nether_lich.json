@@ -1,17 +1,14 @@
 {
 	"powers": [
-		"blue_origins:soul_sand_valley_spawn",
-        "blue_origins:weak_body",
-        "blue_origins:soul_boost",
-        "blue_origins:outside_nether_exhaustion",
-        "blue_origins:no_need_for_food_drink",
-        "blue_origins:soul_slurp",
-        "blue_origins:death_boost",
-		"blue_origins:thirstless"
+        "blue_origins:wither_skeleton_phys",
+		"blue_origins:nether_fortress_spawn",
+        "blue_origins:nether_ignore",
+        "blue_origins:wither_skeleton_loyalty",
+        "blue_origins:lich_immunities"
 	],
-	"icon": "minecraft:wither_sleketon_skull",
-	"order": 11,
+	"icon": "minecraft:wither_skeleton_skull",
+	"order": 10,
 	"impact": 3,
 	"name": "Nether Lich",
-	"description": "You are a Wither Skeleton that has gave up it's normal undead life to become even more undead; a Nether Lich!"
+	"description": "You are a Wither Skeleton that has decided to give up its normal undead life to become even more undead."
 }

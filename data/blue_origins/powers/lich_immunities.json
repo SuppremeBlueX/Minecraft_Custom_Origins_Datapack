@@ -1,0 +1,32 @@
+{
+
+    "type": "origins:multiple",
+
+    "poison_wither_immunity": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:poison",
+            "minecraft:wither"
+        ]
+    },
+
+    "fire_immune": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+          "type": "origins:fire"
+        }
+    },
+
+    "auto-extinguish": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:extinguish"
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:on_fire"
+        }
+    },
+    "name": "Lich resistance",
+    "description": "You are immune to Fire, Poison, and Wither effects."
+}
