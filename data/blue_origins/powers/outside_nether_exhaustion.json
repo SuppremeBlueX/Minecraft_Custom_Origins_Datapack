@@ -1,0 +1,15 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": 1.1
+    },
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:nether",
+        "inverted": true
+    },
+    "name": "\u00A7c\u00A7nExhaustion",
+	"description": "The Nether has a constant influx of souls that you feed on. Outside the Nether, you have increased exhaustion."
+}

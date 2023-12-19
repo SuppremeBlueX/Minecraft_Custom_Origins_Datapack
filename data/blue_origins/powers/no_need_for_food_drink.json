@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "name": "\u00A7c\u00A7nSouls can't eat",
+    "description": "Souls cannot eat normal food."
+}

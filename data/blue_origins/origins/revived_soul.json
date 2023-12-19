@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"blue_origins:soul_sand_valley_spawn",
+        "blue_origins:soul_boost",
+        "blue_origins:outside_nether_exhaustion",
+        "blue_origins:no_need_for_food_drink",
+        "blue_origins:soul_slurp"
+	],
+	"icon": "minecraft:soul_sand",
+	"order": 10,
+	"impact": 2,
+	"name": "Revived Soul",
+	"description": "You are a lost soul that has found a host body within the Nether after dying where you were."
+}
