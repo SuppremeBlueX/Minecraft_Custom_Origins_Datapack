@@ -7,7 +7,7 @@
         "modifier": {
             "name": "Increased exhaustion",
             "operation": "set_total",
-            "value": 0.1
+            "value": 0.02
         },
         "condition": {
             "type": "origins:dimension",

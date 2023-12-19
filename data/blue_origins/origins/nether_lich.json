@@ -9,9 +9,9 @@
         "blue_origins:death_boost",
 		"blue_origins:thirstless"
 	],
-	"icon": "minecraft:soul_sand",
-	"order": 10,
-	"impact": 2,
-	"name": "Revived Soul",
-	"description": "You are a lost soul that has found a host body within the Nether after dying where you were."
+	"icon": "minecraft:wither_sleketon_skull",
+	"order": 11,
+	"impact": 3,
+	"name": "Nether Lich",
+	"description": "You are a Wither Skeleton that has gave up it's normal undead life to become even more undead; a Nether Lich!"
 }

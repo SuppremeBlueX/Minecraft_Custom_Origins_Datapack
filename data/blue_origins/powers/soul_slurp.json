@@ -8,7 +8,7 @@
     },
     "food_component": {
         "hunger": 4,
-        "saturation": 1,
+        "saturation": 0.25,
         "meat": true
     },
     "use_action": "drink",
