@@ -1,6 +1,6 @@
 {
 	"powers": [
-		"origins:simple"
+		"blue_origins:entity_texture_overlay_example"
 	],
 	"icon": "minecraft:allay_spawn_egg",
 	"order": 10,

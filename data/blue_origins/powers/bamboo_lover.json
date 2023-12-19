@@ -1,55 +1,27 @@
 {
-    "type": "origins:active_self",
-    "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:equipped_item_action",
-                "equipment_slot": "mainhand",
-                "action": {
-                    "type": "origins:consume",
-                    "amount": 1
-                }
+    "type": "apugli:edible_item",
+    "item_condition": {
+        "type": "apoli:ingredient",
+        "ingredient": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "food_component": {
+        "hunger": 3,
+        "saturation": 0.75,
+        "meat": false,
+        "snack": true,
+        "always_edible": true,
+        "effect": {
+            "effect": {
+                "effect": "minecraft:strength",
+                "amplifier": 1,
+                "duration": 400
             },
-            {
-                "type": "origins:feed",
-                "food": 8,
-                "saturation": 0.75
-            },
-            {
-            "type": "origins:play_sound",
-            "sound": "minecraft:entity.player.burp",
-            "volume": 1.0
-            }
-        ]
+            "chance": 0.1
+        }
     },
-    "cooldown": 20,
-    "hud_render": {
-        "should_render": false
-    },
-    "key": {
-        "key": "key.use"
-    },
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:equipped_item",
-            "equipment_slot": "mainhand",
-            "item_condition": {
-                "type": "origins:ingredient",
-                "ingredient": {
-                    "item": "minecraft:bamboo"
-                }
-            }
-            },
-            {      
-                "type": "origins:food_level",
-                "comparison": "<",
-                "compare_to": 20
-            }
-        ]
-    },
+    "use_action": "eat",
     "name": "\u00A72\u00A7nBamboo Lover",
-    "description": "You like bamboo, and you can eat it."
+    "description": "You like bamboo, and you can eat it. Some of it invigorates you."
 }

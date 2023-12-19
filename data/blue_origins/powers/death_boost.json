@@ -1,0 +1,46 @@
+{
+    "type": "apugli:action_on_target_death",
+    "bientity_action": {
+    "type": "apoli:actor_action",
+    "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:speed",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true,
+                    "amplifier": 1
+                },
+                {
+                    "effect": "minecraft:regeneration",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:jump_boost",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true,
+                    "amplifier": 0
+                },
+                {
+                    "effect": "minecraft:strength",
+                    "duration": 400,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true,
+                    "amplifier": 1
+                }
+            ]
+        }
+    },
+    "includes_prime_adversary": false,
+    "name": "\u00A72\u00A7nDeath Boost",
+    "description": "Your soul essence is excited upon causing death, giving you a variety of effects for a little bit."
+}

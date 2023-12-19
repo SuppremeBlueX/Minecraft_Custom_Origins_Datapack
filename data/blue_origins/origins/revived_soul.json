@@ -1,10 +1,12 @@
 {
 	"powers": [
 		"blue_origins:soul_sand_valley_spawn",
+        "blue_origins:weak_body",
         "blue_origins:soul_boost",
         "blue_origins:outside_nether_exhaustion",
         "blue_origins:no_need_for_food_drink",
-        "blue_origins:soul_slurp"
+        "blue_origins:soul_slurp",
+        "blue_origins:death_boost"
 	],
 	"icon": "minecraft:soul_sand",
 	"order": 10,

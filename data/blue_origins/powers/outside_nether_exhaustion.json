@@ -1,15 +1,35 @@
 {
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "name": "Increased exhaustion",
-        "operation": "multiply_base",
-        "value": 1.1
+
+    "type": "origins:multiple",
+
+    "outside_nether_exhaust": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Increased exhaustion",
+            "operation": "set_total",
+            "value": 0.1
+        },
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:nether",
+            "inverted": true
+        }
     },
-    "condition": {
-        "type": "origins:dimension",
-        "dimension": "minecraft:nether",
-        "inverted": true
+
+    "within_nether_exhaust_less": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Increased exhaustion",
+            "operation": "set_total",
+            "value": 0.001
+        },
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:nether",
+            "inverted": false
+        }
     },
-    "name": "\u00A7c\u00A7nExhaustion",
+    "name": "\u00A7e\u00A7nExhaustion",
 	"description": "The Nether has a constant influx of souls that you feed on. Outside the Nether, you have increased exhaustion."
+
 }

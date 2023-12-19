@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Less Health",
+        "attribute": "minecraft:generic.max_health",
+        "value": -8,
+        "operation": "addition"
+    },
+	"name": "\u00A7c\u00A7nWeak Body",
+	"description": "The body you snatched isn't exactly in the best condition, so it has less health."
+}

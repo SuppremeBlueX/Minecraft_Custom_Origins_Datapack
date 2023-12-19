@@ -1,0 +1,9 @@
+{
+    "type": "apugli:entity_texture_overlay",
+    "texture_location": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
+    "texture_url": "origins:textures/gui/community/silent/badge/shapes/shape_circle.png",
+    "condition": {
+      "type": "apugli:player_model_type",
+      "model_type": "default"
+    }
+}

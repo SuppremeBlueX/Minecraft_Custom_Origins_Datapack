@@ -15,5 +15,7 @@
     "return_stack": {
         "item": "minecraft:soul_soil",
         "amount": 1
-    }
+    },
+    "name": "\u00A72\u00A7nSoul Slurp",
+    "description": "You can drink souls out of soul sand to replenish your food."
 }
