@@ -9,6 +9,6 @@
         "command": "thirst @s true"
     },
     "execute_chosen_when_orb": true,
-    "name": "Thirstless",
-    "description": "You do not require water for surival."
+    "name": "\u00A72\u00A7nThirstless",
+    "description": "You do not require water for surival. If you somehow get your thirst meter back, drink milk to remove it."
 }

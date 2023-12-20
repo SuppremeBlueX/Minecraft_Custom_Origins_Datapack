@@ -27,6 +27,9 @@
             "type": "origins:on_fire"
         }
     },
-    "name": "Lich resistance",
+    "hot_temp_immune": {
+        
+    },
+    "name": "\u00A72\u00A7nLich resistance",
     "description": "You are immune to Fire, Poison, and Wither effects."
 }

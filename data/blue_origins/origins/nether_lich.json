@@ -6,11 +6,15 @@
         "blue_origins:wither_skeleton_loyalty",
         "blue_origins:piglin_rivalry",
         "blue_origins:lich_immunities",
+        "blue_origins:summon_wither_skeleton",
         "blue_origins:no_food",
         "blue_origins:eat_bones",
+        "blue_origins:milk_reset_water",
         "blue_origins:thirstless",
         "blue_origins:heat_resistant",
-        "blue_origins:undead_nature"
+        "blue_origins:undead_nature",
+        "blue_origins:cold_weakness",
+        "blue_origins:extra_smitable"
 	],
 	"icon": "minecraft:wither_skeleton_skull",
 	"order": 10,

@@ -1,0 +1,11 @@
+{
+    "type": "apugli:modify_enchantment_damage_taken",
+    "enchantment": "minecraft:smite",
+    "base_value": 1.5,
+    "modifier": {
+        "operation": "addition",
+        "value": 2.5
+    },
+    "name": "\u00A7c\u00A7nExtra Smitable",
+    "description": "You are very vulnerable to the Smite Enchantment, and take way more damage from it."
+}

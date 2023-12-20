@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+
+    "wings": {
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+
+    "no_rockets": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:firework_rocket"
+            }
+        }
+    },
+    "name": "Draconic Wings",
+    "description": "You have wings, but you are too arrogant of your own power to use rockets."
+}

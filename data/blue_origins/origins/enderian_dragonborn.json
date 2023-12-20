@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"blue_origins:wings_somewhat"
+	],
+	"icon": "minecraft:dragon_breath",
+	"order": 10,
+	"impact": 3,
+	"name": "Enderian Dragonborn",
+	"description": "You are imbued with some of the power of the Ender Dragon, being created from its power."
+}
