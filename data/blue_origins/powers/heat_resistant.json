@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "environment affection @s hot false"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "environment affection @s hot true"
+    },
+    "execute_chosen_when_orb": true,
+    "name": "Heat Resistant",
+    "description": "You do not get too hot from the environment."
+}

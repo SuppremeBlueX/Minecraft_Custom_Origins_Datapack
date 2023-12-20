@@ -25,7 +25,8 @@
 		"blue_origins:bend_light",
 		"blue_origins:light_vision",
 		"blue_origins:blink_teleport",
-		"blue_origins:thirstless"
+		"blue_origins:thirstless",
+		"blue_origins:heat_resistant"
 	],
 	"icon": "minecraft:nether_star",
 	"order": 10,

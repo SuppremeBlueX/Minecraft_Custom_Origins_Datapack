@@ -7,7 +7,8 @@
         "blue_origins:no_need_for_food_drink",
         "blue_origins:soul_slurp",
         "blue_origins:death_boost",
-		"blue_origins:thirstless"
+		"blue_origins:thirstless",
+		"blue_origins:heat_resistant"
 	],
 	"icon": "minecraft:soul_sand",
 	"order": 10,

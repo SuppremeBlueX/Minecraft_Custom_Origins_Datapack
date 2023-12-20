@@ -9,9 +9,9 @@
     "food_component": {
         "hunger": 4,
         "saturation": 0.25,
-        "meat": true
+        "meat": false
     },
-    "use_action": "drink",
+    "use_action": "eat",
     "return_stack": {
         "item": "minecraft:soul_soil",
         "amount": 1

@@ -1,0 +1,17 @@
+{
+    "type": "apugli:edible_item",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:bone"
+        }
+    },
+    "food_component": {
+        "hunger": 6,
+        "saturation": 0.5,
+        "meat": true
+    },
+    "use_action": "eat",
+    "name": "\u00A72\u00A7nCalcium-rich Diet",
+    "description": "You can eat bones to rebuild yourself."
+}

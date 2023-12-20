@@ -4,7 +4,7 @@
 
     "no_sleep": {
         "type": "origins:prevent_sleep",
-        "message": "You are an undead light. You don't sleep."
+        "message": "You are undead. You don't sleep."
     },
 
     "no_drown": {

@@ -1,0 +1,29 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:golden_helmet"
+        }
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:golden_chestplate"
+        }
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:golden_leggings"
+        }
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:golden_boots"
+        }
+    },
+    "name": "Piglin Rivalry",
+    "description": "Piglins have always hated your kind, and will attack you on sight, even if you get along with everybody else. This rivalry also means you cannot stand to wear their favorite armor, gold."
+}
