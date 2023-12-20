@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "origins:simple"
+	],
+	"icon": "minecraft:ice",
+	"order": 10,
+	"impact": 3,
+    "unchoosable": true,
+	"name": "Frost Giant",
+	"description": "You are a Frost Giant that has awoken from their slumber."
+}

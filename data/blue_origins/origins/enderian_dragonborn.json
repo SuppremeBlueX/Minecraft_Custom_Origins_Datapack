@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:wings_somewhat"
+		"blue_origins:wings_somewhat",
+		"blue_origins:phasing_flight"
 	],
 	"icon": "minecraft:dragon_breath",
 	"order": 10,

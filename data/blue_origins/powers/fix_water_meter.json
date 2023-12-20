@@ -1,8 +1,7 @@
 {
     "type": "origins:action_on_item_use",
     "entity_action": {
-        "type": "origins:execute_command",
-        "command": "thirst @s false"
+        
     },
     "item_condition": {
         "type": "origins:ingredient",
@@ -11,4 +10,13 @@
         }
     },
     "hidden": true
+}
+
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "thirst @s false"
+    },
+    "interval": 20
 }

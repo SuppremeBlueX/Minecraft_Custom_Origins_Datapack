@@ -1,14 +1,10 @@
 {
-    "type": "origins:action_on_callback",
-    "entity_action_gained": {
+    "type": "origins:action_over_time",
+    "entity_action": {
         "type": "origins:execute_command",
         "command": "thirst @s false"
     },
-    "entity_action_lost": {
-        "type": "origins:execute_command",
-        "command": "thirst @s true"
-    },
-    "execute_chosen_when_orb": true,
+    "interval": 20,
     "name": "\u00A72\u00A7nThirstless",
-    "description": "You do not require water for surival. If you somehow get your thirst meter back, drink milk to remove it."
+    "description": "You do not require water for surival."
 }

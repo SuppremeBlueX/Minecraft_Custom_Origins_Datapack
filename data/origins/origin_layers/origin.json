@@ -1,6 +1,7 @@
 {
   "order": 1,
-  "replace": true,
+  "allow_random": true,
+  "allow_random_unchoosable": true,
   "origins": [
     "blue_origins:waterdragon",
 	  "blue_origins:solar_acolyte",
@@ -16,12 +17,12 @@
     "blue_origins:casseldox_champion",
     "blue_origins:time_lord",
     "blue_origins:morphling",
-    "blue_origins:giant",
     "blue_origins:iztarra",
     "blue_origins:plague_doctor",
     "blue_origins:revived_soul",
     "blue_origins:nether_lich",
     "blue_origins:weeping_angel",
-    "blue_origins:enderian_dragonborn"
+    "blue_origins:enderian_dragonborn",
+    "blue_origins:frost_giant"
   ]
 }
