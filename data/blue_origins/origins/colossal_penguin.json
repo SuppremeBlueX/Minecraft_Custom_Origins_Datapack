@@ -3,11 +3,17 @@
 		"blue_origins:colossal_stature",
 		"blue_origins:fishy_diet",
 		"blue_origins:penguin_storage",
-		"blue_origins:water_affinity"
+		"blue_origins:water_affinity",
+		"blue_origins:underwater_might",
+		"blue_origins:guardian_hunter",
+		"blue_origins:deep_frozen_ocean_spawn",
+		"blue_origins:cold_resistant",
+		"blue_origins:swimming_hydration",
+		"blue_origins:hold_breath"
 	],
 	"icon": "minecraft:ice",
 	"order": 10,
 	"impact": 3,
-	"name": "\u00A7kColossal Penguin",
+	"name": "Colossal Penguin",
 	"description": "You are the biggest penguin the world has ever seen."
 }

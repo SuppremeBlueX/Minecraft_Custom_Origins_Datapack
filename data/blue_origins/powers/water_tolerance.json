@@ -1,0 +1,8 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "dehydration:thirst_effect"
+    ],
+    "name": "Water Tolerance",
+    "description": "You can drink any kind of water."
+}

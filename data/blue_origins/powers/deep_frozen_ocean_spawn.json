@@ -1,0 +1,7 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:deep_frozen_ocean",
+    "name": "\u00A7e\u00A7nAntarctica",
+    "description": "You're a penguin. You spawn in the deep frozen ocean biome."
+  }

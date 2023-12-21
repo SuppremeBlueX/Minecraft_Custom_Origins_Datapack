@@ -1,11 +1,42 @@
 {
-    "type": "origins:inventory",
-    "title": "Gullet",
-    "container_type": "dropper",
-    "drop_on_death": true,
-    "key": {
-        "key": "key.origins.secondary_active"
+    "type": "origins:multiple",
+    "inventory": {
+        "type": "origins:inventory",
+        "container_type": "dropper",
+        "title": "Gullet",
+        "drop_on_death": true,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
     },
-	"name": "\u00A72\u00A7nGullet of many items.",
+    "rocky_digestion": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 1.0,
+            "saturation": 1.0
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:cod"
+            }
+        },
+        "condition": {
+            "type": "origins:inventory",
+            "inventory_types": ["power"],
+            "process_mode": "items",
+            "power":"*:*_inventory",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:cobblestone"
+                }
+            },
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "name": "\u00A72\u00A7nGullet of many items.",
 	"description": "As a penguin, you often store things in your gullet for later. If you die, these items are also dropped. 'Rico!' '[Choking sounds]'"
 }

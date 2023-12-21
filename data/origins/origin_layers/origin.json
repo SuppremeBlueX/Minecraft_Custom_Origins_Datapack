@@ -2,6 +2,7 @@
   "order": 1,
   "allow_random": true,
   "allow_random_unchoosable": true,
+  "replace": true,
   "origins": [
     "blue_origins:waterdragon",
 	  "blue_origins:solar_acolyte",

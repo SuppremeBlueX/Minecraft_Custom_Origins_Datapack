@@ -25,6 +25,26 @@
         "condition": {
             "type": "origins:power_active",
             "power": "*:*_toggle"
+        },
+        "phase_down_condition":{
+            "type": "origins:fall_flying"
+        }
+    },
+
+    "overlay": {
+        "type": "origins:overlay",
+        "texture": "minecraft:textures/block/ice.png",
+        "strength": 0.1,
+        "red": 1.0,
+        "green": 1.0,
+        "blue": 1.0,
+        "draw_mode": "texture",
+        "draw_phase": "below_hud",
+        "hide_with_hud": false,
+        "visible_in_third_person": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
         }
     }
 
