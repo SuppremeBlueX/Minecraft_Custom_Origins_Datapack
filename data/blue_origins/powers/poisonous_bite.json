@@ -11,6 +11,9 @@
             }
         }
     },
-    "hud_render": true,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/badge/active.png",
+        "bar_index": 1
+    },
     "cooldown": 200
 }

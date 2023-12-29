@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:poisonous_bite"
+		"blue_origins:poisonous_bite",
+        "blue_origins:poison_drip"
 	],
 	"icon": "minecraft:cobweb",
 	"order": 10,

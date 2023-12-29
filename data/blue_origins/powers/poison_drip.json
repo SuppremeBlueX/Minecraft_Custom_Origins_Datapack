@@ -1,0 +1,20 @@
+{
+    "type": "apugli:edible_item",
+    "item_condition": {
+        "type": "apoli:ingredient",
+        "ingredient": {
+            "item": "minecraft:glass_bottle"
+        }
+    },
+    "food_component": {
+        "hunger": 0,
+        "saturation": 0,
+        "meat": false
+    },
+    "use_action": "drink",
+    "return_stack": {
+        "item": "minecraft:potion",
+        "tag":{"CustomPotionEffects": [{"Id":19,"Amplifier":2,"Duration":600}],"display":{"Name": "Potion of Venom"}},
+        "amount": 1
+    }
+}
