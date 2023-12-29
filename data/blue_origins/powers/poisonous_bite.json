@@ -11,10 +11,6 @@
             }
         }
     },
-    "damage_condition": {
-        "type": "origins:name",
-        "name": "player"
-    },
     "hud_render": true,
     "cooldown": 200
 }

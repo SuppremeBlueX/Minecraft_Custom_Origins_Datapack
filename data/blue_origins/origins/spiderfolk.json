@@ -4,7 +4,7 @@
 	],
 	"icon": "minecraft:cobweb",
 	"order": 10,
-	"impact": 3,
+	"impact": 2,
 	"name": "\u00A7kSpider-Folk",
 	"description": "You are a spider-like human. (Disclaimer: You are not Spiderman)"
 }
