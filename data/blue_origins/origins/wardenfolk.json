@@ -12,6 +12,6 @@
 	"icon": "minecraft:sculk_shrieker",
 	"order": 10,
 	"impact": 3,
-	"name": "Warden",
-	"description": "You are a creature of the deep dark."
+	"name": "Wardenfolk",
+	"description": "You are a creature of the deep dark. Descended from the warden, you are a terrifying force of nature."
 }
