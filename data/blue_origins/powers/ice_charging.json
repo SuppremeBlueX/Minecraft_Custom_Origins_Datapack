@@ -4,7 +4,7 @@
         "type": "origins:modify_resource",
         "modifier": {
             "operation": "add_base_early",
-            "value": 10
+            "value": 2
         },
         "resource": "blue_origins:ice_charge"
     },
