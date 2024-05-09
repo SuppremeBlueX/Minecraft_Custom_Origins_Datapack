@@ -8,6 +8,7 @@
 		"blue_origins:psionic_blast_buildup",
 		"blue_origins:psionic_blast",
 		"blue_origins:ice_charge",
+		"blue_origins:ice_charge_decay",
 		"blue_origins:ice_charging",
 		"blue_origins:encase_in_ice"
 	],
