@@ -46,7 +46,7 @@
             {      
                 "type": "origins:block",
                 "block": "minecraft:iron_ore"
-            },
+            }
         ]
     },
     "allow": true,
