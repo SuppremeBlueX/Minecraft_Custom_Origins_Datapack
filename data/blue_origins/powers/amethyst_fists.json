@@ -3,10 +3,6 @@
     "block_condition": {
         "type": "origins:or",
         "conditions": [
-            {
-                "type": "origins:in_tag",
-                "block": "minecraft:stone_tool_materials"
-            },
             {      
                 "type": "origins:block",
                 "block": "minecraft:calcite"
@@ -26,10 +22,34 @@
             {      
                 "type": "origins:block",
                 "block": "minecraft:amethyst_cluster"
-            }
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:deepslate"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:cobblestone"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:cobbled_deepslate"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:dripstone_block"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:coal_ore"
+            },
+            {      
+                "type": "origins:block",
+                "block": "minecraft:iron_ore"
+            },
         ]
     },
     "allow": true,
     "name": "\u00A72\u00A7nAmethyst Fists",
-    "description": "You can harvest all kinds of stone with your fists, including amethysts."
+    "description": "You can harvest all kinds of stone with your fists, including amethysts. You can also mine low-tier ores."
 }
