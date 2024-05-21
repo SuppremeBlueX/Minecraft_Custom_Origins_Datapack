@@ -1,55 +1,27 @@
 {
-    "type": "origins:modify_harvest",
-    "block_condition": {
-        "type": "origins:or",
-        "conditions": [
-            {      
-                "type": "origins:block",
-                "block": "minecraft:calcite"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:tuff"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:basalt"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:amethyst_block"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:amethyst_cluster"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:deepslate"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:cobblestone"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:cobbled_deepslate"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:dripstone_block"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:coal_ore"
-            },
-            {      
-                "type": "origins:block",
-                "block": "minecraft:iron_ore"
-            }
-        ]
+    "type": "multiple",
+
+    "break_faster": {
+        "type": "origins:modify_break_speed",
+        "block_condition": {
+            "type": "origins:hardness",
+            "comparison": "<",
+            "compare_to": 4
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": 0.5
+        }
     },
-    "allow": true,
+    "break_more_blocks": {
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:hardness",
+            "comparison": "<",
+            "compare_to": 4
+        },
+        "allow": true
+    },
     "name": "\u00A72\u00A7nAmethyst Fists",
-    "description": "You can harvest all kinds of stone with your fists, including amethysts. You can also mine low-tier ores."
+    "description": "You can harvest all kinds of stone with your fists."
 }
