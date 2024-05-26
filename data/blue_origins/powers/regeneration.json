@@ -34,15 +34,44 @@
                     "type": "origins:clear_effect"
                 },
                 {
-                    "type": "origins:explode",
-                    "power": 5,
-                    "destruction_type": "destroy",
-                    "damage_self": false,
-                    "create_fire": true
-                },
-                {
                     "type": "origins:heal",
                     "amount": 20
+                },
+                {
+                    "type": "origins:chance",
+                    "action": {
+                        "type": "origins:explode",
+                        "power": 5,
+                        "destruction_type": "destroy",
+                        "damage_self": false,
+                        "create_fire": true
+                    },
+                    "chance": 0.5
+                },
+                {
+                    "type": "origins:chance",
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effects": [
+                            {
+                                "effect": "minecraft:weakness",
+                                "amplifier": 6,
+                                "duration": 1000
+                            }
+                        ]
+                    },
+                    "chance": 0.8,
+                    "fail_action": {
+                        "type": "origins:apply_effect",
+                        "effects": [
+                            {
+                                "effect": "minecraft:strength",
+                                "amplifier": 6,
+                                "duration": 1000
+                            }
+                        ]
+                    }
+
                 },
                 {
                     "type": "origins:apply_effect",
@@ -54,18 +83,13 @@
                         },
                         {
                             "effect": "minecraft:fire_resistance",
-                            "duration": 800
-                        },
-                        {
-                            "effect": "minecraft:absorption",
-                            "amplifier": 2,
-                            "duration": 100
+                            "duration": 1000
                         },
                         {
                             "effect": "minecraft:nausea",
                             "amplifier": 0,
-                            "duration": 500
-                        },
+                            "duration": 1000
+                        }
                     ]
                 },
                 {
@@ -79,11 +103,21 @@
             ]
         },
         "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_regeneration_resource",
-            "comparison": ">",
-            "compare_to": 0
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_regeneration_resource",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {    
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:nausea"
+                }
+            ]
         }
-    }
-
+    },
+    "name": "\u00A72\u00A7nRegenerations",
+    "description": "Time Lords regenerate themselves when they would die. You have 12 regenerations. The process is brutal, weakening you during regeneration, and you can die during this process regardless of how many regenerations are left. These regenerations are usually explosive."
 }
