@@ -37,8 +37,12 @@
                     "type": "origins:delay",
                     "ticks": 1200,
                     "action": {
-                        "type": "origins:heal",
-                        "amount": 20
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:regeneration",
+                            "amplifier": 9,
+                            "duration": 100
+                        }
                     }
                 },
                 {
