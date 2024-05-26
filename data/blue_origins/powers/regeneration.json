@@ -34,8 +34,12 @@
                     "type": "origins:clear_effect"
                 },
                 {
-                    "type": "origins:heal",
-                    "amount": 20
+                    "type": "origins:delay",
+                    "ticks": 1200,
+                    "action": {
+                        "type": "origins:heal",
+                        "amount": 20
+                    }
                 },
                 {
                     "type": "origins:chance",
@@ -55,8 +59,8 @@
                         "effects": [
                             {
                                 "effect": "minecraft:weakness",
-                                "amplifier": 6,
-                                "duration": 1000
+                                "amplifier": 4,
+                                "duration": 1200
                             }
                         ]
                     },
@@ -66,8 +70,8 @@
                         "effects": [
                             {
                                 "effect": "minecraft:strength",
-                                "amplifier": 6,
-                                "duration": 1000
+                                "amplifier": 4,
+                                "duration": 1200
                             }
                         ]
                     }
@@ -83,12 +87,12 @@
                         },
                         {
                             "effect": "minecraft:fire_resistance",
-                            "duration": 1000
+                            "duration": 1200
                         },
                         {
                             "effect": "minecraft:nausea",
                             "amplifier": 0,
-                            "duration": 1000
+                            "duration": 1200
                         }
                     ]
                 },
