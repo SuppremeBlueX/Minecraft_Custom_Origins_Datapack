@@ -11,7 +11,7 @@
         "saturation": 0.25,
         "meat": false
     },
-    "use_action": "eat",
+    "use_action": "drink",
     "return_stack": {
         "item": "minecraft:soul_soil",
         "amount": 1
