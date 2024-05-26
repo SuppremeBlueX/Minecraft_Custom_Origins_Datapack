@@ -1,6 +1,7 @@
 {
 	"powers": [
-		"blue_origins:quick_witted"
+		"blue_origins:quick_witted",
+		"blue_origins:regeneration"
 	],
 	"icon": "minecraft:clock",
 	"order": 10,
