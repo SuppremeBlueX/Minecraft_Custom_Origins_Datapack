@@ -113,7 +113,8 @@
                 },
                 {    
                     "type": "origins:status_effect",
-                    "effect": "minecraft:nausea"
+                    "effect": "minecraft:nausea",
+                    "inverted": true
                 }
             ]
         }
