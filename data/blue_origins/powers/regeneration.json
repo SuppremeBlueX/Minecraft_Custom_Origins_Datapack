@@ -1,0 +1,50 @@
+{
+
+    "type": "origins:multiple",
+
+    "regeneration_resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 12,
+        "hud_render": {
+            "should_render": true
+        }
+    },
+
+    "regnerate_on_death": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:clear_effect"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:regeneration",
+                            "amplifier": 1,
+                            "duration": 900
+                        },
+                        {
+                            "effect": "minecraft:fire_resistance",
+                            "duration": 800
+                        },
+                        {
+                            "effect": "minecraft:absorption",
+                            "amplifier": 1,
+                            "duration": 100
+                        }
+                    ]
+                },
+                {
+                "type": "origins:change_resource",
+                "resource": "*:regeneration_resource",
+                "change": -1
+                }
+            ]
+        }
+    }
+
+}
