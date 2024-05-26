@@ -44,8 +44,8 @@
                     "operation": "add_base_early",
                     "value": -1
                 },
-                "resource": "*:regeneration_resource"
-            }
+                "resource": "*:*_regeneration_resource"
+                }
             ]
         }
     }
