@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.0
+    },
+    "name": "\u00A72\u00A7nQuick-Witted",
+    "description": "You are insanely smart and quick-witted, which allows you to gain triple the experience you normally would."
+}
