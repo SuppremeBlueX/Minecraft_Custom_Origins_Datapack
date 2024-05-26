@@ -11,6 +11,20 @@
         }
     },
 
+    "12_regenerations":{
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:change_resource",
+            "resource": "*:*_regeneration_resource",
+            "change": 12
+        },
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "*:*_regeneration_resource",
+            "change": 12
+        }
+    },
+
     "regnerate_on_death": {
         "type": "origins:prevent_death",
         "entity_action": {
