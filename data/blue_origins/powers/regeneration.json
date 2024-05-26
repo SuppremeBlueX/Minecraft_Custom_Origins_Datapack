@@ -47,6 +47,12 @@
                 "resource": "*:*_regeneration_resource"
                 }
             ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_regeneration_resource",
+            "comparison": ">",
+            "compare_to": 0
         }
     }
 
