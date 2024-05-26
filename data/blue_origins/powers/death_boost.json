@@ -27,7 +27,7 @@
                     "is_ambient": false,
                     "show_particles": false,
                     "show_icon": true,
-                    "amplifier": 0
+                    "amplifier": 1
                 },
                 {
                     "effect": "minecraft:strength",
