@@ -38,11 +38,18 @@
                     "ticks": 1200,
                     "action": {
                         "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:regeneration",
-                            "amplifier": 9,
-                            "duration": 100
-                        }
+                        "effects": [
+                            {
+                                "effect": "minecraft:regeneration",
+                                "amplifier": 9,
+                                "duration": 100
+                            },
+                            {
+                                "effect": "minecraft:saturation",
+                                "amplifier": 9,
+                                "duration": 100
+                            }
+                        ]
                     }
                 },
                 {
