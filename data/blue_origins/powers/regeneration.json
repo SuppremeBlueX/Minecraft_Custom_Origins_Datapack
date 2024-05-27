@@ -42,12 +42,12 @@
                         "effects": [
                             {
                                 "effect": "minecraft:regeneration",
-                                "amplifier": 9,
+                                "amplifier": 4,
                                 "duration": 100
                             },
                             {
                                 "effect": "minecraft:saturation",
-                                "amplifier": 9,
+                                "amplifier": 4,
                                 "duration": 100
                             }
                         ]
