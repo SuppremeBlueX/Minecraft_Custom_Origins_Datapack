@@ -45,7 +45,7 @@
         "type": "origins:target_condition",
         "condition": {
             "type": "origins:nbt",
-            "nbt": "{Gossips[]}"
+            "nbt": "Gossips[]"
         }
     }
 }
