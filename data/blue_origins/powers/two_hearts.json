@@ -23,10 +23,14 @@
         "type": "origins:modify_healing",
         "modifier": {
             "operation": "multiply_total",
-            "value": 0.5
+            "value": 0.25
+        },
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:nausea",
+            "inverted": true
         }
     },
     "name": "\u00A72\u00A7nTwo Hearts",
-    "description": "You have two hearts, increasing temperature resistance and regeneration rate."
-
+    "description": "You have two hearts, increasing temperature resistance. It also increases regeneration rate unless you are nauseated."
 }
