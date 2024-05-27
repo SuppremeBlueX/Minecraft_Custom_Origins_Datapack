@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "minecraft:milk_bucket"
+    },
+    "name": "\u00A7c\u00A7nNo Milk",
+    "description": "You find milk extremely unappetizing and cannot consume it."
+}
