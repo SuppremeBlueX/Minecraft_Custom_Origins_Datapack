@@ -2,6 +2,10 @@
 
     "type": "origins:multiple",
 
+    "compass_cooldown":{
+                
+    },
+
     "compass_tinkering": {
         "type": "origins:action_on_item_use",
         "trigger": "instant",
@@ -14,11 +18,6 @@
             "ingredient": {
                 "item": "minecraft:compass"
             }
-        },
-        "cooldown": 2000,
-        "hud_render": {
-            "should_render": true,
-            "bar_index": 3
         }
     },
     "clock_tinkering": {
