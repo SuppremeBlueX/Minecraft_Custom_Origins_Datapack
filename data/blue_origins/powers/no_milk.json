@@ -1,10 +1,21 @@
 {
     "type": "origins:prevent_item_use",
     "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "item": "minecraft:milk_bucket"
-        }
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:milk_bucket"
+                }
+            },
+            {      
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "farmersdelight:milk_bottle"
+                }
+            }
+        ]
     },
     "name": "\u00A7c\u00A7nNo Milk",
     "description": "You find milk extremely unappetizing and cannot consume it."
