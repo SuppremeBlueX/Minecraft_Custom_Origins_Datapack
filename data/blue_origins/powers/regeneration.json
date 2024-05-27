@@ -102,7 +102,7 @@
                         },
                         {
                             "effect": "minecraft:absorption",
-                            "amplifier": 3,
+                            "amplifier": 1,
                             "duration": 1200
                         },
                         {
