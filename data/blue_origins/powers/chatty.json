@@ -14,6 +14,10 @@
                     {    
                         "type": "origins:execute_command",
                         "command": "data modify entity @s Gossips[0].Target set from entity @p UUID"
+                    },
+                    {    
+                        "type": "origins:execute_command",
+                        "command": "playsound minecraft:entity.villager.yes ambient @s ~ ~ ~"
                     }
                 ]
             },
@@ -28,9 +32,20 @@
                     {    
                         "type": "origins:execute_command",
                         "command": "data modify entity @s Gossips[0].Target set from entity @p UUID"
+                    },
+                    {    
+                        "type": "origins:execute_command",
+                        "command": "playsound minecraft:entity.villager.no ambient @s ~ ~ ~"
                     }
                 ]
             }
+        }
+    },
+    "bientity_condition":{
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:nbt",
+            "nbt": "{Gossips[]}"
         }
     }
 }
