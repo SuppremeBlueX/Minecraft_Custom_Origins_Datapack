@@ -47,5 +47,7 @@
             "type": "origins:nbt",
             "nbt": "{Gossips:[]}"
         }
-    }
+    },
+    "name": "\u00A72\u00A7nChatty",
+    "description": "You are able to get into villagers heads with your smooth talk. Most of the time, this works and they'll trade for cheaper. However, sometimes the villagers will get mad instead and offer trades at increased prices."
 }
