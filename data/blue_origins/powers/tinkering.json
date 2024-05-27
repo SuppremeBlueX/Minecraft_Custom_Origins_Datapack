@@ -6,12 +6,8 @@
         "type": "origins:action_on_item_use",
         "trigger": "instant",
         "entity_action": {
-            "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:invisibility",
-                "duration": 400,
-                "amplifier": 0
-            }
+            "type": "origins:execute_command",
+            "command": "execute as @s run locate structure minecraft:mineshaft"
         },
         "item_condition": {
             "type": "origins:ingredient",
