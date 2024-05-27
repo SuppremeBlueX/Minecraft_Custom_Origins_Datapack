@@ -17,7 +17,7 @@
                     },
                     {    
                         "type": "origins:execute_command",
-                        "command": "playsound minecraft:entity.villager.yes ambient @s ~ ~ ~"
+                        "command": "playsound minecraft:entity.villager.yes ambient @p ~ ~ ~"
                     }
                 ]
             },
@@ -35,7 +35,7 @@
                     },
                     {    
                         "type": "origins:execute_command",
-                        "command": "playsound minecraft:entity.villager.no ambient @s ~ ~ ~"
+                        "command": "playsound minecraft:entity.villager.no ambient @p ~ ~ ~"
                     }
                 ]
             }
