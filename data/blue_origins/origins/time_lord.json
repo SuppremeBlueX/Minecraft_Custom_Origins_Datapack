@@ -3,7 +3,8 @@
 		"blue_origins:quick_witted",
 		"blue_origins:regeneration",
 		"blue_origins:chatty",
-		"blue_origins:no_milk"
+		"blue_origins:no_milk",
+		"blue_origins:tinkering"
 	],
 	"icon": "minecraft:clock",
 	"order": 10,
