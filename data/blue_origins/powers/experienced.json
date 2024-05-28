@@ -20,7 +20,7 @@
     "haste_after_60_levels": {
         "type": "origins:stacking_status_effect",
         "min_stacks": 0,
-        "max_stacks": 1,
+        "max_stacks": 10,
         "duration_per_stack": 10,
         "effects": [
             {
@@ -50,7 +50,7 @@
             "compare_to": 100
         }
     },
-    "name": "Experienced",
+    "name": "\u00A72\u00A7nExperienced",
     "description": "As you gain experience, you gain a few benefits, like increased movement speed and haste. Max benefits at level 100."
 
 }
