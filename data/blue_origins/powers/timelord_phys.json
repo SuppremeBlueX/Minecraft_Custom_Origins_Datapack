@@ -1,0 +1,23 @@
+{
+
+    "type": "origins:multiple",
+
+    "more_exhaustion": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "name": "Increased exhaustion",
+            "operation": "multiply_base",
+            "value": 1.0
+        }
+    },
+
+    "slow_immunity": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:slowness"
+        ]
+    },
+    "name": "Time Lord Physiology",
+    "description": "You are immune to being slowed, but you need more food to sustain yourself."
+
+}
