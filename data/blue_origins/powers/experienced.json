@@ -1,0 +1,56 @@
+{
+
+    "type": "origins:multiple",
+
+    "increased_mvmt_after_30_levels": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.2
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:xp_levels",
+            "comparison": ">=",
+            "compare_to": 30
+        }
+    },
+
+    "haste_after_60_levels": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 10,
+        "effects": [
+            {
+                "effect": "minecraft:haste",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ],
+        "condition": {
+            "type": "origins:xp_levels",
+            "comparison": ">=",
+            "compare_to": 60
+        }
+    },
+    "increased_damage_after_100_levels": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 0.5
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:xp_levels",
+            "comparison": ">=",
+            "compare_to": 100
+        }
+    },
+    "name": "Experienced",
+    "description": "As you gain experience, you gain a few benefits, like increased movement speed and haste. Max benefits at level 100."
+
+}
