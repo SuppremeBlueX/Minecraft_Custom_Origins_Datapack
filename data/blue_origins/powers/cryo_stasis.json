@@ -2,50 +2,7 @@
 
     "type": "origins:multiple",
 
-    "invulnerability":{
-        "type": "origins:invulnerability"
+    "ice_charge": {
+        
     },
-    "ice":{
-        "type": "origins:overlay",
-        "texture": "minecraft:textures/block/ice.png",
-        "draw_mode": "texture",
-        "draw_phase": "below_hud",
-        "hide_with_hud": false,
-        "visible_in_third_person": false
-    },
-    "immobile":{
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 0,
-        "max_stacks": 1,
-        "duration_per_stack": 1,
-        "effects": [
-            {
-                "effect": "minecraft:weakness",
-                "is_ambient": true,
-                "show_particles": false,
-                "show_icon": true,
-                "amplifier": 9
-            },
-            {
-                "effect": "minecraft:slowness",
-                "is_ambient": true,
-                "show_particles": false,
-                "show_icon": true,
-                "amplifier": 9
-            }
-        ],
-        "condition": {
-            "type": "origins:resource",
-            "resource": "blue_origins:ice_charge",
-            "comparison": ">",
-            "compare_to": 0
-        }
-    },
-    "condition": {
-        "type": "origins:resource",
-        "resource": "blue_origins:ice_charge",
-        "comparison": "==",
-        "compare_to": 100
-    }
-
 }
