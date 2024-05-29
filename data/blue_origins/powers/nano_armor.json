@@ -1,0 +1,50 @@
+{
+
+    "type": "origins:multiple",
+
+    "nano_armor_resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1000,
+        "hud_render": {
+            "should_render": true
+        }
+    },
+
+    "charge_with_heart": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_nano_armor_resource",
+            "change": 1000
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:heart_of_the_sea"
+            }
+        },
+        "item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "trigger": "instant"
+    },
+    "nano_armor_active":{
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "operation": "addition",
+            "value": 20,
+            "name": "Increased armor"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_nano_armor_resource",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    }
+
+}
